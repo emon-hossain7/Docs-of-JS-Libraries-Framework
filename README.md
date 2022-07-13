@@ -1,4 +1,4 @@
-# React Firebase Hooks
+# JS-Frontend-Backend-Libraries-Framework
 
 A set of reusable [React Hooks](https://reactjs.org/docs/hooks-intro.html) for [Firebase](https://firebase.google.com/).
 
