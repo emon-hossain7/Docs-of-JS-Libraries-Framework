@@ -45,9 +45,9 @@ To upgrade your project from v4 to v5 check out the [Release Notes](https://gith
 
 ## Documentation
 
-- [Authentication Hooks](/Express)
-- [Authentication Hooks](/Firebase)
-- [Authentication Hooks](/Heroku)
+- [Express Using Method And Example](/Express)
+- [Firebase Using Method And Example](/Firebase)
+- [Heroku Using Method And Example](/Heroku)
 - [Authentication Hooks](/auth)
 - [Cloud Firestore Hooks](/firestore)
 - [Cloud Functions Hooks](/functions)
