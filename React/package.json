@@ -1,5 +1,5 @@
 {
-  "name": "JS-TS-Libraries-and-Framework-Explore./React",
+  "name": "JS-Frontend-Backend-Libraries-Framework/React/",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
   "typings": "dist/auth/index.d.ts"

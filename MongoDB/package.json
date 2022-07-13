@@ -1,5 +1,5 @@
 {
-  "name": "react-firebase-hooks/auth",
+  "name": "JS-Frontend-Backend-Libraries-Framework/MongoDB/",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
   "typings": "dist/auth/index.d.ts"
