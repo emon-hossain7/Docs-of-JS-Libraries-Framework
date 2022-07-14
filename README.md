@@ -1,60 +1,43 @@
 # JS-Frontend-Backend-Libraries-Framework
 
-A set of reusable [React Hooks](https://reactjs.org/docs/hooks-intro.html) for [Firebase](https://firebase.google.com/).
-
-[![npm version](https://img.shields.io/npm/v/react-firebase-hooks.svg?style=flat-square)](https://www.npmjs.com/package/react-firebase-hooks)
-[![npm downloads](https://img.shields.io/npm/dm/react-firebase-hooks.svg?style=flat-square)](https://www.npmjs.com/package/react-firebase-hooks)
-
-This documentation is for v5 of React Firebase Hooks which requires Firebase v9 or higher.
-
-- For v4 documentation (Firebase v9), see [here](https://github.com/CSFrequency/react-firebase-hooks/tree/v4.0.2).
-- For v3 documentation (Firebase v8), see [here](https://github.com/CSFrequency/react-firebase-hooks/tree/v3.0.4).
-- For v2 documentation, see [here](https://github.com/CSFrequency/react-firebase-hooks/tree/v2.2.0).
-
-## Installation
-
-React Firebase Hooks v4 requires **React 16.8.0 or later** and **Firebase v9.0.0 or later**.
-
-> Whilst previous versions of React Firebase Hooks had some support for React Native Firebase, the underlying changes to v9 of the Firebase Web library have meant this is no longer as straightforward. We will investigate if this is possible in another way as part of a future release.
-
-```bash
-# with npm
-npm install --save react-firebase-hooks
-
-# with yarn
-yarn add react-firebase-hooks
-```
-
-```bash
-# with npm
-npm install --save react-firebase-hooks
-
-# with yarn
-yarn add react-firebase-hooks
-```
-
-This assumes that you’re using the [npm](https://npmjs.com) or [yarn](https://yarnpkg.com/) package managers with a module bundler like [Webpack](https://webpack.js.org/) or [Browserify](http://browserify.org/) to consume [CommonJS](http://webpack.github.io/docs/commonjs.html) modules.
-
 ## Why?
 
-This library explores how React Hooks can work to make integration with Firebase even more straightforward than it already is. It takes inspiration for naming from RxFire and is based on an internal library that we had been using in a number of apps prior to the release of React Hooks. The implementation with hooks is 10x simpler than our previous implementation.
+- This repository will help every js frontend-backend developer and beginners are very helpful. This repository is coming with beginners in mind.
+- The documentation contains a basic idea of the languages, libraries, and frameworks available. There are installations, using methods, and examples in a very simple way.
 
-## Upgrading from v4 to v5
+<details>
+<summary>
+  বাংলায় পড়ুন
+</summary>
+<br >
+  
+- এই repository  প্রত্যেক js ফ্রন্টএন্ড-ব্যাকএন্ড বিকাশকারীকে সাহায্য করবে এবং নতুনদের জন্য একটু  বেশি সহায়ক। নতুনদের কথা চিন্তা করেই এই repository  আবির্ভাব।
+- ডকুমেন্টেশনে দেওয়া  ভাষা, লাইব্রেরি এবং ফ্রেমওয়ার্কগুলির একটি প্রাথমিক ধারণা রয়েছে এবং ইনস্টল,  পদ্ধতি এবং কোড উদাহরণ প্রক্রিয়া আছে খুব সহজে। 
 
-To upgrade your project from v4 to v5 check out the [Release Notes](https://github.com/CSFrequency/react-firebase-hooks/releases/tag/v5.0.0) which have full details of everything that needs to be changed.
+</details>
+
+
+## Upgrading
+
+- Everything will be upgraded over time. if you feel there is a problem then share it with me and I will implement it.
 
 ## Documentation
 
 - [Express Using Method And Example](/Express)
 - [Firebase Using Method And Example](/Firebase)
 - [Heroku Using Method And Example](/Heroku)
-- [Authentication Hooks](/auth)
-- [Cloud Firestore Hooks](/firestore)
-- [Cloud Functions Hooks](/functions)
-- [Cloud Messaging Hooks](/messaging)
-- [Cloud Storage Hooks](/storage)
-- [Realtime Database Hooks](/database)
+- [JavaScript Using Method And Example](/JavaScript)
+- [MongoDB Using Method And Example](/MongoDB)
+- [Node Using Method And Example](/Node)
+- [React Using Method And Example](/React)
+- [TypeScript Using Method And Example](/TypeScript)
 
-## License
 
-- See [LICENSE](/LICENSE)
+
+
+## 🌐 Socials: Connect with Emon Hossain!
+
+[![Facebook Badge](https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](https://fb.com/emonhossain6) [![Linkedin Badge](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/emon007iu/) [![Twitter Badge](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/@emon_hossain7) [![Mail Badge](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:emon.hossain.wd@gmail.com)
+
+<h3>❤️🤔 You can follow my Github and other social accounts 🤔❤️</h3>
+<h2>❤️ Thank you very much! ❤️</h2>
