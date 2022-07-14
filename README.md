@@ -19,7 +19,7 @@
 
 ## Upgrading from v4 to v5
 
-- Everything will be upgraded over time.f you feel there is a problem in the documentation then share it with me and I will implement it.
+- Everything will be upgraded over time. if you feel there is a problem then share it with me and I will implement it.
 
 ## Documentation
 
