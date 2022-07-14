@@ -1,18 +1,5 @@
 # JS-Frontend-Backend-Libraries-Framework
 
-- 
-- 
--  
--
-
-```bash
-# with npm
-npm install --save react-firebase-hooks
-
-# with yarn
-yarn add react-firebase-hooks
-```
-
 ## Why?
 
 - This repository will help every js frontend-backend developer and beginners are very helpful.
@@ -32,7 +19,7 @@ yarn add react-firebase-hooks
 
 ## Upgrading from v4 to v5
 
-To upgrade your project from v4 to v5 check out the [Release Notes](https://github.com/CSFrequency/react-firebase-hooks/releases/tag/v5.0.0) which have full details of everything that needs to be changed.
+- Everything will be upgraded over time.f you feel there is a problem in the documentation then share it with me and I will implement it.
 
 ## Documentation
 
