@@ -1,12 +1,5 @@
 # JS-Frontend-Backend-Libraries-Framework
 
-A set of reusable [React Hooks](https://reactjs.org/docs/hooks-intro.html) for [Firebase](https://firebase.google.com/).
-
-[![npm version](https://img.shields.io/npm/v/react-firebase-hooks.svg?style=flat-square)](https://www.npmjs.com/package/react-firebase-hooks)
-[![npm downloads](https://img.shields.io/npm/dm/react-firebase-hooks.svg?style=flat-square)](https://www.npmjs.com/package/react-firebase-hooks)
-
-This documentation is for v5 of React Firebase Hooks which requires Firebase v9 or higher.
-
 - For v4 documentation (Firebase v9), see [here](https://github.com/CSFrequency/react-firebase-hooks/tree/v4.0.2).
 - For v3 documentation (Firebase v8), see [here](https://github.com/CSFrequency/react-firebase-hooks/tree/v3.0.4).
 - For v2 documentation, see [here](https://github.com/CSFrequency/react-firebase-hooks/tree/v2.2.0).
@@ -24,16 +17,6 @@ npm install --save react-firebase-hooks
 # with yarn
 yarn add react-firebase-hooks
 ```
-
-```bash
-# with npm
-npm install --save react-firebase-hooks
-
-# with yarn
-yarn add react-firebase-hooks
-```
-
-This assumes that you’re using the [npm](https://npmjs.com) or [yarn](https://yarnpkg.com/) package managers with a module bundler like [Webpack](https://webpack.js.org/) or [Browserify](http://browserify.org/) to consume [CommonJS](http://webpack.github.io/docs/commonjs.html) modules.
 
 ## Why?
 
@@ -55,6 +38,3 @@ To upgrade your project from v4 to v5 check out the [Release Notes](https://gith
 - [Cloud Storage Hooks](/storage)
 - [Realtime Database Hooks](/database)
 
-## License
-
-- See [LICENSE](/LICENSE)
