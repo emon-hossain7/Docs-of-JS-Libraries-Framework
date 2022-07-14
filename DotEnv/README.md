@@ -1,16 +1,10 @@
 # Firebase Using Method And Example
 
-### what is Firebase?
+### What is Firebase?
 - JavaScript is a dynamic programming language that's used for web development, web applications, game development, and lots more. JavaScript language is used both on the client-side and server-side allowing you to make web pages interactive.
 ### Why use Firebase?
 - Where HTML and CSS are languages that give structure and style to web pages, JavaScript gives web pages interactive elements that engage a user.
-
-```js
-import { useAuthState } from 'react-firebase-hooks/auth';
-```
-
-List of Auth hooks:
-
+### How to use?
 - [useAuthState](#useauthstate)
 - [useCreateUserWithEmailAndPassword](#usecreateuserwithemailandpassword)
 - [useSignInWithEmailAndPassword](#usesigninwithemailandpassword)
