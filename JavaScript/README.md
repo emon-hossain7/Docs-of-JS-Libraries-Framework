@@ -1,8 +1,10 @@
 # JavaScript Using Method And Example
 
-React Firebase Hooks provides a convenience listener for Firebase Auth's auth state. The hook wraps around the `auth.onAuthStateChange(...)` method to ensure that it is always up to date.
-
-All hooks can be imported from `react-firebase-hooks/auth`, e.g.
+### what is javaScript?
+- JavaScript is a dynamic programming language that's used for web development, web applications, game development, and lots more. JavaScript language is used both on the client-side and server-side allowing you to make web pages interactive.
+-
+### Why Study JavaScript?
+- Where HTML and CSS are languages that give structure and style to web pages, JavaScript gives web pages interactive elements that engage a user.
 
 ```js
 import { useAuthState } from 'react-firebase-hooks/auth';
