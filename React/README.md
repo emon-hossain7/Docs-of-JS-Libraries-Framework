@@ -1,14 +1,10 @@
-# REACT Using Method And Example
+# React Using Method And Example
 
-React Firebase Hooks provides a convenience listener for Firebase Auth's auth state. The hook wraps around the `auth.onAuthStateChange(...)` method to ensure that it is always up to date.
-
-All hooks can be imported from `react-firebase-hooks/auth`, e.g.
-
-```js
-import { useAuthState } from 'react-firebase-hooks/auth';
-```
-
-List of Auth hooks:
+### 🔭 What is React?
+- 
+### 👯 Why use React?
+- 
+###  🤔 How to Use?
 
 - [useAuthState](#useauthstate)
 - [useCreateUserWithEmailAndPassword](#usecreateuserwithemailandpassword)
