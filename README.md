@@ -15,7 +15,9 @@ yarn add react-firebase-hooks
 
 ## Why?
 
-This library explores how React Hooks can work to make integration with Firebase even more straightforward than it already is. It takes inspiration for naming from RxFire and is based on an internal library that we had been using in a number of apps prior to the release of React Hooks. The implementation with hooks is 10x simpler than our previous implementation.
+- This repository will help every js frontend-backend developer and beginners are very helpful.
+
+- The documentation contains a basic idea of ​​the languages, libraries, and frameworks available. There are installations, using methods, and examples in a very simple way.
 
 ## Upgrading from v4 to v5
 
