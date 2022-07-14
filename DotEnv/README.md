@@ -1,10 +1,10 @@
-# Firebase Using Method And Example
+## DotEnv Using Method And Example
 
-### 🔭 What is Firebase?
+### 🔭 What is DotEnv?
 - JavaScript is a dynamic programming language that's used for web development, web applications, game development, and lots more. JavaScript language is used both on the client-side and server-side allowing you to make web pages interactive.
-### 👯 Why use Firebase?
+### 👯 Why use DotEnv?
 - Where HTML and CSS are languages that give structure and style to web pages, JavaScript gives web pages interactive elements that engage a user.
-### 🤔 How to use?
+### 🤔 How to DotEnv?
 - [useAuthState](#useauthstate)
 - [useCreateUserWithEmailAndPassword](#usecreateuserwithemailandpassword)
 - [useSignInWithEmailAndPassword](#usesigninwithemailandpassword)
