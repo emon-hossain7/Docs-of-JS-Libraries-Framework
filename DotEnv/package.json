@@ -1,0 +1,6 @@
+{
+  "name": "JS-Frontend-Backend-Libraries-Framework/Firebase/",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
+  "typings": "dist/auth/index.d.ts"
+}
