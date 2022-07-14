@@ -1,0 +1,21 @@
+{
+	"folders": [
+		{
+			"path": "..\\..\\JS-TS-Libraries-and-Framework-Explore"
+		},
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "second-tailwind-config",
+		"cSpell.customDictionaries": {
+			"custom-dictionary-workspace": {
+				"name": "custom-dictionary-workspace",
+				"path": "${workspaceFolder:JS-TS-Libraries-and-Framework-Explore}/.cspell/custom-dictionary-workspace.txt",
+				"addWords": true,
+				"scope": "workspace"
+			}
+		}
+	}
+}
