@@ -2,8 +2,8 @@
 
 ## Why?
 
-- This repository will help every js frontend-backend developer and beginners are very helpful.
-- The documentation contains a basic idea of ​​the languages, libraries, and frameworks available. There are installations, using methods, and examples in a very simple way.
+- This repository will help every js frontend-backend developer and beginners are very helpful. This repository is coming with beginners in mind.
+- The documentation contains a basic idea of the languages, libraries, and frameworks available. There are installations, using methods, and examples in a very simple way.
 
 <details>
 <summary>
@@ -11,8 +11,8 @@
 </summary>
 <br >
   
-- এই সংগ্রহস্থলটি প্রত্যেক js ফ্রন্টএন্ড-ব্যাকএন্ড বিকাশকারীকে সাহায্য করবে এবং নতুনরা খুবই সহায়ক।
-- ডকুমেন্টেশনে উপলব্ধ ভাষা, লাইব্রেরি এবং ফ্রেমওয়ার্কগুলির একটি প্রাথমিক ধারণা রয়েছে। খুব সহজ উপায়ে ইনস্টলেশন, পদ্ধতি ব্যবহার করে এবং উদাহরণ রয়েছে।
+- এই repository  প্রত্যেক js ফ্রন্টএন্ড-ব্যাকএন্ড বিকাশকারীকে সাহায্য করবে এবং নতুনদের জন্য একটু  বেশি সহায়ক। নতুনদের কথা চিন্তা করেই এই repository  আবির্ভাব।
+- ডকুমেন্টেশনে দেওয়া  ভাষা, লাইব্রেরি এবং ফ্রেমওয়ার্কগুলির একটি প্রাথমিক ধারণা রয়েছে এবং ইনস্টল,  পদ্ধতি এবং কোড উদাহরণ প্রক্রিয়া আছে খুব সহজে। 
 
 </details>
 
