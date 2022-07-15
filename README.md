@@ -2,7 +2,8 @@
 
 ## Why?
 
-- This repository will help every js frontend-backend developer and beginners are very helpful. This repository is coming with beginners in mind. <h3>Important topics from the Library Framework are shown.</h3>
+- This repository will help every js frontend-backend developer and beginners are very helpful. This repository is coming with beginners in mind.
+- <h6>Important topics from the Library Framework are shown.</h6>
 - The documentation contains a basic idea of the languages, libraries, and frameworks available. There are installations, using methods, and examples in a very simple way.
 
 <details>
