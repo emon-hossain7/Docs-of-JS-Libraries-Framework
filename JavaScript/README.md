@@ -24,7 +24,7 @@ List of :
 - [useSendPasswordResetEmail](#usesendpasswordresetemail)
 - [useSendEmailVerification](#usesendemailverification)
 
-
+### TemplateString
 <details>
 <summary>
   <h3>What is Template String?</h3>
@@ -35,7 +35,7 @@ List of :
 
 </details>
 
-### TemplateString
+
 
 ```js
 const numbers = [87, 342, 54, 23, 56, 234];
@@ -49,7 +49,7 @@ const about = `My name is ${student.name} age of ${student.age} has number ${num
 console.log(about)
 ```
 
-
+### ArrowFunction
 <details>
 <summary>
   <h3>What is Arrow Function?</h3>
@@ -60,7 +60,7 @@ console.log(about)
 
 </details>
 
-### ArrowFunction
+
 
 ```js
 const numbers = [87, 342, 54, 23, 56, 234];
