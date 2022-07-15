@@ -5,11 +5,8 @@
 ### Why use JavaScript?
 - Where HTML and CSS are languages that give structure and style to web pages, JavaScript gives web pages interactive elements that engage a user.
 
-```js
-import { useAuthState } from 'react-firebase-hooks/auth';
-```
 
-List of Auth hooks:
+List of :
 
 - [TemplateString](#TemplateString)
 - [ArrowFunction](#ArrowFunction)
@@ -30,7 +27,7 @@ List of Auth hooks:
 
 <details>
 <summary>
-  <h2>What is Template String?</h2>
+  <h3>What is Template String?</h3>
 </summary>
 <br >
   
@@ -55,7 +52,7 @@ console.log(about)
 
 <details>
 <summary>
-  <h2>What is Arrow Function?</h2>
+  <h3>What is Arrow Function?</h3>
 </summary>
 <br >
   
@@ -66,12 +63,15 @@ console.log(about)
 ### ArrowFunction
 
 ```js
-const [
-  createUserWithEmailAndPassword,
-  user,
-  loading,
-  error,
-] = useCreateUserWithEmailAndPassword(auth);
+const numbers = [87, 342, 54, 23, 56, 234];
+const student = {
+    name: 'sakib Khan',
+    age: 32,
+    movies: ['king khan', 'dhakar masta,', 'aynabaji']
+};
+
+const about = `My name is ${student.name} age of ${student.age} has number ${numbers[2]} also liked mvies ${student.movies[2]}`;
+console.log(about)
 ```
 
 Create a user with email and password. Wraps the underlying `firebase.auth().createUserWithEmailAndPassword` method and provides additional `loading` and `error` information.
