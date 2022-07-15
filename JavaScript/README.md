@@ -86,6 +86,10 @@ console.log(numbers)
 console.log(newNumbers)
 console.log(currentNumbers)
 }
+
+[ 87, 342, 54, 23, 56, 234, 99, 91, 93 ]
+[ 87, 342, 54, 23, 56, 234 ]
+[ 87, 342, 54, 23, 56, 234, 99, 91, 93, 55 ]
 ```
 
 
