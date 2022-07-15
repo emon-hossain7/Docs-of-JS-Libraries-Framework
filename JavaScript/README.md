@@ -10,7 +10,7 @@ List of :
 
 - [TemplateString](#TemplateString)
 - [ArrowFunction](#ArrowFunction)
-- [useSignInWithEmailAndPassword](#usesigninwithemailandpassword)
+- [SpreadOperator](#SpreadOperator)
 - [useSignInWithApple](#usesigninwithapple)
 - [useSignInWithFacebook](#usesigninwithfacebook)
 - [useSignInWithGithub](#usesigninwithgithub)
@@ -30,12 +30,8 @@ List of :
   <h3>What is Template String?</h3>
 </summary>
 <br >
-  
 - Template String is
-
 </details>
-
-
 
 ```js
 const numbers = [87, 342, 54, 23, 56, 234];
@@ -44,7 +40,6 @@ const student = {
     age: 32,
     movies: ['king khan', 'dhakar masta,', 'aynabaji']
 };
-
 const about = `My name is ${student.name} age of ${student.age} has number ${numbers[2]} also liked mvies ${student.movies[2]}`;
 console.log(about)
 ```
@@ -55,29 +50,41 @@ console.log(about)
   <h3>What is Arrow Function?</h3>
 </summary>
 <br >
-  
 - Arrow Function is
-
 </details>
 
-
+```js
+const getFiftyFive = () => 55
+const addSixtyFive = num => num + 65;
+const isEven = x => x % 2 == 0;
+const addThree = (x, y, z) => x + y + z;
+const doMath = (num1, num2) => {
+    const sum = num1 + num2
+    return sum
+}
+```
+### SpreadOperator
+<details>
+<summary>
+  <h3>What is SpreadOperator?</h3>
+</summary>
+<br >
+- Spread Operatorn is
+</details>
 
 ```js
-const numbers = [87, 342, 54, 23, 56, 234];
-const student = {
-    name: 'sakib Khan',
-    age: 32,
-    movies: ['king khan', 'dhakar masta,', 'aynabaji']
-};
-
-const about = `My name is ${student.name} age of ${student.age} has number ${numbers[2]} also liked mvies ${student.movies[2]}`;
-console.log(about)
+const getFiftyFive = () => 55
+const addSixtyFive = num => num + 65;
+const isEven = x => x % 2 == 0;
+const addThree = (x, y, z) => x + y + z;
+const doMath = (num1, num2) => {
+    const sum = num1 + num2
+    return sum
+}
 ```
 
-#### Full example
 
-See [social login example](#social-login-example)
-
+### Table
 <div class="overflow-x-auto">
   <table class="table w-full">
     <!-- head -->
@@ -114,3 +121,12 @@ See [social login example](#social-login-example)
     </tbody>
   </table>
 </div>
+
+
+
+## 🌐 Socials: Connect with Emon Hossain!
+
+[![Facebook Badge](https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](https://fb.com/emonhossain6) [![Linkedin Badge](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/emon007iu/) [![Twitter Badge](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/@emon_hossain7) [![Mail Badge](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:emon.hossain.wd@gmail.com)
+
+<h4>❤️🤔 You can follow my Github and other social accounts 🤔❤️</h4>
+<h2>❤️ Thank you very much! ❤️</h2>
