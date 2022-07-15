@@ -11,10 +11,10 @@ List of :
 - [TemplateString](#TemplateString)
 - [ArrowFunction](#ArrowFunction)
 - [SpreadOperator](#SpreadOperator)
-- [useSignInWithApple](#usesigninwithapple)
-- [useSignInWithFacebook](#usesigninwithfacebook)
-- [useSignInWithGithub](#usesigninwithgithub)
-- [useSignInWithGoogle](#usesigninwithgoogle)
+- [Map](#Map)
+- [forEach](#forEach)
+- [filter](#filter)
+- [find](#find)
 - [useSignInWithMicrosoft](#usesigninwithmicrosoft)
 - [useSignInWithTwitter](#usesigninwithtwitter)
 - [useSignInWithYahoo](#usesigninwithyahoo)
@@ -91,8 +91,102 @@ numbers [ 87, 342, 54, 23, 56, 234, 99, 91, 93 ]
 newNumbers [ 87, 342, 54, 23, 56, 234 ]
 currentNumbers [ 87, 342, 54, 23, 56, 234, 99, 91, 93, 55 ]
 ```
+### Map
+<details>
+<summary>
+  <h3>What is Map?</h3>
+</summary>
+<br >
+- If you want to return an array by working for the element, you need to use a map. 
+- Map return array
+</details>
 
+```js
+const products = [
+    { name: 'laptop', price: '3200', brand: 'Lenovo', color: 'Silver' },
+    { name: 'phone', price: '3499', brand: 'iphone', color: 'golden' },
+    { name: 'watch', price: '420', brand: 'casio', color: 'yellow' },
+    { name: 'sunglass', price: '250', brand: 'reborn', color: 'black' },
+    { name: 'camera', price: '39000', brand: 'canon', color: 'black' },
+    { name: 'laptop', price: '3200', brand: 'Lenovo', color: 'Silver' }
+];
 
+const brands = products.map(product => product.brand);
+console.log(brands)
+const prices = products.map(product => product.price);
+console.log(prices)
+```
+### forEach
+<details>
+<summary>
+  <h3>What is forEach?</h3>
+</summary>
+<br >
+- If you want to return an array by working for the element, you need to use a map. 
+- Map return array
+</details>
+
+```js
+const products = [
+    { name: 'laptop', price: '3200', brand: 'Lenovo', color: 'Silver' },
+    { name: 'phone', price: '3499', brand: 'iphone', color: 'golden' },
+    { name: 'watch', price: '420', brand: 'casio', color: 'yellow' },
+    { name: 'sunglass', price: '250', brand: 'reborn', color: 'black' },
+    { name: 'camera', price: '39000', brand: 'canon', color: 'black' },
+    { name: 'laptop', price: '3200', brand: 'Lenovo', color: 'Silver' }
+];
+products.forEach(product => console.log(product))
+products.forEach(product => console.log(product.color))
+products.forEach(product => {
+})
+```
+### filter 
+<details>
+<summary>
+  <h3>What is filter?</h3>
+</summary>
+<br >
+- If a filter is used to conditionally select one or more elements of an array, the filter works condition wise.
+</details>
+
+```js
+const products = [
+    { name: 'laptop', price: '3200', brand: 'Lenovo', color: 'Silver' },
+    { name: 'phone', price: '3499', brand: 'iphone', color: 'golden' },
+    { name: 'watch', price: '420', brand: 'casio', color: 'yellow' },
+    { name: 'sunglass', price: '250', brand: 'reborn', color: 'black' },
+    { name: 'camera', price: '39000', brand: 'canon', color: 'black' },
+    { name: 'laptop', price: '3200', brand: 'Lenovo', color: 'Silver' }
+];
+// filter
+const cheap = products.filter(product => product.price <= 5000);
+console.log(cheap)
+const specificName = products.filter(product => product.name.includes('n'));
+console.log(specificName)
+```
+### find  
+<details>
+<summary>
+  <h3>What is find?</h3>
+</summary>
+<br >
+- Find is used to conditionally find the first element in an array.
+- If more than one element meets the condition, find returns the first element.
+</details>
+
+```js
+const products = [
+    { name: 'laptop', price: '3200', brand: 'Lenovo', color: 'Silver' },
+    { name: 'phone', price: '3499', brand: 'iphone', color: 'golden' },
+    { name: 'watch', price: '420', brand: 'casio', color: 'yellow' },
+    { name: 'sunglass', price: '250', brand: 'reborn', color: 'black' },
+    { name: 'camera', price: '39000', brand: 'canon', color: 'black' },
+    { name: 'laptop', price: '3200', brand: 'Lenovo', color: 'Silver' }
+];
+//find
+const special = products.find(product => product.name.includes('n'));
+console.log(special)
+```
 ### Table
 <div class="overflow-x-auto">
   <table class="table w-full">
