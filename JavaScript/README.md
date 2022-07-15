@@ -170,8 +170,7 @@ console.log(specificName)
   <h3>What is find?</h3>
 </summary>
 <br >
-- Find is used to conditionally find the first element in an array.
-- If more than one element meets the condition, find returns the first element.
+- Find is used to conditionally find the first element in an array. If more than one element meets the condition, find returns the first element.
 </details>
 
 ```js
