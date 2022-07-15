@@ -11,7 +11,7 @@ import { useAuthState } from 'react-firebase-hooks/auth';
 
 List of Auth hooks:
 
-- [Template String](#templateString)
+- [Template String](#Template String)
 - [useCreateUserWithEmailAndPassword](#usecreateuserwithemailandpassword)
 - [useSignInWithEmailAndPassword](#usesigninwithemailandpassword)
 - [useSignInWithApple](#usesigninwithapple)
@@ -49,7 +49,7 @@ Returns:
 
 #### If you are registering or signing in the user for the first time consider using [useCreateUserWithEmailAndPassword](#usecreateuserwithemailandpassword), [useSignInWithEmailAndPassword](#usesigninwithemailandpassword)
 
-### templateString
+### Template String
 
 ```js
 const numbers = [87, 342, 54, 23, 56, 234];
