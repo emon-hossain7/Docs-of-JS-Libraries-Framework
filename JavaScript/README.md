@@ -12,7 +12,7 @@ import { useAuthState } from 'react-firebase-hooks/auth';
 List of Auth hooks:
 
 - [TemplateString](#TemplateString)
-- [useCreateUserWithEmailAndPassword](#usecreateuserwithemailandpassword)
+- [ArrowFunction](#ArrowFunction)
 - [useSignInWithEmailAndPassword](#usesigninwithemailandpassword)
 - [useSignInWithApple](#usesigninwithapple)
 - [useSignInWithFacebook](#usesigninwithfacebook)
@@ -27,27 +27,16 @@ List of Auth hooks:
 - [useSendPasswordResetEmail](#usesendpasswordresetemail)
 - [useSendEmailVerification](#usesendemailverification)
 
-### useAuthState
 
-```js
-const [user, loading, error] = useAuthState(auth, options);
-```
+<details>
+<summary>
+  <h2>What is Template String?</h2>
+</summary>
+<br >
+  
+- Template String is
 
-Retrieve and monitor the authentication state from Firebase.
-
-The `useAuthState` hook takes the following parameters:
-
-- `auth`: `auth.Auth` instance for the app you would like to monitor
-- `options`: (optional) `Object with the following parameters:
-  - `onUserChanged`: (optional) function to be called with `auth.User` each time the user changes. This allows you to do things like load custom claims.
-
-Returns:
-
-- `user`: The `auth.User` if logged in, or `null` if not
-- `loading`: A `boolean` to indicate whether the the authentication state is still being loaded
-- `error`: Any `AuthError` returned by Firebase when trying to load the user, or `undefined` if there is no error
-
-#### If you are registering or signing in the user for the first time consider using [useCreateUserWithEmailAndPassword](#usecreateuserwithemailandpassword), [useSignInWithEmailAndPassword](#usesigninwithemailandpassword)
+</details>
 
 ### TemplateString
 
@@ -63,7 +52,18 @@ const about = `My name is ${student.name} age of ${student.age} has number ${num
 console.log(about)
 ```
 
-### useCreateUserWithEmailAndPassword
+
+<details>
+<summary>
+  <h2>What is Arrow Function?</h2>
+</summary>
+<br >
+  
+- Arrow Function is
+
+</details>
+
+### ArrowFunction
 
 ```js
 const [
