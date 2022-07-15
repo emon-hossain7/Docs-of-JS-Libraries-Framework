@@ -73,13 +73,18 @@ const doMath = (num1, num2) => {
 </details>
 
 ```js
-const getFiftyFive = () => 55
-const addSixtyFive = num => num + 65;
-const isEven = x => x % 2 == 0;
-const addThree = (x, y, z) => x + y + z;
-const doMath = (num1, num2) => {
-    const sum = num1 + num2
-    return sum
+//spread operator
+const numbers = [87, 342, 54, 23, 56, 234];
+const newNumbers = [...numbers];
+numbers.push(99)
+numbers.push(91)
+numbers.push(93)
+
+// create a new from an older array and add an element
+const currentNumbers = [...numbers, 55];
+console.log(numbers)
+console.log(newNumbers)
+console.log(currentNumbers)
 }
 ```
 
