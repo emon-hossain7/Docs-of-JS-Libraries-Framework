@@ -11,7 +11,7 @@ import { useAuthState } from 'react-firebase-hooks/auth';
 
 List of Auth hooks:
 
-- [useAuthState](#useauthstate)
+- [Template String](#templateString)
 - [useCreateUserWithEmailAndPassword](#usecreateuserwithemailandpassword)
 - [useSignInWithEmailAndPassword](#usesigninwithemailandpassword)
 - [useSignInWithApple](#usesigninwithapple)
@@ -49,48 +49,18 @@ Returns:
 
 #### If you are registering or signing in the user for the first time consider using [useCreateUserWithEmailAndPassword](#usecreateuserwithemailandpassword), [useSignInWithEmailAndPassword](#usesigninwithemailandpassword)
 
-#### Full Example
+### templateString
 
 ```js
-import { getAuth, signInWithEmailAndPassword, signOut } from 'firebase/auth';
-import { useAuthState } from 'react-firebase-hooks/auth';
-
-const auth = getAuth(firebaseApp);
-
-const login = () => {
-  signInWithEmailAndPassword(auth, 'test@test.com', 'password');
-};
-const logout = () => {
-  signOut(auth);
+const numbers = [87, 342, 54, 23, 56, 234];
+const student = {
+    name: 'sakib Khan',
+    age: 32,
+    movies: ['king khan', 'dhakar masta,', 'aynabaji']
 };
 
-const CurrentUser = () => {
-  const [user, loading, error] = useAuthState(auth);
-
-  if (loading) {
-    return (
-      <div>
-        <p>Initialising User...</p>
-      </div>
-    );
-  }
-  if (error) {
-    return (
-      <div>
-        <p>Error: {error}</p>
-      </div>
-    );
-  }
-  if (user) {
-    return (
-      <div>
-        <p>Current User: {user.email}</p>
-        <button onClick={logout}>Log out</button>
-      </div>
-    );
-  }
-  return <button onClick={login}>Log in</button>;
-};
+const about = `My name is ${student.name} age of ${student.age} has number ${numbers[2]} also liked mvies ${student.movies[2]}`;
+console.log(about)
 ```
 
 ### useCreateUserWithEmailAndPassword
