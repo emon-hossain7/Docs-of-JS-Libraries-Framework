@@ -86,7 +86,7 @@ console.log(numbers)
 console.log(newNumbers)
 console.log(currentNumbers)
 }
-
+// output
 numbers [ 87, 342, 54, 23, 56, 234, 99, 91, 93 ]
 newNumbers [ 87, 342, 54, 23, 56, 234 ]
 currentNumbers [ 87, 342, 54, 23, 56, 234, 99, 91, 93, 55 ]
