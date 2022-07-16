@@ -17,7 +17,7 @@ List of :
 - [find](#find)
 - [JSON](#JSON)
 - [fetch_Keys_Values](#fetch_Keys_Values)
-- [useSignInWithYahoo](#usesigninwithyahoo)
+- [Array](#Array)
 - [useUpdateEmail](#useupdateemail)
 - [useUpdatePassword](#useupdatepassword)
 - [useUpdateProfile](#useupdateprofile)
@@ -240,6 +240,35 @@ console.log(keys )
 const values = Object.values(student);
 console.log(values )
 // values ['sakib Khan', 32, Array(3)]
+```
+### Array  
+<details>
+<summary>
+  <h3>What is fetch?</h3>
+</summary>
+<br >
+- Find is used to conditionally find the first element in an array. If more than one element meets the condition, find returns the first element.
+</details>
+
+```js
+// add or remove from an array
+const products = [
+    { name: 'laptop', price: '3200', brand: 'Lenovo', color: 'Silver' },
+    { name: 'phone', price: '3499', brand: 'iphone', color: 'golden' },
+    { name: 'watch', price: '420', brand: 'casio', color: 'yellow' },
+    { name: 'sunglass', price: '250', brand: 'reborn', color: 'black' },
+    { name: 'camera', price: '39000', brand: 'canon', color: 'black' },
+    { name: 'laptop', price: '3200', brand: 'Lenovo', color: 'Silver' }
+];
+
+const newProduct = {name: 'webcam', price: '670', brand: 'light blue'};
+
+//copy products array and then add newProduct
+const newProducts = [...products, newProduct];
+//create a new array without one specific item
+//remove item means create a new array without the 
+const remaining = products.filter(product => product.name !== 'phone');
+
 ```
 ### Table
 <div class="overflow-x-auto">
