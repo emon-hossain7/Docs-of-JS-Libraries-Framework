@@ -234,6 +234,10 @@ const student = {
 //keys, values
 const keys = Object.keys(student);
 const values = Object.values(student);
+console.log(keys )
+console.log(values )
+// keys = ['name', 'age', 'movies']
+// values ['sakib Khan', 32, Array(3)]
 ```
 ### Table
 <div class="overflow-x-auto">
