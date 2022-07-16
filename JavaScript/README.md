@@ -18,7 +18,7 @@ List of :
 - [JSON](#JSON)
 - [fetch_Keys_Values](#fetch_Keys_Values)
 - [Array](#Array)
-- [useUpdateEmail](#useupdateemail)
+- [numberStringConversion](#numberStringConversion)
 - [useUpdatePassword](#useupdatepassword)
 - [useUpdateProfile](#useupdateprofile)
 - [useSendPasswordResetEmail](#usesendpasswordresetemail)
@@ -268,8 +268,31 @@ const newProducts = [...products, newProduct];
 //create a new array without one specific item
 //remove item means create a new array without the 
 const remaining = products.filter(product => product.name !== 'phone');
-
 ```
+### numberStringConversion
+<details>
+<summary>
+  <h3>What is forEach?</h3>
+</summary>
+<br >
+- If you want to return an array by working for the element, you need to use a map. 
+- Map return array
+</details>
+
+```js
+//number To String Conversion
+//Example 1
+const input = '400';
+const inputNum = +input;
+console.log(typeof inputNum)
+
+//String To Number Conversion
+//Example 2
+const input2 = 53;
+const numStr = input2 + '';
+console.log(typeof numStr)
+```
+
 ### Table
 <div class="overflow-x-auto">
   <table class="table w-full">
