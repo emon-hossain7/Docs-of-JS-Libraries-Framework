@@ -15,7 +15,7 @@ List of :
 - [forEach](#forEach)
 - [filter](#filter)
 - [find](#find)
-- [useSignInWithMicrosoft](#usesigninwithmicrosoft)
+- [JSON](#JSON)
 - [useSignInWithTwitter](#usesigninwithtwitter)
 - [useSignInWithYahoo](#usesigninwithyahoo)
 - [useUpdateEmail](#useupdateemail)
@@ -186,6 +186,31 @@ const products = [
 const special = products.find(product => product.name.includes('n'));
 console.log(special)
 ```
+### JSON  
+<details>
+<summary>
+  <h3>What is JSON?</h3>
+</summary>
+<br >
+- Find is used to conditionally find the first element in an array. If more than one element meets the condition, find returns the first element.
+</details>
+
+```js
+const student = {
+    name: 'sakib Khan',
+    age: 32,
+    movies: ['king khan', 'dhakar masta,', 'aynabaji']
+};
+// normal Object to JSON file
+const studentJson = JSON.stringify(student);
+console.log(student)
+console.log(studentJson)
+
+// JSON to Object file
+const studentObject = JSON.parse(studentJson);
+console.log(studentObject)
+```
+
 ### Table
 <div class="overflow-x-auto">
   <table class="table w-full">
