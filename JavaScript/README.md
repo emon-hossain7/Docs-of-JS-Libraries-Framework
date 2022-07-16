@@ -16,7 +16,7 @@ List of :
 - [filter](#filter)
 - [find](#find)
 - [JSON](#JSON)
-- [useSignInWithTwitter](#usesigninwithtwitter)
+- [fetch_Keys_Values](#fetch_Keys_Values)
 - [useSignInWithYahoo](#usesigninwithyahoo)
 - [useUpdateEmail](#useupdateemail)
 - [useUpdatePassword](#useupdatepassword)
@@ -210,7 +210,31 @@ console.log(studentJson)
 const studentObject = JSON.parse(studentJson);
 console.log(studentObject)
 ```
+### fetch_Keys_Values  
+<details>
+<summary>
+  <h3>What is fetch?</h3>
+</summary>
+<br >
+- Find is used to conditionally find the first element in an array. If more than one element meets the condition, find returns the first element.
+</details>
 
+```js
+// fetch
+fetch('url')
+.then(res => res.json())                                    
+.then(data => console.log(data)
+)
+
+const student = {
+    name: 'sakib Khan',
+    age: 32,
+    movies: ['king khan', 'dhakar masta,', 'aynabaji']
+};
+//keys, values
+const keys = Object.keys(student);
+const values = Object.values(student);
+```
 ### Table
 <div class="overflow-x-auto">
   <table class="table w-full">
