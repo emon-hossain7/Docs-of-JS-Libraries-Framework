@@ -18,7 +18,7 @@ List of :
 - [JSON](#JSON)
 - [fetch_Keys_Values](#fetch_Keys_Values)
 - [Array](#Array)
-- [numberStringConversion](#numberStringConversion)
+- [LocalStorageAndSessionStorage](#LocalStorageAndSessionStorage)
 - [useUpdatePassword](#useupdatepassword)
 - [useUpdateProfile](#useupdateprofile)
 - [useSendPasswordResetEmail](#usesendpasswordresetemail)
