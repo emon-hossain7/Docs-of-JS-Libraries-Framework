@@ -9,7 +9,7 @@
 List of React:
 
 - [useState](#useState)
-- [ArrowFunction](#ArrowFunction)
+- [useEffect](#useEffect)
 - [SpreadOperator](#SpreadOperator)
 - [Map](#Map)
 - [forEach](#forEach)
@@ -41,13 +41,13 @@ const [count, setCount] = useState([]);
 
 ```
 
-### ArrowFunction
+### useEffect
 <details>
 <summary>
-  <h3>What is Arrow Function?</h3>
+  <h3>What is useEffect?</h3>
 </summary>
 <br >
-- Arrow Function is
+- useEffect is
 </details>
 
 ```js
