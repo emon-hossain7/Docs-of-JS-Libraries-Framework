@@ -27,7 +27,7 @@ List of React:
 ### useState
 <details>
 <summary>
-  <h3>What is useState?</h3>
+  <h4>What is useState?</h4>
 </summary>
 <br >
 - useState is
@@ -44,7 +44,7 @@ const [count, setCount] = useState([]);
 ### useEffect
 <details>
 <summary>
-  <h3>What is useEffect?</h3>
+  <h4>What is useEffect?</h4>
 </summary>
 <br >
 - useEffect is
