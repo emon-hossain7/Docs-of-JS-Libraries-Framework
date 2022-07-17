@@ -6,7 +6,7 @@
 - Where HTML and CSS are languages that give structure and style to web pages, JavaScript gives web pages interactive elements that engage a user.
 
 
-List of :
+List of JavaScript:
 
 - [TemplateString](#TemplateString)
 - [ArrowFunction](#ArrowFunction)
