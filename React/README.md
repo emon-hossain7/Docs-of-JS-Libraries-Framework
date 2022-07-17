@@ -73,10 +73,9 @@ const [count, setCount] = useState(0);
   // Update the document title using the browser API
       document.title = `You clicked ${count} times`;
   // fetch
-    fetch('https://restcountries.com/v3.1/all')
+    fetch('')
       .then(res => res.json())
-      .then(data => setCountries(data)
-      )
+      .then(data => console.log(data))
   }, [])
 
   return (
