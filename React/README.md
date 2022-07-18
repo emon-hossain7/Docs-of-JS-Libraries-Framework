@@ -335,7 +335,6 @@ console.log(typeof numStr)
         <th>1</th>
         <td>setCount(count + 1)</td>
         <td>asynchronous</td>
-        <td>Blue</td>
       </tr>
       <!-- row 2 -->
       <tr>
