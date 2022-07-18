@@ -12,17 +12,6 @@ List of React:
 - [useEffect](#useEffect)
 - [SpreadOperator](#SpreadOperator)
 - [Map](#Map)
-- [forEach](#forEach)
-- [filter](#filter)
-- [find](#find)
-- [JSON](#JSON)
-- [fetch_Keys_Values](#fetch_Keys_Values)
-- [Array](#Array)
-- [LocalStorageAndSessionStorage](#LocalStorageAndSessionStorage)
-- [useUpdatePassword](#useupdatepassword)
-- [useUpdateProfile](#useupdateprofile)
-- [useSendPasswordResetEmail](#usesendpasswordresetemail)
-- [useSendEmailVerification](#usesendemailverification)
 
 ### useState
 <details>
