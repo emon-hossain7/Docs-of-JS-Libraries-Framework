@@ -114,7 +114,7 @@ const Cosmetic = ({ cosmetic }) => {
       const addToCart = (_id) => {
         // addToDb(_id)
         let shoppingCart;
-        //get the shopping cart
+        //get the shopping cart from local storage
         const storedCart = localStorage.getItem('shopping-cart');
         if (storedCart) {
             shoppingCart = JSON.parse(storedCart)
@@ -134,6 +134,11 @@ const Cosmetic = ({ cosmetic }) => {
         }
         localStorage.setItem('shopping-cart', JSON.stringify(shoppingCart))
     };
+    
+      const removeFromCart = (_id) => {
+        console.log('removing', _id)
+        
+    }
 
     return (
         <div className='product'>
