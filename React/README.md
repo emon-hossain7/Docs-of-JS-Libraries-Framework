@@ -91,6 +91,9 @@ const [count, setCount] = useState(0);
 ```js
 const Cosmetic = ({ cosmetic }) => {
     const { name, price, _id } = cosmetic;
+    
+    //use only one(advance, simple)
+    //simple use localStorage
     const addToCart = (_id) => {
         // addToDb(_id)
         const quantity = localStorage.getItem(_id);
@@ -105,6 +108,31 @@ const Cosmetic = ({ cosmetic }) => {
 
             localStorage.setItem(_id, 1)
         }
+    };
+    
+    // advance use LocalStorage
+      const addToCart = (_id) => {
+        // addToDb(_id)
+        let shoppingCart;
+        //get the shopping cart
+        const storedCart = localStorage.getItem('shopping-cart');
+        if (storedCart) {
+            shoppingCart = JSON.parse(storedCart)
+
+        } else {
+            shoppingCart = {}
+        }
+        //add quantity
+        const quantity = shoppingCart[_id];
+        if (quantity) {
+
+            const newQuantity = quantity + 1;
+            shoppingCart[_id] = newQuantity;
+
+        } else {
+            shoppingCart[_id] = 1;
+        }
+        localStorage.setItem('shopping-cart', JSON.stringify(shoppingCart))
     };
 
     return (
