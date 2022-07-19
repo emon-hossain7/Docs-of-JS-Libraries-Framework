@@ -10,7 +10,7 @@ List of React:
 
 - [useState](#useState)
 - [useEffect](#useEffect)
-- [SpreadOperator](#SpreadOperator)
+- [localStorageSessionStorage](#localStorageSessionStorage)
 - [Map](#Map)
 
 ### useState
@@ -76,6 +76,46 @@ const [count, setCount] = useState(0);
     </div>
   );
 }
+```
+
+
+### localStorageSessionStorage
+<details>
+<summary>
+  <h4>What is localStorage and SessionStorage?</h4>
+</summary>
+<br >
+- 
+</details>
+
+```js
+const Cosmetic = ({ cosmetic }) => {
+    const { name, price, _id } = cosmetic;
+    const addToCart = (_id) => {
+        // addToDb(_id)
+        const quantity = localStorage.getItem(_id);
+        if (quantity) {
+            console.log('already exists')
+            const newQuantity = parseInt(quantity) + 1;
+
+            localStorage.setItem(_id, newQuantity)
+
+        } else {
+            console.log('new item')
+
+            localStorage.setItem(_id, 1)
+        }
+    };
+
+    return (
+        <div className='product'>
+            <h2>Buy this: {name}</h2>
+            <h4>Only for: $ {price}</h4>
+            <h5>Id : {_id}</h5>
+            <button onClick={() => addToCart(_id)} >Add to Cart</button>
+        </div>
+    );
+};
 ```
 
 ### Table
