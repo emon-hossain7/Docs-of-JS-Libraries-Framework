@@ -172,8 +172,8 @@ const Cosmetic = ({ cosmetic }) => {
       <!-- row 2 -->
       <tr>
         <th>2</th>
-        <td>Hart Hagerty</td>
-        <td>Desktop Support Technician</td>
+        <td>props</td>
+        <td>React a uopr theke eventhandler k  props akare data pathano jai, down theke up pathano jai na. r jodi pathate hoi tahole jai jaiga jabe seijaiga evnthandler dita hobe</td>
       </tr>
       <!-- row 3 -->
       <tr>
