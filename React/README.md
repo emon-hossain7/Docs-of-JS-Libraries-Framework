@@ -10,8 +10,13 @@ List of React:
 
 - [useState](#useState)
 - [useEffect](#useEffect)
+- [Immutable](#Immutable)
 - [localStorageSessionStorage](#localStorageSessionStorage)
-- [Map](#Map)
+
+- [useState](#useState)
+- [useEffect](#useEffect)
+- [localStorageSessionStorage](#localStorageSessionStorage)
+- [Immutable](#Immutable)
 
 ### useState
 <details>
@@ -76,6 +81,25 @@ const [count, setCount] = useState(0);
     </div>
   );
 }
+```
+### Immutable
+<details>
+<summary>
+  <h4>What is Immutable?</h4>
+</summary>
+<br >
+- useState is
+</details>
+
+```js
+const [cart, setCart] = useState([]);
+
+    const handleAddToCart = (product) => {
+        //simple array push
+        //cart.push(push)
+        //array copy and new array create
+        const newCart = [...cart, product];
+    }
 ```
 
 
