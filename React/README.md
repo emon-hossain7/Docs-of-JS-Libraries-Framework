@@ -99,6 +99,7 @@ const [cart, setCart] = useState([]);
         //cart.push(push)
         //array copy and new array create
         const newCart = [...cart, product];
+        setCart(newCart)
     }
 ```
 
