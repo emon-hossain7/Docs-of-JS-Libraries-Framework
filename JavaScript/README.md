@@ -338,7 +338,33 @@ console.log(typeof numStr)
     const handleRemoveData = () => {
         localStorage.removeItem('cart')
     };
+    
+    
+        // localStorage connect to ui
+    useEffect(() => {
+        if (products.length) {
+            const storedProductIds = getFromLocalStorage();
+            const previousCart = [];
+
+            for (const id in storedProductIds) {
+                const foundProduct = products.find(product => product.id === id);
+                if(foundProduct){
+                    const quantity = storedProductIds[id];
+                    foundProduct.quantity = quantity
+                    previousCart.push(foundProduct)
+                }
+            }
+            setCart(previousCart)
+        }
+
+    }, [products])
+    
+    
+    
 ```
+
+
+
 
 ### Table
 <div class="overflow-x-auto">
