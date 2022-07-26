@@ -18,11 +18,13 @@ List of JavaScript:
 - [JSON](#JSON)
 - [fetch_Keys_Values](#fetch_Keys_Values)
 - [Array](#Array)
+- [Object](#Object)
 - [LocalStorageAndSessionStorage](#LocalStorageAndSessionStorage)
 - [useUpdatePassword](#useupdatepassword)
 - [useUpdateProfile](#useupdateprofile)
 - [useSendPasswordResetEmail](#usesendpasswordresetemail)
 - [useSendEmailVerification](#usesendemailverification)
+
 
 ### TemplateString
 <details>
@@ -269,6 +271,21 @@ const newProducts = [...products, newProduct];
 //remove item means create a new array without the 
 const remaining = products.filter(product => product.name !== 'phone');
 ```
+
+### Object
+<details>
+<summary>
+  <h3>What is Object?</h3>
+</summary>
+<br >
+- If you want to return an array by working for the element, you need to use a map. 
+- Map return array
+</details>
+
+```js
+
+```
+
 ### numberStringConversion
 <details>
 <summary>
