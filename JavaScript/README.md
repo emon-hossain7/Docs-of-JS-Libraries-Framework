@@ -300,7 +300,7 @@ console.log(typeof numStr)
 </summary>
 <br >
 - Three working in Local storage and Session Storage 
-- setItem
+-  setItem
 - getItem
 - removeItem
 </details>
