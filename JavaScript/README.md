@@ -385,24 +385,34 @@ console.log(typeof numStr)
 <br >
 // use local storage to manage cart data
 const addToDb = id =>{
+// set localStorage
     let shoppingCart = {};
 
-    //get the shopping cart from local storage
-    const storedCart = localStorage.getItem('shopping-cart');
-    if(storedCart){
-        shoppingCart = JSON.parse(storedCart);
-    }
+    //get the shopping cart
+        // যেই নামে setItem করা হইছে সেই নামে পেতে হবে/
+        const storedCart = localStorage.getItem('shopping-cart');
+        if(storedCart){
+            console.log(storedCart)
+            // local store data save হই string হিসাবে  সেইটা getItem করার সময় normal javascript a conver korta hoi
+            // সেই জন্য JSON.parse(storedCart) করা লাগে।
+            shoppingCart = JSON.parse(storedCart)
+
+        }
 
     // add quantity
-    const quantity = shoppingCart[id];
-    if(quantity){
-        const newQuantity = quantity + 1;
-        shoppingCart[id] = newQuantity;
-    }
-    else{
-        shoppingCart[id] = 1;
-    }
-    localStorage.setItem('shopping-cart', JSON.stringify(shoppingCart));
+   const quantity = shoppingCart[product.id];
+        if (quantity) {
+            // const newQuantity = quantity + 1;
+            shoppingCart[product.id] = quantity + 1;
+
+        } else {
+            shoppingCart[product.id] = 1;
+        }
+        
+    // local storage name set
+        // step 1 key and value দুইটাই object হওয়া লাগবে;
+        // step 2 object কে string convert korar jonno JSON.stringify(shoppingCart) করা লাগবে।
+        localStorage.setItem('shopping-cart', JSON.stringify(shoppingCart))
 }
 
 const getStoredCart = () =>{
