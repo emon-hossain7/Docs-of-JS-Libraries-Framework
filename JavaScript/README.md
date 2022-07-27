@@ -322,62 +322,6 @@ console.log(typeof numStr)
 - removeItem
 </details>
 
-```js
-   //Data add local storage
-    const handleAddData = () => {
-        localStorage.setItem('cart', '123')
-    };
-    //Data Read / Shows local storage
-    const handleShowData = () => {
-       const item = localStorage.getItem('cart')
-       console.log(item)
-    };
-     //Data Remove local storage
-    const handleRemoveData = () => {
-        localStorage.removeItem('cart')
-    };
-    
-    //Example
-  <button onClick={handleAddData}>Add</button>
-  <button onClick={handleShowData}>Read / Shows</button>
-  <button onClick={handleRemoveData}>Remove</button>
-  
-  //Object Data add local storage
-    const handleAddData = () => {
-        localStorage.setItem('cart', JSON.stringify({abc: 1, bcd: 2}))
-    };
-    //Object Data Read / Shows local storage
-    const handleShowData = () => {
-       const item = JSON.parse(localStorage.getItem('cart'))
-       console.log(item)
-    };
-     //Data Remove local storage (Remove same)
-    const handleRemoveData = () => {
-        localStorage.removeItem('cart')
-    };
-    
-    
-        // localStorage connect to ui
-    useEffect(() => {
-        if (products.length) {
-            const storedProductIds = getFromLocalStorage();
-            const previousCart = [];
-
-            for (const id in storedProductIds) {
-                const foundProduct = products.find(product => product.id === id);
-                if(foundProduct){
-                    const quantity = storedProductIds[id];
-                    foundProduct.quantity = quantity
-                    previousCart.push(foundProduct)
-                }
-            }
-            setCart(previousCart)
-        }
-
-    }, [products])
-    
-    
-    
 <details>
 <summary>
   <h3>Local Storage Fake Db</h3>
@@ -438,6 +382,62 @@ export {
     deleteShoppingCart
 };- Find is used to conditionally find the first element in an array. If more than one element meets the condition, find returns the first element.
 </details>
+
+```js
+   //Data add local storage
+    const handleAddData = () => {
+        localStorage.setItem('cart', '123')
+    };
+    //Data Read / Shows local storage
+    const handleShowData = () => {
+       const item = localStorage.getItem('cart')
+       console.log(item)
+    };
+     //Data Remove local storage
+    const handleRemoveData = () => {
+        localStorage.removeItem('cart')
+    };
+    
+    //Example
+  <button onClick={handleAddData}>Add</button>
+  <button onClick={handleShowData}>Read / Shows</button>
+  <button onClick={handleRemoveData}>Remove</button>
+  
+  //Object Data add local storage
+    const handleAddData = () => {
+        localStorage.setItem('cart', JSON.stringify({abc: 1, bcd: 2}))
+    };
+    //Object Data Read / Shows local storage
+    const handleShowData = () => {
+       const item = JSON.parse(localStorage.getItem('cart'))
+       console.log(item)
+    };
+     //Data Remove local storage (Remove same)
+    const handleRemoveData = () => {
+        localStorage.removeItem('cart')
+    };
+    
+    
+        // localStorage connect to ui
+    useEffect(() => {
+        if (products.length) {
+            const storedProductIds = getFromLocalStorage();
+            const previousCart = [];
+
+            for (const id in storedProductIds) {
+                const foundProduct = products.find(product => product.id === id);
+                if(foundProduct){
+                    const quantity = storedProductIds[id];
+                    foundProduct.quantity = quantity
+                    previousCart.push(foundProduct)
+                }
+            }
+            setCart(previousCart)
+        }
+
+    }, [products])
+    
+    
     
 ```
 
