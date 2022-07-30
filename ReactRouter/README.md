@@ -8,19 +8,41 @@
 
 List of React:
 
-- [activecRoute](#activecRoute)
+- [CustomLink](#CustomLink)
 - [dynamicRoute](#dynamicRoute)
 - [useState](#useState)
 - [simpleNavbarwithResponsive](#simpleNavbarwithResponsive)
 
-### useState
-<details>
-<summary>
-  <h4>What is useState?</h4>
-</summary>
-<br >
-- useState is
-</details>
+### CustomLink
+
+```js
+//step 1
+ create CustomLink component
+ //step 2
+ // change the function
+ function CustomLink({ children, to, ...props }) {
+    let resolved = useResolvedPath(to);
+    let match = useMatch({ path: resolved.pathname, end: true });
+
+    return (
+        <div>
+            <Link
+                style={{ color: match ? 'red' : 'black', textDecoration: match ? "underline" : "none" }}
+                to={to}
+                {...props}
+            >
+                {children}
+            </Link>
+        </div>
+    );
+}
+// step 3
+// use CustomLink component
+<CustomLink to='/'>Home</CustomLink>
+
+```
+
+### dynamicRoute
 
 ```js
 //step 1
