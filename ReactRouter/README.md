@@ -8,6 +8,8 @@
 
 List of React:
 
+- [activecRoute](#activecRoute)
+- [dynamicRoute](#dynamicRoute)
 - [useState](#useState)
 - [simpleNavbarwithResponsive](#simpleNavbarwithResponsive)
 
@@ -21,22 +23,18 @@ List of React:
 </details>
 
 ```js
+//step 1
 // import
-import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 
-const Example = () => {
-  // Declare a new state variable, which we'll call "count"
-  const [count, setCount] = useState(0);
-
-  return (
-    <div>
-      <p>You clicked {count} times</p>
-      <button onClick={() => setCount(count + 1)}>
-        Click me
-      </button>
-    </div>
-  );
-}
+const navigate = useNavigate();
+//step 2
+// add event handeler
+const showFriendDetails = (friend) => {
+      const path = `/friend/${friend.id}`;
+      navigate(path)
+  };
+<button onClick= {() => showFriendDetails(friend)} class="btn btn-primary">{friend.username}</button>
 
 ```
 
