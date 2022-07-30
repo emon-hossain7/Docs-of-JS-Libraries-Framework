@@ -9,14 +9,7 @@
 List of React:
 
 - [useState](#useState)
-- [useEffect](#useEffect)
-- [Immutable](#Immutable)
-- [localStorageSessionStorage](#localStorageSessionStorage)
-
-- [useState](#useState)
-- [useEffect](#useEffect)
-- [localStorageSessionStorage](#localStorageSessionStorage)
-- [Immutable](#Immutable)
+- [simpleNavbarwithResponsive](#simpleNavbarwithResponsive)
 
 ### useState
 <details>
@@ -47,134 +40,54 @@ const Example = () => {
 
 ```
 
-### useEffect
+
+
+### simpleNavbarwithResponsive
 <details>
 <summary>
-  <h4>What is useEffect?</h4>
+  <h4>simpleNavbarwithResponsive</h4>
 </summary>
 <br >
-- useEffect is
-</details>
-
 ```js
-// import
-import React, {useState, useEffect } from 'react';
-
-const Example = () => {
-const [count, setCount] = useState(0);
-  // Example
-  useEffect(() => {
-  // Update the document title using the browser API
-      document.title = `You clicked ${count} times`;
-  // fetch
-    fetch('')
-      .then(res => res.json())
-      .then(data => console.log(data))
-  }, [])
-
-  return (
-    <div>
-      <p>You clicked {count} times</p>
-      <button onClick={() => setCount(count + 1)}>
-        Click me
-      </button>
-    </div>
-  );
-}
-```
-### Immutable
-<details>
-<summary>
-  <h4>What is Immutable?</h4>
-</summary>
-<br >
-- useState is
-</details>
-
-```js
-const [cart, setCart] = useState([]);
-
-    const handleAddToCart = (product) => {
-        //simple array push
-        //cart.push(push)
-        //array copy and new array create
-        const newCart = [...cart, product];
-        setCart(newCart)
-    }
-```
+  import { MenuIcon, XIcon } from '@heroicons/react/solid';
+import React, { useState } from 'react';
 
 
-### localStorageSessionStorage
-<details>
-<summary>
-  <h4>What is localStorage and SessionStorage?</h4>
-</summary>
-<br >
-- 
-</details>
+const Navbar = () => {
+    const [open, setOpen] = useState(false);
+    const routes = [
+        { id: 1, name: "home", link: '/home' },
+        { id: 2, name: "shop", link: '/shop' },
+        { id: 3, name: "Deals", link: '/deals' },
+        { id: 4, name: "Contact", link: '/contact' }
+    ];
 
-```js
-const Cosmetic = ({ cosmetic }) => {
-    const { name, price, _id } = cosmetic;
-    
-    //use only one(advance, simple)
-    //simple use localStorage
-    const addToCart = (_id) => {
-        // addToDb(_id)
-        const quantity = localStorage.getItem(_id);
-        if (quantity) {
-            console.log('already exists')
-            const newQuantity = parseInt(quantity) + 1;
-
-            localStorage.setItem(_id, newQuantity)
-
-        } else {
-            console.log('new item')
-
-            localStorage.setItem(_id, 1)
-        }
-    };
-    
-    // advance use LocalStorage
-      const addToCart = (_id) => {
-        // addToDb(_id)
-        let shoppingCart;
-        //get the shopping cart from local storage
-        const storedCart = localStorage.getItem('shopping-cart');
-        if (storedCart) {
-            shoppingCart = JSON.parse(storedCart)
-
-        } else {
-            shoppingCart = {}
-        }
-        //add quantity
-        const quantity = shoppingCart[_id];
-        if (quantity) {
-
-            const newQuantity = quantity + 1;
-            shoppingCart[_id] = newQuantity;
-
-        } else {
-            shoppingCart[_id] = 1;
-        }
-        localStorage.setItem('shopping-cart', JSON.stringify(shoppingCart))
-    };
-    
-      const removeFromCart = (_id) => {
-        console.log('removing', _id)
-        
-    }
 
     return (
-        <div className='product'>
-            <h2>Buy this: {name}</h2>
-            <h4>Only for: $ {price}</h4>
-            <h5>Id : {_id}</h5>
-            <button onClick={() => addToCart(_id)} >Add to Cart</button>
-        </div>
+        <nav className=''>
+            <div onClick={() => setOpen(!open)} className='w-6 h-6 md:hidden'>
+                {open ? <XIcon /> : <MenuIcon />}
+            </div>
+            <ul className={`md:flex p-4 justify-center bg-indigo-200 w-full absolute md:static duration-500 ease-in ${open ? 'top-35' : 'top-[-150px]'}`}>
+                {
+                    routes.map((route, index) =>
+                        <li key={index} className='mr-12 block'>
+                            <a href={route.link}>{route.name}</a>
+                        </li>
+                    )
+                }
+            </ul>
+        </nav>
     );
 };
+
+export default Navbar;
+  
 ```
+</details>
+
+
+
 
 ### Table
 <div class="overflow-x-auto">
