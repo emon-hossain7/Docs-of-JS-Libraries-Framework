@@ -481,9 +481,29 @@ export {
       <!-- row 3 -->
       <tr>
         <th>3</th>
-        <td>Brice Swyre</td>
-        <td>Tax Accountant</td>
+        <td>let price1 = price1 + 10</td>
+        <td>let price1 +=10</td>
       </tr>
+       <!-- row 4 -->
+      <tr>
+        <th>3</th>
+        <td>let price1 = price1 - 10</td>
+        <td>let price1 -=10</td>
+      </tr>
+       <!-- row 5 -->
+      <tr>
+        <th>3</th>
+        <td>let price1 = price1 * 10</td>
+        <td>let price1 *=10</td>
+      </tr>
+       <!-- row 6 -->
+      <tr>
+        <th>3</th>
+        <td>let price1 = price1 / 10</td>
+        <td>let price1 /=10</td>
+      </tr>
+       <!-- row 7 -->
+
     </tbody>
   </table>
 </div>
