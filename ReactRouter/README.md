@@ -8,10 +8,21 @@
 
 List of React:
 
+- [NestedRoute](#NestedRoute)
 - [CustomLink](#CustomLink)
 - [dynamicRoute](#dynamicRoute)
 - [useState](#useState)
 - [simpleNavbarwithResponsive](#simpleNavbarwithResponsive)
+
+### NestedRoute
+
+```js
+//step 1
+
+ //step 2
+
+
+```
 
 ### CustomLink
 
