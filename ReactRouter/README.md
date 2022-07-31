@@ -45,7 +45,8 @@ List of React:
 ### dynamicRoute
 
 ```js
-### Example 1 (useNavigate)
+<h4>Example  (useNavigate)</h4>
+
 //step 1
 // import
 import { useNavigate } from 'react-router-dom';
@@ -59,7 +60,8 @@ const showFriendDetails = (friend) => {
   };
 <button onClick= {() => showFriendDetails(friend)} class="btn btn-primary">{friend.username}</button>
 
-### Example 2 (Link)
+<h4>Example 2 (Link)</h4>
+
 //step 1
 // create Details component and set Route in App.js
 <Route path='/friend/:friendId' element={<FriendDetail/>} />
