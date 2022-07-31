@@ -24,6 +24,7 @@ List of JavaScript:
 - [useUpdateProfile](#useupdateprofile)
 - [useSendPasswordResetEmail](#usesendpasswordresetemail)
 - [useSendEmailVerification](#usesendemailverification)
+- [Table](#Table)
 
 
 ### TemplateString
