@@ -504,6 +504,23 @@ export {
         <td>let price1 /=10</td>
       </tr>
        <!-- row 7 -->
+      <tr>
+        <th>3</th>
+        <td>Data Type</td>
+        <td>Premitive Data Type, Non PRemitive Data Type</td>
+      </tr>
+      <!-- row 8 -->
+      <tr>
+        <th>8</th>
+        <td>Premitive Data Type</td>
+        <td>Number, String, Undefined, Null, Boolean</td>
+      </tr>
+       <!-- row 9 -->
+      <tr>
+        <th>9</th>
+        <td>Non PRemitive Data Type</td>
+        <td>Object, Array, Function </td>
+      </tr>
 
     </tbody>
   </table>
