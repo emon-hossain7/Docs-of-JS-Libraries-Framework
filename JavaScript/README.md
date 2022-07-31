@@ -1,7 +1,7 @@
 # JavaScript Using Method And Example
 
 ### what is javaScript?
-- JavaScript is a dynamic programming language that's used for web development, web applications, game development, and lots more. JavaScript language is used both on the client-side and server-side allowing you to make web pages interactive.
+- JavaScript is high level, interpreted programming language used to make web pages more interactive. JavaScript is a dynamic programming language that's used for web development, web applications, game development, and lots more. JavaScript language is used both on the client-side and server-side allowing you to make web pages interactive.
 ### Why use JavaScript?
 - Where HTML and CSS are languages that give structure and style to web pages, JavaScript gives web pages interactive elements that engage a user.
 
@@ -462,31 +462,27 @@ export {
       <tr>
         <th></th>
         <th>Name</th>
-        <th>Job</th>
-        <th>Favorite Color</th>
+        <th>Answer</th>
       </tr>
     </thead>
     <tbody>
       <!-- row 1 -->
       <tr>
         <th>1</th>
-        <td>Cy Ganderton</td>
-        <td>Quality Control Specialist</td>
-        <td>Blue</td>
+        <td>integer</td>
+        <td>পূর্ণ সংখ্যা 1, 2, 40, 43 [parseint()]</td>
       </tr>
       <!-- row 2 -->
       <tr>
         <th>2</th>
-        <td>Hart Hagerty</td>
-        <td>Desktop Support Technician</td>
-        <td>Purple</td>
+        <td>float</td>
+        <td> ভগ্নাংশ সংখ্যা decimal: 2.3, 43.23, 54.4 [parsefloat()]</td>
       </tr>
       <!-- row 3 -->
       <tr>
         <th>3</th>
         <td>Brice Swyre</td>
         <td>Tax Accountant</td>
-        <td>Red</td>
       </tr>
     </tbody>
   </table>
