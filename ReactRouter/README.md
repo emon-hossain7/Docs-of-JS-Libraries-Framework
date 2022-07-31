@@ -45,7 +45,7 @@ List of React:
 ### dynamicRoute
 
 ```js
-// <h4>Example  (useNavigate)</h4>
+// <h4>Example 1 (useNavigate)</h4>
 
 //step 1
 // import
@@ -59,16 +59,81 @@ const showFriendDetails = (friend) => {
       navigate(path)
   };
 <button onClick= {() => showFriendDetails(friend)} class="btn btn-primary">{friend.username}</button>
+//step 3
+//detail component
+import { useParams } from 'react-router-dom';
+
+const {friendId} = useParams();
+<h2>This is Detail of a Friend: {friendId}</h2>
+
+//step 4
+//dynamic id use করে dynamic data load করতে চাইলে
+const [friend, setFriend] = useState({});
+ useEffect(() => {
+     const url = `https://jsonplaceholder.typicode.com/users/${friendId}`;
+     fetch(url)
+     .then(res => res.json())
+     .then(data => setFriend(data))
+ }, [])
+ 
+ <h2  className='underline text-center '>
+     Name: {friend.name}</h2>
+ <h2  className='underline text-center '>
+     Email: {friend.email}</h2>
+ <h2  className='underline text-center '>
+     Website: {friend.website}</h2>
+
 
 //<h4>Example 2 (Link)</h4>
 
 //step 1
 // create Details component and set Route in App.js
 <Route path='/friend/:friendId' element={<FriendDetail/>} />
+
 //step 2
  <Link to={'/friend/' + friend.id} class="btn btn-primary">Show Details</Link>
  or
  <Link to={`/friend/${friend.id}`} class="btn btn-primary">Show Details</Link>
+ 
+ //step 3
+//detail component
+import { useParams } from 'react-router-dom';
+
+const {friendId} = useParams();
+<h2>This is Detail of a Friend: {friendId}</h2>
+
+//FUll Detail Component Example
+
+import React, { useEffect, useState } from 'react';
+import { useParams } from 'react-router-dom';
+
+const FriendDetail = () => {
+    const {friendId} = useParams();
+    
+    const [friend, setFriend] = useState({});
+    useEffect(() => {
+        const url = `https://jsonplaceholder.typicode.com/users/${friendId}`;
+        fetch(url)
+        .then(res => res.json())
+        .then(data => setFriend(data))
+    }, [])
+    
+
+    return (
+        <div>
+            <h2  className='underline text-center '>This is Detail of a Friend: {friendId}</h2>
+            <h2  className='underline text-center '>
+                Name: {friend.name}</h2>
+            <h2  className='underline text-center '>
+                Email: {friend.email}</h2>
+            <h2  className='underline text-center '>
+                Website: {friend.website}</h2>
+        </div>
+    );
+};
+
+export default FriendDetail;
+
   
 ```
 
@@ -136,8 +201,8 @@ export default Navbar;
       <!-- row 1 -->
       <tr>
         <th>1</th>
-        <td>setCount(count + 1)</td>
-        <td>asynchronous</td>
+        <td>useParams()</td>
+        <td>useParams provite you object</td>
       </tr>
       <!-- row 2 -->
       <tr>
