@@ -18,10 +18,70 @@ List of React:
 
 ```js
 //step 1
-
+<Route path='/posts' element={<Posts/>}>
+   <Route path=':postId' element={<PostDetails/>}/>
+ </Route>
+  
  //step 2
+import React, { useEffect, useState } from 'react';
+import { Link, Outlet } from 'react-router-dom';
+
+const Posts = () => {
+    const [posts, setPosts] = useState([]);
+    useEffect(() => {
+        const url = 'https://jsonplaceholder.typicode.com/posts';
+        fetch(url)
+            .then(res => res.json())
+            .then(data => setPosts(data))
 
 
+    }, [])
+    return (
+        <div>
+            <h2>Every posts facebook ever had: {posts.length}</h2>
+            {
+                posts.map(post =>
+                    <Link
+                        key={post.id}
+                        to={`/posts/${post.id}`}
+                    >
+                        {post.id} </Link>
+                )
+            }
+            // use outlet
+            <Outlet/>
+        </div>
+    );
+};
+
+export default Posts;
+
+ //step 3
+import React, { useEffect, useState } from 'react';
+import { useParams } from 'react-router-dom';
+
+const PostDetails = () => {
+    const {postId} = useParams();
+    const [post, setPost] = useState({});
+    useEffect(() => {
+        const url = `https://jsonplaceholder.typicode.com/posts/${postId}`;
+        fetch(url)
+            .then(res => res.json())
+            .then(data => setPost(data))
+    }, [postId])
+    
+    console.log(post)
+    
+    return (
+        <div>
+            <h2>PostDetails for: {postId}</h2>
+            <h4>{post.title}</h4>
+            <p>{post.body}</p>
+        </div>
+    );
+};
+
+export default PostDetails;
 ```
 
 ### CustomLink
