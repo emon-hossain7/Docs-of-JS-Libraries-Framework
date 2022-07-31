@@ -11,7 +11,9 @@ List of React:
 - [useState](#useState)
 - [useEffect](#useEffect)
 - [Immutable](#Immutable)
+- [searchItem](#searchItem)
 - [localStorageSessionStorage](#localStorageSessionStorage)
+
 
 - [useState](#useState)
 - [useEffect](#useEffect)
@@ -101,6 +103,58 @@ const [cart, setCart] = useState([]);
         const newCart = [...cart, product];
         setCart(newCart)
     }
+```
+### searchItem
+<details>
+<summary>
+  <h4>What is searchItem?</h4>
+</summary>
+<br >
+- searchItem is
+</details>
+
+```js
+  //step 1
+    // create input filed and button
+    <input onChange={searchFood} type="text" placeholder="Type here"/>
+  //step 2
+    // target input value
+    const searchFood = (event) => {
+        setSearchText(event.target.value)
+  };
+  //step 3
+    //keep data
+    const [searchText, setSearchText] = useState('');
+    const [loadMeals, setLoadMeals] = useState([]);
+  
+  //step 4
+  // call search api and daynamic
+     //search api call
+    useEffect(() => {
+        const url = `https://www.themealdb.com/api/json/v1/1/search.php?s=${searchText}`;
+        fetch(url)
+            .then(res => res.json())
+            .then(data => setLoadMeals(data.meals))
+    }, [searchText])
+  
+  //step 5
+    // map single items
+      {
+        loadMeals.map(loadMeal =>
+                <div key={loadMeal.idMeal} className="single-meal card w-auto bg-base-100 shadow-xl">
+                <figure className="">
+                    <img src={loadMeal.strMealThumb} alt="Shoes" className="rounded-md" />
+                </figure>
+                <div className="card- p-4 items-center text-center">
+                    <h2 className="card-title block  py-4 text-center">{loadMeal.strMeal}</h2>
+                    <p>{loadMeal.strInstructions.slice(0, 100)}</p>
+                    <div className="card-actions block py-3">
+                        <button onClick={() => handleAddToOrder(loadMeal.meal)}>Order Now</button>
+                    </div>
+                </div>
+            </div>
+        )
+      }
 ```
 
 
