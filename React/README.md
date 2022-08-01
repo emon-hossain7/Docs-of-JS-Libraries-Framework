@@ -8,7 +8,7 @@
 
 List of React:
 
-- [hooks](#hooks)
+- [customHooks](#customHooks)
 - [useState](#useState)
 - [useEffect](#useEffect)
 - [Immutable](#Immutable)
@@ -21,13 +21,13 @@ List of React:
 - [localStorageSessionStorage](#localStorageSessionStorage)
 - [Immutable](#Immutable)
 
-### hooks
+### customHooks
 <details>
 <summary>
-  <h4>What is hooks?</h4>
+  <h4>What is customHooks?</h4>
 </summary>
 <br >
-- hooks is
+- customHooks is
 </details>
 
 ```js
