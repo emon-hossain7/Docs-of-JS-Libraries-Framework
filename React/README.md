@@ -15,11 +15,7 @@ List of React:
 - [searchItem](#searchItem)
 - [localStorageSessionStorage](#localStorageSessionStorage)
 
-
-- [useState](#useState)
-- [useEffect](#useEffect)
-- [localStorageSessionStorage](#localStorageSessionStorage)
-- [Immutable](#Immutable)
+- [Table](#Table)
 
 ### customHooks
 <details>
