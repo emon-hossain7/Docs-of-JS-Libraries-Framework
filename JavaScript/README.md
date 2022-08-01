@@ -19,11 +19,6 @@ List of JavaScript:
 - [fetch_Keys_Values](#fetch_Keys_Values)
 - [Array](#Array)
 - [Object](#Object)
-- [LocalStorageAndSessionStorage](#LocalStorageAndSessionStorage)
-- [useUpdatePassword](#useupdatepassword)
-- [useUpdateProfile](#useupdateprofile)
-- [useSendPasswordResetEmail](#usesendpasswordresetemail)
-- [useSendEmailVerification](#usesendemailverification)
 - [Table](#Table)
 
 
@@ -271,7 +266,7 @@ console.log(positionIndex)
 //push (Add new elements to the first/last of an array)
 numbers.push(55);
 numbers.unshift(33);
-//push (Drop the new element at the first/las of an array)
+//push (remove the the first/last element of an array)
 numbers.pop();
 numbers.shift();
 
