@@ -254,6 +254,7 @@ console.log(values )
 </details>
 
 ```js
+//simple array you know?
 let numbers = [45, 68, 78, 56, 89, 98]
 //1. get element value by index
 let element = numbers[1]
@@ -266,7 +267,15 @@ console.log(numbers)
 let positionIndex = numbers.indexof(89)
 console.log(positionIndex)
 
-//Advance
+//=== Push and Pop===
+//push (Add new elements to the first/last of an array)
+numbers.push(55);
+numbers.unshift(33);
+//push (Drop the new element at the first/las of an array)
+numbers.pop();
+numbers.shift();
+
+//===Advance===
 // add or remove from an array
 const products = [
     { name: 'laptop', price: '3200', brand: 'Lenovo', color: 'Silver' },
