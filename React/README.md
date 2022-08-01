@@ -21,7 +21,7 @@ List of React:
 - [localStorageSessionStorage](#localStorageSessionStorage)
 - [Immutable](#Immutable)
 
-### useState
+### hooks
 <details>
 <summary>
   <h4>What is hooks?</h4>
