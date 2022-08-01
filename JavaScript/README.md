@@ -254,6 +254,19 @@ console.log(values )
 </details>
 
 ```js
+let numbers = [45, 68, 78, 56, 89, 98]
+//1. get element value by index
+let element = numbers[1]
+console.log(element)
+//2. set element value by index
+numbers[1] = 77;
+numbers[3] = 44;
+console.log(numbers)
+//3. find index of an element
+let positionIndex = numbers.indexof(89)
+console.log(positionIndex)
+
+//Advance
 // add or remove from an array
 const products = [
     { name: 'laptop', price: '3200', brand: 'Lenovo', color: 'Silver' },
@@ -507,7 +520,7 @@ export {
       <tr>
         <th>3</th>
         <td>Data Type</td>
-        <td>Premitive Data Type, Non PRemitive Data Type</td>
+        <td>Premitive Data Type, Non Premitive Data Type</td>
       </tr>
       <!-- row 8 -->
       <tr>
@@ -518,8 +531,14 @@ export {
        <!-- row 9 -->
       <tr>
         <th>9</th>
-        <td>Non PRemitive Data Type</td>
+        <td>Non Premitive Data Type</td>
         <td>Object, Array, Function </td>
+      </tr>
+      <!-- row 10 -->
+      <tr>
+        <th>9</th>
+        <td> </td>
+        <td>  </td>
       </tr>
 
     </tbody>
