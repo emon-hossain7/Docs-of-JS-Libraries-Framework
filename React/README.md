@@ -289,8 +289,8 @@ const Cosmetic = ({ cosmetic }) => {
       <!-- row 3 -->
       <tr>
         <th>3</th>
-        <td>Brice Swyre</td>
-        <td>Tax Accountant</td>
+        <td>Uncaught TypeError: cart is not iterable</td>
+        <td>looping problem</td>
       </tr>
     </tbody>
   </table>
