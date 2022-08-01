@@ -292,6 +292,14 @@ const Cosmetic = ({ cosmetic }) => {
         <td>Uncaught TypeError: cart is not iterable</td>
         <td>looping problem</td>
       </tr>
+       <!-- row 3 -->
+      <tr>
+        <th>3</th>
+        <td>Use Short Title</td>
+        <td><p className='product-name' title={name}>
+            {name.length > 20 ? name.slice(0, 20) + '...' : name}
+        </p></td>
+      </tr>
     </tbody>
   </table>
 </div>
