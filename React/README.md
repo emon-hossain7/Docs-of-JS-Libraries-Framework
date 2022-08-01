@@ -8,6 +8,7 @@
 
 List of React:
 
+- [hooks](#hooks)
 - [useState](#useState)
 - [useEffect](#useEffect)
 - [Immutable](#Immutable)
@@ -19,6 +20,37 @@ List of React:
 - [useEffect](#useEffect)
 - [localStorageSessionStorage](#localStorageSessionStorage)
 - [Immutable](#Immutable)
+
+### useState
+<details>
+<summary>
+  <h4>What is hooks?</h4>
+</summary>
+<br >
+- hooks is
+</details>
+
+```js
+//step 1 create component and file
+import { useEffect, useState } from "react";
+
+const useProducts = () => {
+    const [products, setProducts] = useState([]);
+
+    useEffect(() => {
+        fetch('products.json')
+        .then(res => res.json())
+        .then(data => setProducts(data))
+        
+    }, [])
+    // step 2 return your need 
+    return [products, setProducts];
+
+};
+// step 3 export function
+export default useProducts;
+
+```
 
 ### useState
 <details>
