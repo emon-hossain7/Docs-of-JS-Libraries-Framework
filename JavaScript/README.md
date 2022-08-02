@@ -89,6 +89,13 @@ for(let i = 0; i < numbers.length; i++){
 for(const number of numbers){
     console.log(number)  
 }
+// condition break (Example 4)
+for(let i = 1; i < 20; i++){
+    console.log(i)  
+    if(i > 5){
+        break;
+    }
+}
 
 
 ```
