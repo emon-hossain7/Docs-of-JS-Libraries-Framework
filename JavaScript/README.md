@@ -30,11 +30,7 @@ List of JavaScript:
   <h3>What is whileLoop?</h3>
 </summary>
 <br >
-  ### It takes 4 things to write a loop
-  // 1. loop variable
-  // 2. conditon inside while
-  // 3. Loop body
-  // 4. Change the loop variable
+
 </details>
 
 ```js
@@ -51,6 +47,13 @@ List of JavaScript:
         console.log(roastGiven, 'rost den')
         roastGiven++;
     }
+    //while loop in a reverse way
+    let num = 10
+    while(num >= 1){
+        console.log(num)
+        num--;
+    }
+
 
 ```
 
@@ -60,11 +63,7 @@ List of JavaScript:
   <h3>What is forLoop?</h3>
 </summary>
 <br >
-  ### It takes 4 things to write a forLoop
-  // 1. loop variable
-  // 2. conditon inside while
-  // 3. Loop body
-  // 4. Change the loop variable
+
 </details>
 
 ```js
@@ -95,6 +94,10 @@ for(let i = 1; i < 20; i++){
     if(i > 5){
         break;
     }
+}
+//for loop in a reverse way
+for (let i = 10; i >= 1; i--) {
+    console.log(i)
 }
 
 
