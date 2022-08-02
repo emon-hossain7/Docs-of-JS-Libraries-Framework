@@ -29,14 +29,11 @@ List of JavaScript:
   <h3>What is whileLoop?</h3>
 </summary>
 <br >
-```js
   ### It takes 4 things to write a loop
   // 1. loop variable
   // 2. conditon inside while
   // 3. Loop body
   // 4. Change the loop variable
-
-```
 </details>
 
 ```js
