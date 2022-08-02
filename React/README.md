@@ -68,6 +68,7 @@ export default useProducts;
           </Link>
       </Cart>
   </div>
+  //step 2 create component and file
   // order component
   <Cart cart={cart}>
    //child route and button change 
@@ -75,6 +76,16 @@ export default useProducts;
             <button className='btn'>Proceed Checkout</button>
         </Link>
     </Cart>
+    
+    //step 3 destructure
+    const Cart = ({ children }) => {
+          return (
+              <div className="cart">
+              //step 4 using
+                  {children}
+              </div>
+          );
+    };
 
 ```
 
