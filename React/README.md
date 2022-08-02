@@ -75,6 +75,12 @@ export default useProducts;
         <Link to='/inventory'>
             <button className='btn'>Proceed Checkout</button>
         </Link>
+        // if do not use link then use just button then using
+        import { Link, useNavigate } from 'react-router-dom';
+        
+        const navigate = useNavigate();
+        
+        <button onClick={() => navigate('/inventory')} className='btn'>Proceed Checkout</button>
     </Cart>
     
     //step 3 destructure
