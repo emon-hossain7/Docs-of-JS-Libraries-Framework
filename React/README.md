@@ -9,6 +9,7 @@
 List of React:
 
 - [customHooks](#customHooks)
+- [ChildrenChange](#ChildrenChange)
 - [useState](#useState)
 - [useEffect](#useEffect)
 - [Immutable](#Immutable)
@@ -45,6 +46,35 @@ const useProducts = () => {
 };
 // step 3 export function
 export default useProducts;
+
+```
+### ChildrenChange
+<details>
+<summary>
+  <h4>What is ChildrenChange?</h4>
+</summary>
+<br >
+- ChildrenChange is
+</details>
+
+```js
+//step 1 create component and file
+// shop component
+  <div className="cart-container">
+      <Cart cart={cart}>
+      //child route and button change 
+          <Link to='/orders'>
+              <button className='btn'>Review Order</button>
+          </Link>
+      </Cart>
+  </div>
+  // order component
+  <Cart cart={cart}>
+   //child route and button change 
+        <Link to='/inventory'>
+            <button className='btn'>Proceed Checkout</button>
+        </Link>
+    </Cart>
 
 ```
 
