@@ -8,6 +8,7 @@
 
 List of JavaScript:
 
+- [whileLoop](#whileLoop)
 - [TemplateString](#TemplateString)
 - [ArrowFunction](#ArrowFunction)
 - [SpreadOperator](#SpreadOperator)
@@ -21,6 +22,20 @@ List of JavaScript:
 - [Object](#Object)
 - [Table](#Table)
 
+
+### whileLoop
+<details>
+<summary>
+  <h3>What is whileLoop?</h3>
+</summary>
+<br >
+- whileLoop  is
+</details>
+
+```js
+
+
+```
 
 ### TemplateString
 <details>
