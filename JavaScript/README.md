@@ -9,6 +9,7 @@
 List of JavaScript:
 
 - [whileLoop](#whileLoop)
+- [forLoop](#forLoop)
 - [TemplateString](#TemplateString)
 - [ArrowFunction](#ArrowFunction)
 - [SpreadOperator](#SpreadOperator)
@@ -74,10 +75,21 @@ List of JavaScript:
   // 3. Loop body
   // 4. Change the loop variable
   ====================
-// simple version of for loop
+// simple version of for loop (Example 1)
 for(let i = 0; i < 7; i++){
     console.log(i)
 }
+ let numbers = [45, 87, 89, 56, 32, 51, 25]
+// (Example 2)
+for(let i = 0; i < numbers.length; i++){
+    const number = numbers[i];
+    console.log(number)
+}
+// (Example 3)
+for(const number of numbers){
+    console.log(number)  
+}
+
 
 ```
 
