@@ -53,6 +53,34 @@ List of JavaScript:
 
 ```
 
+### forLoop
+<details>
+<summary>
+  <h3>What is forLoop?</h3>
+</summary>
+<br >
+  ### It takes 4 things to write a forLoop
+  // 1. loop variable
+  // 2. conditon inside while
+  // 3. Loop body
+  // 4. Change the loop variable
+</details>
+
+```js
+
+ ### It takes 4 things to write a loop
+  // 1. loop variable
+  // 2. conditon inside while
+  // 3. Loop body
+  // 4. Change the loop variable
+  ====================
+// simple version of for loop
+for(let i = 0; i < 7; i++){
+    console.log(i)
+}
+
+```
+
 ### TemplateString
 <details>
 <summary>
