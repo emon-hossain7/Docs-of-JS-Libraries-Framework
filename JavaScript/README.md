@@ -44,11 +44,12 @@ List of JavaScript:
   // 3. Loop body
   // 4. Change the loop variable
   ====================
-let roastGiven = 0;
-while(roastGiven <= 17){
-    console.log(roastGiven, 'rost den')
-    roastGiven++;
-}
+  //simple typeing while loop
+    let roastGiven = 0;
+    while(roastGiven <= 17){
+        console.log(roastGiven, 'rost den')
+        roastGiven++;
+    }
 
 ```
 
