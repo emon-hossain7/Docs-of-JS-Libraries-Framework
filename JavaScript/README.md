@@ -98,6 +98,16 @@ for(let i = 1; i < 20; i++){
         break;
     }
 }
+// condition loop continue
+let bookPrices = [234, 42, 124, 768, 91, 765, 231, 90, 89, 64, 200, 23, 201]
+for(i = 0; i < bookPrices.length; i++){
+    let bookPrice = bookPrices[i]
+    if(bookPrice > 200){
+        continue;
+    }
+    console.log(bookPrice, 'book price ')
+}
+
 //for loop in a reverse way
 for (let i = 10; i >= 1; i--) {
     console.log(i)
