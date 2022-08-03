@@ -121,6 +121,7 @@ export default PostDetails;
 }
 // step 3
 // use CustomLink component
+import CustomLink from '../CustomLink/CustomLink';
 <CustomLink to='/'>Home</CustomLink>
 
 ```
