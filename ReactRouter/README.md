@@ -101,6 +101,7 @@ export default PostDetails;
 //step 1
  create CustomLink component
  //step 2
+ import { Link, useMatch, useResolvedPath } from 'react-router-dom';
  // change the function
  function CustomLink({ children, to, ...props }) {
     let resolved = useResolvedPath(to);
