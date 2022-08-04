@@ -443,6 +443,14 @@ let penCount2 = shoppingCart['pen']
 let propertiesKeys = Object.keys(shoppingCart)
 // when you want all propeties values name
 let propertiesValues = Object.values(shoppingCart)
+
+
+//set property values
+shoppingCart.mouse = 15;
+shoppingCart['mouse'] = 29;
+shoppingCart[propertyName] = 89;
+
+
 ```
 
 ### numberStringConversion
