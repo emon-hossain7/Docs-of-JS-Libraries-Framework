@@ -9,6 +9,7 @@
 List of React:
 
 - [handleAddtoCart](#handleAddtoCart)
+- [handleRemoveFromCart](#handleRemoveFromCart)
 - [customHooks](#customHooks)
 - [ChildrenChange](#ChildrenChange)
 - [useState](#useState)
@@ -44,6 +45,33 @@ const [cart, setCart] = useState([]);
 // distucture
 { tShirt, handleAddtoCart }
 <button onClick={() => handleAddtoCart(tShirt)}>Add to Cart</button>
+```
+
+### handleRemoveFromCart
+<details>
+<summary>
+  <h4>What is handleRemoveFromCart?</h4>
+</summary>
+<br >
+- handleRemoveFromCart is
+</details>
+
+```js
+//step 1 
+const [cart, setCart] = useState([]);
+const handleRemoveFromCart = (selectedItem) => {
+      const rest = cart.filter(tShirt => tShirt._id !== selectedItem._id);
+      setCart(rest)
+  };
+// step 2  
+<Cart
+  cart={cart}
+  handleRemoveFromCart={handleRemoveFromCart}
+/>
+// step 3
+// distucture
+{cart, handleRemoveFromCart}
+ <button onClick={() => handleRemoveFromCart(tShirt)}>X</button>
 ```
 
 ### customHooks
