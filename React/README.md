@@ -58,6 +58,7 @@ if(cart.length === 0){
 </details>
 
 ```js
+### Context Api
 1. call createContext with a default getValue
 2. set a variable of the context with uppercase
 3. make sure you export the context to use it in other places
