@@ -429,7 +429,20 @@ const remaining = products.filter(product => product.name !== 'phone');
 </details>
 
 ```js
-
+let shoppingCart = {
+    books: 3,
+    sunglass: 2,
+    kewboard: 4,
+    mouse: 1,
+    pen: 23
+}
+// when you kno the specific property name
+let penCount = shoppingCart.pen;
+let penCount2 = shoppingCart['pen']
+// when you want all propeties keys name
+let propertiesKeys = Object.keys(shoppingCart)
+// when you want all propeties values name
+let propertiesValues = Object.values(shoppingCart)
 ```
 
 ### numberStringConversion
