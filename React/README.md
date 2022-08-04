@@ -63,13 +63,16 @@ export const DemoContext = createContext('diamond');
 // function er উপরে
 const DemoContext = createContext('diamond');
 //step 2
-<DemoContext.Provider value='demo content'>
+ const ornament = 'ring';
+<DemoContext.Provider value={ornament}>
       <div>
           <h2>Grandpa</h2>
       </div>
   </DemoContext.Provider>
   // step 3 using
-  
+  import React, { useContext } from 'react';
+  const ring = useContext(DemoContext);
+  <p>{ring}</p>
 
 ```
 
