@@ -8,6 +8,7 @@
 
 List of React:
 
+- [handleAddtoCart](#handleAddtoCart)
 - [customHooks](#customHooks)
 - [ChildrenChange](#ChildrenChange)
 - [useState](#useState)
@@ -17,6 +18,33 @@ List of React:
 - [localStorageSessionStorage](#localStorageSessionStorage)
 
 - [Table](#Table)
+
+### handleAddtoCart
+<details>
+<summary>
+  <h4>What is customHooks?</h4>
+</summary>
+<br >
+- customHooks is
+</details>
+
+```js
+//step 1 
+const [cart, setCart] = useState([]);
+
+    const handleAddtoCart = (selectedItem) => {
+       const newCart = [...cart, selectedItem]
+        setCart(newCart)
+    };
+// step 2  
+<Cart
+  cart={cart}
+/>
+// step 3
+// distucture
+{ tShirt, handleAddtoCart }
+<button onClick={() => handleAddtoCart(tShirt)}>Add to Cart</button>
+```
 
 ### customHooks
 <details>
