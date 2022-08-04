@@ -58,6 +58,14 @@ if(cart.length === 0){
 </details>
 
 ```js
+1. call createContext with a default getValue
+2. set a variable of the context with uppercase
+3. make sure you export the context to use it in other places
+4. wrap you child context useing DemoContext.Provider
+5. Provide a getValue
+6. to consume the context from child Component
+7. useContext hook and will you need to pass the contextName
+====================
 //step 1 
 export const DemoContext = createContext('diamond');
 // function er উপরে
