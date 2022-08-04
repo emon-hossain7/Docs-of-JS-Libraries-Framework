@@ -54,7 +54,7 @@ if(cart.length === 0){
   <h4>What is contextApi?</h4>
 </summary>
 <br >
-- contextApi is
+- contextApi is . Context api using langguage changing, theme color changing.
 </details>
 
 ```js
