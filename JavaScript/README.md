@@ -8,6 +8,7 @@
 
 List of JavaScript:
 
+- [function](#function)
 - [whileLoop](#whileLoop)
 - [forLoop](#forLoop)
 - [TemplateString](#TemplateString)
@@ -24,6 +25,28 @@ List of JavaScript:
 - [Table](#Table)
 - [Output](#Output)
 
+### whileLoop
+<details>
+<summary>
+  <h3>What is function?</h3>
+</summary>
+<br >
+function 
+</details>
+
+```js
+  //simple declaration
+    //function declaration
+    function startFan(){
+        console.log('stand up')
+        console.log('walk towards the switch')
+        console.log('press the switch')
+
+    }
+    // call the function
+    startFan()
+
+```
 
 ### whileLoop
 <details>
