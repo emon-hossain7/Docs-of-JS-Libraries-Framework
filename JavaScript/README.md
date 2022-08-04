@@ -25,7 +25,7 @@ List of JavaScript:
 - [Table](#Table)
 - [Output](#Output)
 
-### whileLoop
+### function
 <details>
 <summary>
   <h3>What is function?</h3>
@@ -45,6 +45,17 @@ function
     }
     // call the function
     startFan()
+    
+  //  function with paramiter (Example 2)
+    function functionName(parameters){
+      /*   function body
+        return */
+    }
+    // call the function
+    let returedValue =  startFan(parameters);
+
+    console.log(returedValue)
+
 
 ```
 
