@@ -43,6 +43,7 @@ if(cart.length === 0){
 }
 2. Ternary Operator (condition ? true : false)
 3. true && condition (আগের condition true হইলে পরেরটা হবে)
+4. false || condition (আগের condition false হইলে পরেরটা হবে)
 
 ```
 
