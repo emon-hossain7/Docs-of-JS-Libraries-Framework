@@ -37,6 +37,17 @@ const [cart, setCart] = useState([]);
        const newCart = [...cart, selectedItem]
         setCart(newCart)
     };
+    
+    // যেই cart selet korso oi ta ase ki na check koro
+    const handleAddtoCart = (selectedItem) => {
+        const exists = cart.find(tShirt => tShirt._id === selectedItem._id);
+        if (!exists) {
+            const newCart = [...cart, selectedItem]
+            setCart(newCart)
+        }else{
+            alert('item already added')
+        }
+    };
 // step 2  
 <Cart
   cart={cart}
