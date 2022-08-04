@@ -9,6 +9,7 @@
 List of React:
 
 - [conditionalRendering](#conditionalRendering)
+- [contextApi](#contextApi)
 - [handleAddtoCart](#handleAddtoCart)
 - [handleRemoveFromCart](#handleRemoveFromCart)
 - [customHooks](#customHooks)
@@ -44,6 +45,31 @@ if(cart.length === 0){
 2. Ternary Operator (condition ? true : false)
 3. true && condition (আগের condition true হইলে পরেরটা হবে)
 4. false || condition (আগের condition false হইলে পরেরটা হবে)
+
+```
+
+### contextApi
+<details>
+<summary>
+  <h4>What is contextApi?</h4>
+</summary>
+<br >
+- contextApi is
+</details>
+
+```js
+//step 1 
+export const DemoContext = createContext('diamond');
+// function er উপরে
+const DemoContext = createContext('diamond');
+//step 2
+<DemoContext.Provider value='demo content'>
+      <div>
+          <h2>Grandpa</h2>
+      </div>
+  </DemoContext.Provider>
+  // step 3 using
+  
 
 ```
 
