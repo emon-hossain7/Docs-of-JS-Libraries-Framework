@@ -177,6 +177,41 @@ for (let i = 10; i >= 1; i--) {
 }
 
 
+//array value (array এর মান যোগ)
+function getSumOfAnArray(numbers){
+    let sum = 0;
+    for(let i = 0; i < numbers.length; i++){
+        const index = i;
+        const element = numbers[index];
+        sum = sum + element;
+    }
+    return sum;
+}
+
+// find array in odd numbers
+function getOddNumbersOfAnArray(numbers){
+    const oddNumbers = [];
+    
+    for(let i = 0; i < numbers.length; i++){
+        const index = i;
+        const element = numbers[index];
+        if(element % 2 !== 0){
+            console.log(index, element)
+            oddNumbers.push(element)
+            console.log(oddNumbers)
+        }
+    }
+    return oddNumbers;
+}
+
+const myNumbers = [12, 43, 54, 65, 78, 91];
+const oddNumbers = getOddNumbersOfAnArray(myNumbers)
+console.log(oddNumbers)
+const oddNumberSum = getSumOfAnArray(myNumbers)
+console.log('odd number sum',oddNumberSum )
+
+
+
 ```
 
 ### TemplateString
@@ -461,7 +496,16 @@ function getSumOfAnArray(numbers){
 const myNumbers = [12, 43, 54, 65, 78, 91];
 getSumOfAnArray(myNumbers)
 
-
+// find array in odd numbers
+function getOddNumbersOfAnArray(numbers){
+    for(let i = 0; i < numbers.length; i++){
+        const index = i;
+        const element = numbers[index];
+        if(element % 2 !== 0){
+            console.log(index, element)
+        }
+    }
+}
 
 
 
