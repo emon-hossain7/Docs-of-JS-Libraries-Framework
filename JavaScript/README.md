@@ -54,8 +54,25 @@ function
     }
     // call the function
     let returedValue =  startFan(parameters);
-
     console.log(returedValue)
+    
+    // even & odd number
+      function isEven(number){
+          const remainder = number % 2;
+          if(remainder == 0){
+              // console.log('number is even')
+              return true;
+          }
+          else{
+              // console.log('number is odd')
+              return false;
+          }
+      }
+      let myNumberIsEven = isEven(588)
+      console.log(myNumberIsEven)
+
+      let herNumberIsEven = isEven(1231)
+      console.log(herNumberIsEven)
 
 
 ```
