@@ -211,7 +211,7 @@ const oddNumberSum = getSumOfAnArray(myNumbers)
 console.log('odd number sum',oddNumberSum )
 
 // multiplication 1 to 7
-function multiplicationOfNumbers(number){
+function factorial(number){
     let result = 1;
     for(let i = 1; i <=number; i++){
         result = result * i
@@ -219,8 +219,9 @@ function multiplicationOfNumbers(number){
     return result;
 }
 
-const result = multiplicationOfNumbers(7);
+const result = factorial(7);
 console.log(result)
+
 
 
 ```
