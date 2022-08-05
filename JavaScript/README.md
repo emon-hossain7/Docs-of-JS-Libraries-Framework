@@ -445,6 +445,27 @@ const newProducts = [...products, newProduct];
 //create a new array without one specific item
 //remove item means create a new array without the 
 const remaining = products.filter(product => product.name !== 'phone');
+
+//array value (array এর মান যোগ)
+function getSumOfAnArray(numbers){
+    console.log(numbers)
+    let sum = 0;
+    for(let i = 0; i < numbers.length; i++){
+        const index = i;
+        const element = numbers[index];
+        sum = sum + element;
+        console.log(index, element, sum)
+    }
+    return sum;
+}
+const myNumbers = [12, 43, 54, 65, 78, 91];
+getSumOfAnArray(myNumbers)
+
+
+
+
+
+
 ```
 
 ### Object
