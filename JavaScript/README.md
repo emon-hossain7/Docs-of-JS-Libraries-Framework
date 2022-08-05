@@ -22,8 +22,8 @@ List of JavaScript:
 - [fetch_Keys_Values](#fetch_Keys_Values)
 - [Array](#Array)
 - [Object](#Object)
-- [Table](#Table)
 - [switch](#switch)
+- [Table](#Table)
 - [Output](#Output)
 
 ### function
