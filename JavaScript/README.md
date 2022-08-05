@@ -73,6 +73,17 @@ function
 
       let herNumberIsEven = isEven(1231)
       console.log(herNumberIsEven)
+      
+      // year is a Leap Year or not (simplified way)?
+      function isLeapYear(year){
+          const remainder = year % 4;
+          if(remainder === 0){
+              console.log('year is leap year', year)
+          }else{
+              console.log('year is not a leap year', year)
+          }
+      }
+      isLeapYear(2024)
 
 
 ```
