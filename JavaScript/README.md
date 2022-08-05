@@ -821,8 +821,26 @@ switch (color) {
       </tr>
       <!-- row 10 -->
       <tr>
-        <th>9</th>
-        <td> </td>
+        <th>10</th>
+        <td>Factorial </td>
+        <td>  </td>
+      </tr>
+       <!-- row 11 -->
+      <tr>
+        <th>10</th>
+        <td>Factorial </td>
+        <td>A factorial is a function that multiplies a number by ev ery number below it till 1. </td>
+      </tr>
+       <!-- row 12 -->
+      <tr>
+        <th>10</th>
+        <td>Factorial </td>
+        <td>  </td>
+      </tr>
+       <!-- row 13 -->
+      <tr>
+        <th>10</th>
+        <td>Factorial </td>
         <td>  </td>
       </tr>
 
