@@ -864,8 +864,8 @@ switch (color) {
        <!-- row 17 -->
       <tr>
         <th>17</th>
-        <td> </td>
-        <td>  </td>
+        <td> String</td>
+        <td>String হচ্ছে imutable. এর মান বা value change করা যাই না.  </td>
       </tr>
        <!-- row 17 -->
       <tr>
