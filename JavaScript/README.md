@@ -906,8 +906,8 @@ switch (color) {
        <!-- row 17 -->
       <tr>
         <th>17</th>
-        <td> </td>
-        <td>  </td>
+        <td> Math </td>
+        <td> Math, abs, pow, round, ceil, floor, and random number </td>
       </tr>
        <!-- row 17 -->
       <tr>
