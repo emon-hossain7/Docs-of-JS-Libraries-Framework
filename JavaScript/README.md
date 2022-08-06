@@ -889,8 +889,8 @@ switch (color) {
        <!-- row 17 -->
       <tr>
         <th>17</th>
-        <td> </td>
-        <td>  </td>
+        <td> String</td>
+        <td>  Apply Search includes, indexOf, startswith, endswith </td>
       </tr>
        <!-- row 17 -->
       <tr>
