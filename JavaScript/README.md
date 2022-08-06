@@ -9,6 +9,7 @@
 List of JavaScript:
 
 - [function](#function)
+- [String](#String)
 - [whileLoop](#whileLoop)
 - [forLoop](#forLoop)
 - [TemplateString](#TemplateString)
@@ -85,6 +86,24 @@ function
       }
       isLeapYear(2024)
 
+
+```
+
+### String
+<details>
+<summary>
+  <h3>What is String?</h3>
+</summary>
+<br >
+
+</details>
+
+```js
+//find the value in string
+// using includes
+const  lyrics  = 'Tumi bondhu kala pakhi ami jeno ki.';
+const doesExist = lyrics.includes('pakhi');
+console.log(doesExist)
 
 ```
 
