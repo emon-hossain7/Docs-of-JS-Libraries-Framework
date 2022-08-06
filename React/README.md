@@ -8,6 +8,7 @@
 
 List of React:
 
+- [searchItems](#searchItems)
 - [conditionalRendering](#conditionalRendering)
 - [contextApi](#contextApi)
 - [handleAddtoCart](#handleAddtoCart)
@@ -22,6 +23,27 @@ List of React:
 
 - [Table](#Table)
 
+### searchItems
+<details>
+<summary>
+  <h4>What is searchItems?</h4>
+</summary>
+<br >
+- searchItems is
+</details>
+
+```js
+//step 1 
+//create input field and add event handeler
+const handleSearchChange = (event) => {
+    console.log(event.target.value)
+};
+<input onChange={handleSearchChange} type="search" placeholder="Search Mockups"/>
+//step 2
+//set useState
+const [searchResult, setSearchResult] = useState([]);
+
+```
 
 ### conditionalRendering
 <details>
