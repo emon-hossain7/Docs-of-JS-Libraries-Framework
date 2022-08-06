@@ -99,7 +99,7 @@ function
 </details>
 
 ```js
-//find the value in string
+//find the value in string (search string)
 // using includes
 const  lyrics  = 'Tumi bondhu kala pakhi ami jeno ki.';
 const doesExist = lyrics.includes('pakhi');
