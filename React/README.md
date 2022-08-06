@@ -50,6 +50,25 @@ const [searchResult, setSearchResult] = useState([]);
       console.log(match)
       setSearchResult(match)
   };
+  
+  
+  // full example
+     const [searchText, setSearchText] = useState([]);
+    const [searchResult, setSearchResult] = useState([]);
+   
+    useEffect(() => {
+        console.log('inside the use effect')
+        fetch('tShirts.json')
+        .then(res => res.json())
+        .then(data => {
+            const match = data.filter(d => d.name.includes(searchText));
+            setSearchResult(match)
+        })
+    }, [searchText])
+
+    const handleSearchChange = (event) => {
+        setSearchText(event.target.value);
+    };
 
 ```
 
