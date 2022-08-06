@@ -42,6 +42,14 @@ const handleSearchChange = (event) => {
 //step 2
 //set useState
 const [searchResult, setSearchResult] = useState([]);
+ const handleSearchChange = (event) => {
+      const searchText = (event.target.value);
+      console.log(searchText)
+
+      const match = tShirts.filter(tShirt => tShirt.name.includes(searchText))
+      console.log(match)
+      setSearchResult(match)
+  };
 
 ```
 
