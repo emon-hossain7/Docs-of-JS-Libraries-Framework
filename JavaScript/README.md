@@ -110,6 +110,9 @@ const  lyrics  = 'Tumi bondhu kala pakhi ami jeno ki.';
 const parts = lyrics.split('');
 //slice  দিয়ে কোন index diya start hobe & কোন index end hobe
 const partial = lyrics.slice(5, 15);
+//
+const joinInString = lyrics.join(', ');
+
 console.log(parts)
 
 
