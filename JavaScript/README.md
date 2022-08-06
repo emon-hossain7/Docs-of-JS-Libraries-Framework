@@ -822,8 +822,8 @@ switch (color) {
       <!-- row 10 -->
       <tr>
         <th>10</th>
-        <td>Factorial </td>
-        <td>  </td>
+        <td>Variable </td>
+        <td> declare, naming convention, variable types, primitive, math operations. </td>
       </tr>
        <!-- row 11 -->
       <tr>
@@ -834,13 +834,67 @@ switch (color) {
        <!-- row 12 -->
       <tr>
         <th>10</th>
-        <td>Factorial </td>
-        <td>  </td>
+        <td>Conditionals </td>
+        <td> comparison: >, <, >=, <=, ===, !==, if-else  </td>
       </tr>
        <!-- row 13 -->
       <tr>
-        <th>10</th>
-        <td>Factorial </td>
+        <th>14</th>
+        <td> Array</td>
+        <td> Declare, index, get values, set values, indexOf, push, pop </td>
+      </tr>
+       <!-- row 14 -->
+      <tr>
+        <th>14</th>
+        <td> Loop</td>
+        <td> for loop, while loop, break, continue </td>
+      </tr>
+       <!-- row 15 -->
+      <tr>
+        <th>15</th>
+        <td> Function</td>
+        <td> declare, parameters, return, call, use the returned value from a function </td>
+      </tr>
+       <!-- row 16 -->
+      <tr>
+        <th>16</th>
+        <td> Objeect</td>
+        <td> declare, properties, keys , values, get prop value, set value, loop object. </td>
+      </tr>
+       <!-- row 17 -->
+      <tr>
+        <th>17</th>
+        <td> </td>
+        <td>  </td>
+      </tr>
+       <!-- row 17 -->
+      <tr>
+        <th>17</th>
+        <td> </td>
+        <td>  </td>
+      </tr>
+       <!-- row 17 -->
+      <tr>
+        <th>17</th>
+        <td> </td>
+        <td>  </td>
+      </tr>
+       <!-- row 17 -->
+      <tr>
+        <th>17</th>
+        <td> </td>
+        <td>  </td>
+      </tr>
+       <!-- row 17 -->
+      <tr>
+        <th>17</th>
+        <td> </td>
+        <td>  </td>
+      </tr>
+       <!-- row 17 -->
+      <tr>
+        <th>17</th>
+        <td> </td>
         <td>  </td>
       </tr>
 
