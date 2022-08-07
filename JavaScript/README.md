@@ -823,7 +823,7 @@ switch (color) {
 ```js
 
 ### Number 1 
-//Example 1
+//Number 1 => Example 1
 //  way of String (string  টা কে  সোজা দিক থেকে console.log করা)
 // text = myString কারণ  parametar যেইটাই পাঠাই না কেন অন্য নামে recive kore 
 // যেমন myString হিসাবে পাঠাইছে  text হিসাবে recived করছে
@@ -835,7 +835,7 @@ function reverseString(text){
         
     }
 }
-//Example @
+//Number 1 => Example 2
 // reverse way of String (string টা কে উল্টা দিক থেকে console.log করা)
 function reverseString(text){
     for(let i = text.length; i >= 0; i--){
@@ -848,7 +848,8 @@ const myString = 'i am a good boy';
 const reversed = reverseString(myString);
 console.log(reversed)
 
-### Number 2
+//Number 2
+//Number 2 => Example 1
 
 
 ```
