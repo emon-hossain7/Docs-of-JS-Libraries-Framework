@@ -24,6 +24,7 @@ List of JavaScript:
 - [Array](#Array)
 - [Object](#Object)
 - [switch](#switch)
+- [jsProblemSolved](#jsProblemSolved)
 - [Table](#Table)
 - [Output](#Output)
 
@@ -814,6 +815,15 @@ switch (color) {
     default:
         console.log('You are a pink friend')
 }
+
+```
+
+### jsProblemSolved
+
+```js
+//switch
+
+
 
 ```
 
