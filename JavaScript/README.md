@@ -913,7 +913,7 @@ switch (color) {
       <tr>
         <th>17</th>
         <td> destructing two way (valriable value swap)</td>
-        <td> Array to Array, Object to Object </td>
+        <td> Array to Array /* [first, second] = [second, first] */, Object to Object </td>
       </tr>
        <!-- row 17 -->
       <tr>
