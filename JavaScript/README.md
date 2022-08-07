@@ -824,7 +824,7 @@ switch (color) {
 
 ### Number 1 
 //Number 1 => Example 1
-//  way of String (string  টা কে  সোজা দিক থেকে console.log করা)
+// charecter forword way of String (string  টা কে  সোজা দিক থেকে console.log করা)
 // text = myString কারণ  parametar যেইটাই পাঠাই না কেন অন্য নামে recive kore 
 // যেমন myString হিসাবে পাঠাইছে  text হিসাবে recived করছে
 function reverseString(text){
@@ -836,7 +836,7 @@ function reverseString(text){
     }
 }
 //Number 1 => Example 2
-// reverse way of String (string টা কে উল্টা দিক থেকে console.log করা)
+// charecter reverse way of String (string টা কে উল্টা দিক থেকে console.log করা)
 function reverseString(text){
     for(let i = text.length; i >= 0; i--){
         const element = text[i];
@@ -847,6 +847,27 @@ function reverseString(text){
 const myString = 'i am a good boy';
 const reversed = reverseString(myString);
 console.log(reversed)
+
+//Number 1 => Example 3
+// Word reverse way of String (string টা কে উল্টা দিক থেকে console.log করা)
+function reverseWord(str){
+    //split kore potita word ke alada alada kor hoisa
+    const words = str.split(' ');
+    const result = [];
+    //-1 last element er index 1 kom (undifiend jate na dekhai) 
+    for(let i =  words.length - 1; i >= 0; i--){
+        const element = words[i];
+        
+        result.push(element)
+    }
+    // word gulo ek sentens anar jonno join kora hoisa
+    const reversed = result.join(' ');
+    return reversed;
+}
+const myString = 'i am a good boy';
+const reversed = reverseWord(myString);
+console.log(reversed)
+
 
 //Number 2
 //Number 2 => Example 1
