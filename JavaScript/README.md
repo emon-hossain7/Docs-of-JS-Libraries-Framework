@@ -912,8 +912,8 @@ switch (color) {
        <!-- row 17 -->
       <tr>
         <th>17</th>
-        <td> </td>
-        <td>  </td>
+        <td> destructing two way (valriable value swap)</td>
+        <td> Array to Array, Object to Object </td>
       </tr>
        <!-- row 17 -->
       <tr>
