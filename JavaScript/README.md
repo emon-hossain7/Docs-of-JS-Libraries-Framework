@@ -1028,14 +1028,14 @@ console.log(fibo)
        <!-- row 17 -->
       <tr>
         <th>17</th>
-        <td> </td>
-        <td>  </td>
+        <td> Array Check</td>
+        <td> //check array using Array.isArray | console.log(Array.isArray(friends)) </td>
       </tr>
        <!-- row 17 -->
       <tr>
         <th>17</th>
-        <td> </td>
-        <td>  </td>
+        <td> Array Name Check (ase ki na) </td>
+        <td> const friends = [13, 14, 11, 17, 21, 16, 15, 20]; | console.log(friends.includes(19))</td>
       </tr>
 
     </tbody>
