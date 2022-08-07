@@ -868,6 +868,23 @@ const myString = 'i am a good boy';
 const reversed = reverseWord(myString);
 console.log(reversed)
 
+//Number 1 => Example 4
+// আগের দুটা মান যোগ করে পরের মান সেট করা
+//const fibonacci = [0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144]
+/* 
+    fibo[3] = fibo[2] + fibo[1]
+    fibo[4] = fibo[3] + fibo[2]
+    fibo[n] = fibo[n-1] + fibo[n-2]
+    fibo[3] = fibo[i-1] + fibo[i-2]
+*/
+const fibo  = [0, 1];
+// 0, 1 already define(0 ,1  value diyai dici tai 2 theke start korta hobe)
+for(let i = 2; i <= 25; i++){
+    fibo[i] = fibo[i - 1] + fibo[i - 2]
+}
+
+console.log(fibo)
+
 
 //Number 2
 //Number 2 => Example 1
