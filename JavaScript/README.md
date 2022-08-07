@@ -252,6 +252,24 @@ function factorial(number){
 const result = factorial(7);
 console.log(result)
 
+//সব থেকে বড় number ta বের করা।
+function maxInArray(numbers) {
+    //সব থেকে বড় number 0 ধরলাম।
+    let largest = numbers[0];
+    for (let i = 0; i < numbers.length; i++) {
+        const index = i;
+        const element = numbers[index];
+        if (element > largest) {
+            largest = element;
+        }
+
+    }
+    return largest;
+}
+
+const heights = [167, 190, 120, 165, 139, 534];
+const tallest = maxInArray(heights);
+console.log('tallest person is', tallest)
 
 
 ```
@@ -549,7 +567,24 @@ function getOddNumbersOfAnArray(numbers){
     }
 }
 
+//সব থেকে বড় number ta বের করা।
+function maxInArray(numbers) {
+    //সব থেকে বড় number 0 ধরলাম।
+    let largest = numbers[0];
+    for (let i = 0; i < numbers.length; i++) {
+        const index = i;
+        const element = numbers[index];
+        if (element > largest) {
+            largest = element;
+        }
 
+    }
+    return largest;
+}
+
+const heights = [167, 190, 120, 165, 139, 534];
+const tallest = maxInArray(heights);
+console.log('tallest person is', tallest)
 
 
 ```
