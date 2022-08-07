@@ -821,8 +821,34 @@ switch (color) {
 ### jsProblemSolved
 
 ```js
-//switch
 
+### Number 1 
+//Example 1
+//  way of String (string  টা কে  সোজা দিক থেকে console.log করা)
+// text = myString কারণ  parametar যেইটাই পাঠাই না কেন অন্য নামে recive kore 
+// যেমন myString হিসাবে পাঠাইছে  text হিসাবে recived করছে
+function reverseString(text){
+    for(let i = 0; i < text.length; i++){
+        const element = text[i];
+        console.log(element)
+        
+        
+    }
+}
+//Example @
+// reverse way of String (string টা কে উল্টা দিক থেকে console.log করা)
+function reverseString(text){
+    for(let i = text.length; i >= 0; i--){
+        const element = text[i];
+        console.log(element)
+    }
+}
+
+const myString = 'i am a good boy';
+const reversed = reverseString(myString);
+console.log(reversed)
+
+### Number 2
 
 
 ```
