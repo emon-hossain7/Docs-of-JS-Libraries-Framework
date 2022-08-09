@@ -931,8 +931,23 @@ const fibo  = [0, 1];
 for(let i = 2; i <= 25; i++){
     fibo[i] = fibo[i - 1] + fibo[i - 2]
 }
-
 console.log(fibo)
+
+//Number 1 => Example 5
+//Remobe duplicate From An Array
+const  names = ['abul', 'babul', 'kable', 'dabul', 'ebul', 'babul', 'abul', 'kabul', 'gabul', 'cabul', 'babul', 'abul', 'abul', 'cabul'];
+function removeDuplicate(names){
+    const unique = [];
+    for(let i = 0; i < names.length; i++){
+        if(unique.includes(name) === false){
+            unique.push(name)
+        }
+    }
+    return unique;
+}
+const uniqueName = removeDuplicate(names);
+console.log(uniqueName)
+
 
 
 //Number 2
