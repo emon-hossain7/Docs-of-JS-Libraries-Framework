@@ -1006,7 +1006,30 @@ function woodCalculator(chairQuantity, tableQuantity, bedQuantity){
 const totalWood = woodCalculator(2, 1, 1);
 console.log('total wood required', totalWood)
 
+//Number 2 => Example 3
+// find cheapest price in array of object
+const phones = [
+    { name: 'Samsung', camera: 12, storage: '32gb', price: 36000, color: 'silver' },
+    { name: 'Waltor', camera: 10, storage: '32gb', price: 22000, color: 'silver' },
+    { name: 'Iphone', camera: 10, storage: '32gb', price: 82000, color: 'silver' },
+    { name: 'Xiomi', camera: 10, storage: '32gb', price: 52000, color: 'silver' },
+    { name: 'Oppo', camera: 10, storage: '32gb', price: 20000, color: 'silver' },
+    { name: 'Nokia', camera: 10, storage: '32gb', price: 44000, color: 'silver' },
+    { name: 'HTC', camera: 10, storage: '32gb', price: 62000, color: 'silver' },
+    { name: 'Techno', camera: 10, storage: '32gb', price: 12000, color: 'silver' }
+];
+function cheapestPhone(phones) {
+    let cheapest = phones[0]
+    for (const phone of phones) {
+        if (phone.price < cheapest.price) {
+            cheapest = phone;
+        }
+    }
+    return cheapest;
+}
 
+const mySelection = cheapestPhone(phones);
+console.log(mySelection)
 
 
 
