@@ -15,6 +15,7 @@ List of JavaScript:
 - [TemplateString](#TemplateString)
 - [ArrowFunction](#ArrowFunction)
 - [SpreadOperator](#SpreadOperator)
+- [concat](#concat)
 - [Map](#Map)
 - [forEach](#forEach)
 - [filter](#filter)
@@ -342,6 +343,24 @@ numbers [ 87, 342, 54, 23, 56, 234, 99, 91, 93 ]
 newNumbers [ 87, 342, 54, 23, 56, 234 ]
 currentNumbers [ 87, 342, 54, 23, 56, 234, 99, 91, 93, 55 ]
 ```
+
+### concat
+<details>
+<summary>
+  <h3>What is concat?</h3>
+</summary>
+<br >
+- concat
+</details>
+
+```js
+const friends = [13, 14, 11, 17, 21, 16, 15, 20];
+console.log(friends)
+const newFriendsAge = [12, 14, 13, 16];
+const allFriends = newFriendsAge.concat(friends);
+console.log(allFriends)
+```
+
 ### Map
 <details>
 <summary>
