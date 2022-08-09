@@ -8,6 +8,7 @@
 
 List of JavaScript:
 
+- [sliceSplice](#sliceSplice)
 - [function](#function)
 - [String](#String)
 - [whileLoop](#whileLoop)
@@ -28,6 +29,35 @@ List of JavaScript:
 - [jsProblemSolved](#jsProblemSolved)
 - [Table](#Table)
 - [Output](#Output)
+
+### sliceSplice
+<details>
+<summary>
+  <h3>What is sliceSplice?</h3>
+</summary>
+<br >
+function 
+</details>
+
+```js
+//slice
+const friends = [12, 45, 32, 22, 44, 62, 29, 69, 87];
+const friendsSlice = friends.slice(2, 6);
+console.log(friendsSlice)
+// Splice
+// Removes elements from an array and,
+//  if necessary, inserts new elements in their place,
+//  returning the deleted elements.
+const friends = [12, 45, 32, 22, 44, 62, 29, 69, 87];
+const friendsSplice = friends.splice(2, 7);
+//add new number (Example 99, 789, 888)
+//const friendsSplice = friends.splice(2, 7, 99,789,888);
+console.log(friendsSplice)
+console.log(friends)
+
+
+
+```
 
 ### function
 <details>
