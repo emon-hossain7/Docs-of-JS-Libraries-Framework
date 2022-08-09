@@ -867,6 +867,8 @@ switch (color) {
 
 ```
 
+### jsProblemSolved
+
 <details>
 <summary>
   <h3> ### jsProblemSolved</h3>
@@ -1040,6 +1042,20 @@ console.log(mySelection)
 
 ```
 <details>
+  
+  
+ <details>
+<summary>
+  <h3> ### Practice problems</h3>
+</summary>
+<br >
+
+```js
+  
+
+  
+``` 
+</details>
   
   
 <details>
