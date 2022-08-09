@@ -983,6 +983,35 @@ for (let i = 1; i <= 50; i++) {
     }
 }
 
+//Number 2 => Example 2
+/* 
+Fixed: per item wood requirments
+Vary: quantity
+1. chair --> 3 cft
+2. table --> 10 cft
+3. bed --> 50 cft
+*/
+function woodCalculator(chairQuantity, tableQuantity, bedQuantity){
+    const perChariWood =  3;
+    const perTableWood = 10;
+    const perBedWood = 50;
+
+    const chairWood = chairQuantity * perChariWood;
+    const tableWood = tableQuantity * perTableWood;
+    const bedWood = bedQuantity * perBedWood;
+
+    const total = chairWood + tableWood + bedWood;
+    return total;
+}
+const totalWood = woodCalculator(2, 1, 1);
+console.log('total wood required', totalWood)
+
+
+
+
+
+
+
 ```
 
 <details>
