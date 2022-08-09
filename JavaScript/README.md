@@ -1031,6 +1031,61 @@ function cheapestPhone(phones) {
 const mySelection = cheapestPhone(phones);
 console.log(mySelection)
 
+//Number 2 => Example 4
+
+/* 
+1.if ticket numbers is less then 100, per ticket price: 100
+2.if tikcket numbers is more than 100, but less than 200. first 100  ticket price will be 100. rest tickets will be 900 taka per ticket.
+    first 100 --> 100 tk
+    rest ---> 90 tk
+3. if you perchase more than tickets
+first 100 ---> 100 tk
+101-200 ---> 90 tk
+200 + ---> 70 tk
+*/
+function ticketPrice(ticketQuantity){
+    const first100Ticket = 100;
+    const second100Ticket = 90;
+    const restTicket = 70;
+    if(ticketQuantity <= 100){
+        const price = ticketQuantity * first100Ticket;
+        return price;
+    }
+    else if(ticketQuantity <= 200){
+        const first100Price = 100 * first100Ticket;
+        const restTicketQuantity  = ticketQuantity - 100;
+        const restTicketPrice  = restTicketQuantity * second100Ticket;
+        const totalPrice = first100Price + restTicketPrice;
+        return totalPrice;
+    }
+    else{
+        const first100Price = 100 * first100Ticket;
+        const second100Price = 100 * second100Ticket;
+        const restTicketPrict = ticketQuantity - 200;
+        const restTicketPrice = restTicketPrict * restTicket;
+        const totalPrice = first100Price + second100Price + restTicketPrice;
+        return totalPrice;
+    }
+}
+const price = ticketPrice(101);
+console.log(price)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
