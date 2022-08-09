@@ -964,7 +964,24 @@ console.log(removeDuplicateNumber(friends))
 
 //Number 2
 //Number 2 => Example 1
+/* 
+// Show output from 1-100
+1. if the number is divisible by 3 then insted of the show 'foo', is number 5 then show 'bar'
+2. if the number divisible by both 3and 5 then instead of the number show 'footbar'
+*/
+for (let i = 1; i <= 50; i++) {
+    if (i % 3 === 0 && i % 5 === 0) {
+        console.log('foobar')
+    }else if (i % 3 === 0) {
+        console.log('foo')
 
+    } else if (i % 5 === 0) {
+        console.log('bar')
+
+    } else {
+        console.log(i)
+    }
+}
 
 ```
 
