@@ -867,7 +867,11 @@ switch (color) {
 
 ```
 
-### jsProblemSolved
+<details>
+<summary>
+  <h3> ### jsProblemSolved</h3>
+</summary>
+<br >
 
 ```js
 
@@ -1034,9 +1038,10 @@ console.log(mySelection)
 
 
 
-
 ```
-
+<details>
+  
+  
 <details>
 <summary>
   <h3> ### jsProblemSolved</h3>
