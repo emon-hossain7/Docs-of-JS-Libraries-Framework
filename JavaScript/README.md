@@ -839,33 +839,7 @@ export {
     
 ```
 
-### switch
 
-```js
-//switch
-let color = 'green';
-
-switch (color) {
-    case 'green':
-        console.log('You are a green friend')
-        break;
-    case 'Blue':
-        console.log('You are a Blue friend')
-        break;
-    case 'red':
-        console.log('You are a red friend')
-        break;
-    case 'white':
-        console.log('You are a white friend')
-        break;
-    case 'Black':
-        console.log('You are a Black friend')
-        break;
-    default:
-        console.log('You are a pink friend')
-}
-
-```
 
 ### jsProblemSolved
 
@@ -1043,6 +1017,33 @@ console.log(mySelection)
 ```
 <details>
   
+  ### switch
+
+```js
+//switch
+let color = 'green';
+
+switch (color) {
+    case 'green':
+        console.log('You are a green friend')
+        break;
+    case 'Blue':
+        console.log('You are a Blue friend')
+        break;
+    case 'red':
+        console.log('You are a red friend')
+        break;
+    case 'white':
+        console.log('You are a white friend')
+        break;
+    case 'Black':
+        console.log('You are a Black friend')
+        break;
+    default:
+        console.log('You are a pink friend')
+}
+
+```
   
  <details>
 <summary>
@@ -1057,6 +1058,33 @@ console.log(mySelection)
 ``` 
 </details>
   
+  ### switch
+
+```js
+//switch
+let color = 'green';
+
+switch (color) {
+    case 'green':
+        console.log('You are a green friend')
+        break;
+    case 'Blue':
+        console.log('You are a Blue friend')
+        break;
+    case 'red':
+        console.log('You are a red friend')
+        break;
+    case 'white':
+        console.log('You are a white friend')
+        break;
+    case 'Black':
+        console.log('You are a Black friend')
+        break;
+    default:
+        console.log('You are a pink friend')
+}
+
+```
   
 <details>
 <summary>
@@ -1065,6 +1093,7 @@ console.log(mySelection)
 <br >
 
 ```js
+  
   
  ### Practice problems
   
