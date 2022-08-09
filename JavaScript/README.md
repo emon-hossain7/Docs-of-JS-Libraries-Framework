@@ -934,7 +934,7 @@ for(let i = 2; i <= 25; i++){
 console.log(fibo)
 
 //Number 1 => Example 5
-//Remobe duplicate From An Array
+//Remobe name duplicate From An Array
 const  names = ['abul', 'babul', 'kable', 'dabul', 'ebul', 'babul', 'abul', 'kabul', 'gabul', 'cabul', 'babul', 'abul', 'abul', 'cabul'];
 function removeDuplicate(names){
     const unique = [];
@@ -947,6 +947,18 @@ function removeDuplicate(names){
 }
 const uniqueName = removeDuplicate(names);
 console.log(uniqueName)
+//Remobe Number duplicate From An Array
+const friends = [12, 45, 32, 22, 44, 62, 29, 23, 22, 12, 45, 44, 69, 87];
+function removeDuplicateNumber(friends) {
+    const uniqueNumber = [];
+    for (const friend of friends) {
+        if (uniqueNumber.includes(friend) === false) {
+            uniqueNumber.push(friend)
+        }
+    }
+    return uniqueNumber
+}
+console.log(removeDuplicateNumber(friends))
 
 
 
