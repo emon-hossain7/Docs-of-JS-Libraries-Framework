@@ -10,6 +10,7 @@ List of JavaScript:
 
 - [sliceSplice](#sliceSplice)
 - [function](#function)
+- [Recursion ](#Recursion )
 - [String](#String)
 - [whileLoop](#whileLoop)
 - [forLoop](#forLoop)
@@ -304,6 +305,34 @@ const tallest = maxInArray(heights);
 console.log('tallest person is', tallest)
 
 
+```
+
+### Recursion
+<details>
+<summary>
+  <h3>What is Template String?</h3>
+</summary>
+<br >
+- Template String is
+</details>
+
+```js
+//factorial er man ber
+let factorial = 1;
+for(let i = 5; i >= 1; i--){
+    factorial = factorial * i;
+}
+console.log(factorial)
+
+// Recursion function  diya factorial er man ber
+function factorial(i){
+    if(i == 1){
+        return 1;
+    }
+    return i * factorial(i-1)
+}
+const result = factorial(5);
+console.log(result)
 ```
 
 ### TemplateString
