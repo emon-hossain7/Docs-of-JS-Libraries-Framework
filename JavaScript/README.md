@@ -1099,8 +1099,34 @@ function ticketPrice(ticketQuantity){
 const price = ticketPrice(101);
 console.log(price)
 
+//Number 2 => Example 5
 
-
+// array এর ভিতর কোন কোন কিছু খুঁজে বের করা
+const products = [
+    {id: 1, name: 'walton Phone', price: 1900, color: 'silver'},
+    {id: 2, name: 'mac book air', price: 1900, color: 'green'},
+    {id: 3, name: 'Samsung Phone', price: 1900, color: 'yellow'},
+    {id: 4, name: 'lenovo yoga lapTOP 2025', price: 1900, color: 'black'},
+    {id: 5, name: 'I phone Phone', price: 1900, color: 'red'},
+    {id: 6, name: 'dell inspiron laptop', price: 1900, color: 'blue'},
+    {id: 7, name: 'nokia old age phone gone', price: 1900, color: 'pink'},
+    {id: 8, name: 'htc phone', price: 1900, color: 'white'},
+];
+//search parameter diya products এর ভিতর যে কোন কিছু খুঁজবো
+function matchedProducts(products, search){
+    //খুজে যেইটা পাবো তার জন্য array declare (matched) করতে হবে।
+    const matched = [];
+    
+    for(const product of products){
+        if(product.name.toLowerCase().includes(search.toLowerCase())){
+            matched.push(product)
+        }
+    }
+    return matched;
+}
+//যেই object a phone  আছে সেই object খুজে দাউ
+const result = matchedProducts(products, 'laptop');
+console.log(result)
 
 
 
