@@ -1443,7 +1443,13 @@ console log করে দে খাতে সে টা কি তুমি প�
         <td>float</td>
         <td> ভগ্নাংশ সংখ্যা decimal: 2.3, 43.23, 54.4 [parsefloat()]</td>
       </tr>
-      <!-- row 3 -->
+       <!-- row 3 -->
+      <tr>
+        <th>3</th>
+        <td>==, ===</td>
+        <td>== check the value, and === check the value and typeof</td>
+      </tr>
+      <!-- row 3.1 -->
       <tr>
         <th>3</th>
         <td>let price1 = price1 + 10</td>
