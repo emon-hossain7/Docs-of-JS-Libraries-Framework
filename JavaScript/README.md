@@ -989,7 +989,17 @@ function removeDuplicateNumber(friends) {
 }
 console.log(removeDuplicateNumber(friends))
 
-
+//Number 1 => Example 6
+//find largest number
+let arr = [3,5, 6, 7, 8, 34, 6,5, 76, 126]
+let largest = arr[0]
+for(let i = 0; i < arr.length; i++){
+    const element = arr[i];
+    if(element > largest){
+        largest = element;
+    }
+}
+console.log(largest)
 
 //Number 2
 //Number 2 => Example 1
