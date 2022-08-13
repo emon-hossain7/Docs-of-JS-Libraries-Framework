@@ -1191,8 +1191,21 @@ const result = checkGPA([78, 62, 69]);
 console.log(result)
 
 //Number 3 => Example 4
+//check if a number is Prime
+//1 number 11
+//2 => number-1
+function isPrime(number){
+    for(let i = 2; i < number; i ++){
+        if(number % i == 0){
+            return false
+        }
+    }
+    return true;
+}
+const result = isPrime(19);
+console.log(result)
 
-
+//Number 3 => Example 5
 
 
 
