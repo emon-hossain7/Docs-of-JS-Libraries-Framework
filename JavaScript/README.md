@@ -310,10 +310,10 @@ console.log('tallest person is', tallest)
 ### Recursion
 <details>
 <summary>
-  <h3>What is Template String?</h3>
+  <h3>What is Recursion?</h3>
 </summary>
 <br >
-- Template String is
+- Recursion is
 </details>
 
 ```js
