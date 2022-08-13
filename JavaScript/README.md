@@ -1176,9 +1176,21 @@ function electricity(unit) {
 const result = electricity(150);
 console.log(result)
 
+//Number 3 => Example 3
+// find if anybody got A+ from your friends
+// marks = [78, 82, 69]
+function checkGPA(arr){
+    for(const mark of arr){
+        if(mark >= 80){
+            return true
+        }
+    }
+    return false;
+}
+const result = checkGPA([78, 62, 69]);
+console.log(result)
 
-
-
+//Number 3 => Example 4
 
 
 
