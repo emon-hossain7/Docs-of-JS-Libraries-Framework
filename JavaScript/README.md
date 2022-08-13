@@ -989,19 +989,8 @@ function removeDuplicateNumber(friends) {
 }
 console.log(removeDuplicateNumber(friends))
 
-//Number 1 => Example 6
-//find largest number
-let arr = [3,5, 6, 7, 8, 34, 6,5, 76, 126]
-let largest = arr[0]
-for(let i = 0; i < arr.length; i++){
-    const element = arr[i];
-    if(element > largest){
-        largest = element;
-    }
-}
-console.log(largest)
 
-//Number 2
+<--Number 2-->
 //Number 2 => Example 1
 /* 
 // Show output from 1-100
@@ -1140,11 +1129,52 @@ console.log(result)
 
 
 
+<--Number 3-->
+//Number 1 => Example 1
 
+//find largest number
+let arr = [3,5, 6, 7, 8, 34, 6,5, 76, 126]
+let largest = arr[0]
+for(let i = 0; i < arr.length; i++){
+    const element = arr[i];
+    if(element > largest){
+        largest = element;
+    }
+}
+console.log(largest)
 
+//Number 3 => Example 2
 
+// calculate Electricity bill
+//for first 100 unit - 5 tk
+//for more than 100 unit 6 tk for every unit more than 100
+//for more than 200 unit 7 tk for every unit more than 200
+// 250 unit
+//100 * 5 = 500
+//(200 - 100) * 6
+//(250 - 200) * 7
 
+function electricity(unit) {
+    let bill;
+    if (unit <= 100) {
+        bill = unit * 5
+    } else if (unit <= 200) {
+        const first100 = 100 * 5;
+        const remaining = unit - 100;
+        const remainingCost = remaining * 6;
+        bill = first100 + remainingCost;
+    } else if(unit > 200){
+        const first100 = 100 * 5;
+        const second100 = 100 * 6;
+        const remaining = unit - 200;
+        const remainingBill = remaining * 7;
+        bill = first100 + second100 + remainingBill
+    }
+    return bill;
+}
 
+const result = electricity(150);
+console.log(result)
 
 
 
