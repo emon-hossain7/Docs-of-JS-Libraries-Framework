@@ -52,7 +52,7 @@ DOM
       <tr>
         <th></th>
         <th>Name</th>
-        <th>Answer</th>
+        <th>Description</th>
       </tr>
     </thead>
     <tbody>
@@ -60,7 +60,7 @@ DOM
       <tr>
         <th>1</th>
         <td>getElementsByTagName()</td>
-        <td></td>
+        <td>the method returns a live HTMLCollection of elements with the given tag name.</td>
       </tr>
       <!-- row 2 -->
       <tr>
