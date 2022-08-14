@@ -61,6 +61,13 @@ document.getElementById('title')
 </ul>
 //using:
 document.getElementsByClassName('important-places')
+//
+const places = document.getElementsByClassName('important-places')
+for(const place of places){
+    console.log(place)
+    console.log(place.innerText)
+}
+
 
 4. 
 
