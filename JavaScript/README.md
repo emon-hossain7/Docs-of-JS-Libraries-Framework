@@ -8,6 +8,7 @@
 
 List of JavaScript:
 
+- [DOM](#DOM)
 - [sliceSplice](#sliceSplice)
 - [function](#function)
 - [Recursion ](#Recursion )
@@ -30,6 +31,45 @@ List of JavaScript:
 - [jsProblemSolved](#jsProblemSolved)
 - [Table](#Table)
 - [Output](#Output)
+
+### DOM
+<details>
+<summary>
+  <h3>What is DOM?</h3>
+</summary>
+<br >
+DOM 
+</details>
+
+```js
+<div class="overflow-x-auto">
+  <table class="table w-full">
+    <!-- head -->
+    <thead>
+      <tr>
+        <th></th>
+        <th>Name</th>
+        <th>Answer</th>
+      </tr>
+    </thead>
+    <tbody>
+      <!-- row 1 -->
+      <tr>
+        <th>1</th>
+        <td>integer</td>
+        <td>পূর্ণ সংখ্যা 1, 2, 40, 43 [parseint()]</td>
+      </tr>
+      <!-- row 2 -->
+      <tr>
+        <th>2</th>
+        <td>float</td>
+        <td> ভগ্নাংশ সংখ্যা decimal: 2.3, 43.23, 54.4 [parsefloat()]</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+```
 
 ### sliceSplice
 <details>
