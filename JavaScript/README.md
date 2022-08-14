@@ -69,20 +69,31 @@ for(const place of places){
 }
 
 4. getElementByQuerySelector()
-const someLi = document.getElementByQuerySelector('.fruits-container li');
-console.log(someLi)
-for(const li of someLi){
-    console.log(li)
-    console.log(li.innerText)
+const sections = document.querySelectorAll('section');
+for(const section of sections){
+    console.log(section)
+    section.style.border = '2px solid steelblue';
+    section.style.margin = '20px';
+    section.style.padding = '20px';
+    section.style.borderRadius = '8px';
+    section.style;
+    section.style;
+
 }
 
 4. querySelectorAll()
-const someLi = document.querySelectorAll('.fruits-container li');
-console.log(someLi)
-for(const li of someLi){
-    console.log(li)
-    console.log(li.innerText)
+const sections = document.querySelectorAll('section');
+for(const section of sections){
+    console.log(section)
+    section.style.border = '2px solid steelblue';
+    section.style.margin = '20px';
+    section.style.padding = '20px';
+    section.style.borderRadius = '8px';
+    section.style;
+    section.style;
+
 }
+
 
 
 
