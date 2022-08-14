@@ -42,6 +42,9 @@ DOM
 </details>
 
 ```js
+
+
+```
 <div class="overflow-x-auto">
   <table class="table w-full">
     <!-- head -->
@@ -68,8 +71,6 @@ DOM
     </tbody>
   </table>
 </div>
-
-```
 
 ### sliceSplice
 <details>
