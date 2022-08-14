@@ -53,6 +53,7 @@ DOM
         <th></th>
         <th>Name</th>
         <th>Description</th>
+        <th>Example</th>
       </tr>
     </thead>
     <tbody>
@@ -61,6 +62,7 @@ DOM
         <th>1</th>
         <td>getElementsByTagName()</td>
         <td>the method returns a live HTMLCollection of elements with the given tag name.</td>
+        <td><h1 id="fruits-title">Fruits i like</h1> || Using: document.getElementById('places-title') </td>
       </tr>
       <!-- row 2 -->
       <tr>
