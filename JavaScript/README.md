@@ -59,8 +59,8 @@ DOM
       <!-- row 1 -->
       <tr>
         <th>1</th>
-        <td>integer</td>
-        <td>পূর্ণ সংখ্যা 1, 2, 40, 43 [parseint()]</td>
+        <td>getElementsByTagName()</td>
+        <td></td>
       </tr>
       <!-- row 2 -->
       <tr>
