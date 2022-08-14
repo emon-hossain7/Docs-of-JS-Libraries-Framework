@@ -51,6 +51,21 @@ document.getElementById('title')
 <h1 id="title">Fruits i like</h1>
 //using
 document.getElementById('title')
+
+3. getElementByClass()
+<ul>
+  <li class="important-places">Sundarban</li>
+  <li class="important-places">Bandorban</li>
+  <li class="important-places">ShalBan</li>
+  <li class="important-places">KataBan</li>
+</ul>
+//using:
+document.getElementsByClassName('important-places')
+
+4. 
+
+
+
 ```
 <div class="overflow-x-auto">
   <table class="table w-full">
@@ -79,7 +94,7 @@ document.getElementById('title')
       <tr>
         <th>2</th>
         <td>getElementByClass() </td>
-        <td>getElementsByClassName() method returns a collection of elements with a specified class name(s). </td>
+        <td>একই নামের className গুলা পাবো</td>
       </tr>
       <!-- row 4 -->
       <tr>
