@@ -68,6 +68,13 @@ for(const place of places){
     console.log(place.innerText)
 }
 
+4. getElementByQuerySelector()
+const someLi = document.getElementByQuerySelector('.fruits-container li');
+console.log(someLi)
+for(const li of someLi){
+    console.log(li)
+    console.log(li.innerText)
+}
 
 4. querySelectorAll()
 const someLi = document.querySelectorAll('.fruits-container li');
@@ -112,14 +119,14 @@ for(const li of someLi){
       <!-- row 4 -->
       <tr>
         <th>৪</th>
-        <td>getElementByQuerySelector</td>
-        <td> </td>
+        <td>getElementByQuerySelector()</td>
+        <td> যত গুলা থাকবে সব গুলার প্রথম টা পাবো </td>
       </tr>
       <!-- row 5 -->
       <tr>
         <th>2</th>
         <td>querySelectorAll()</td>
-        <td> </td>
+        <td> যত গুলা থাকবে সব className গুলা পাবো</td>
       </tr>
       <!-- row 6 -->
       <tr>
