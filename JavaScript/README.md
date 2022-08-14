@@ -177,10 +177,10 @@ for(const section of sections){
    <!-- row 17 -->
       <tr>
         <th>17</th>
-        <td>classList.add()</td>
+        <td>classList.add('places-area')</td>
         <td> html tag এর ভিতর class add করা</td>
-         <td></td>
-        <td> </td>
+         <td>.classList.remove('places-area')</td>
+        <td> html tag এর ভিতর class remove করা </td>
       </tr>
        <!-- row 18 -->
       <tr>
