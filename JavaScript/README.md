@@ -95,6 +95,8 @@ for(const li of someLi){
         <th></th>
         <th>Name</th>
         <th>Description</th>
+        <th>Name</th>
+        <th>Description</th>
       </tr>
     </thead>
     <tbody>
@@ -109,10 +111,6 @@ for(const li of someLi){
         <th>2</th>
         <td>getElementById()</td>
         <td>Get the element with the specified id. কোন একটি নিদিষ্ট element কে পাবো</td>
-      </tr>
-      <!-- row 3 -->
-      <tr>
-        <th>2</th>
         <td>getElementByClass() </td>
         <td>একই নামের className গুলা পাবো</td>
       </tr>
