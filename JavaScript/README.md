@@ -155,18 +155,46 @@ for(const li of someLi){
       <!-- row 11 -->
       <tr>
         <th>11</th>
+        <td>NodeList</td>
+        <td> </td>
+      </tr>
+      <!-- row 12 -->
+      <tr>
+        <th>12</th>
+        <td>htmlcollection</td>
+        <td> </td>
+      </tr>
+      <!-- row 13 -->
+      <tr>
+        <th>13</th>
+        <td>parentNode</td>
+        <td> </td>
+      </tr>
+       <!-- row 14 -->
+      <tr>
+        <th>14</th>
+        <td>childnodes</td>
+        <td> </td>
+      </tr>
+       <!-- row 15 -->
+      <tr>
+        <th>2</th>
+        <td>createElement</td>
+        <td> </td>
+      </tr> <!-- row 16 -->
+      <tr>
+        <th>16</th>
+        <td></td>
+        <td> </td>
+      </tr> <!-- row 17 -->
+      <tr>
+        <th>17</th>
         <td></td>
         <td> </td>
       </tr>
-      <!-- row 8 -->
+       <!-- row 18 -->
       <tr>
-        <th>2</th>
-        <td></td>
-        <td> </td>
-      </tr>
-      <!-- row 8 -->
-      <tr>
-        <th>2</th>
+        <th>18</th>
         <td></td>
         <td> </td>
       </tr>
