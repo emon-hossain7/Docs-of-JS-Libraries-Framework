@@ -89,13 +89,13 @@ for(const place of places){
       <tr>
         <th>1</th>
         <td>getElementsByTagName()</td>
-        <td>the method returns a live HTMLCollection of elements with the given tag name.</td>
+        <td>Array like object. HTMLCollection দিবে।</td>
       </tr>
       <!-- row 2 -->
       <tr>
         <th>2</th>
         <td>getElementById()</td>
-        <td>Get the element with the specified id</td>
+        <td>Get the element with the specified id. কোন একটি নিদিষ্ট element কে পাবো</td>
       </tr>
       <!-- row 3 -->
       <tr>
@@ -105,14 +105,14 @@ for(const place of places){
       </tr>
       <!-- row 4 -->
       <tr>
-        <th>2</th>
-        <td>getElementById</td>
+        <th>৪</th>
+        <td>getElementByQuerySelector</td>
         <td> </td>
       </tr>
       <!-- row 5 -->
       <tr>
         <th>2</th>
-        <td>getElementById</td>
+        <td>querySelectorAll()</td>
         <td> </td>
       </tr>
       <!-- row 6 -->
