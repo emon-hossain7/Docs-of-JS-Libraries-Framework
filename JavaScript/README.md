@@ -185,6 +185,22 @@ for(const section of sections){
        <!-- row 18 -->
       <tr>
         <th>18</th>
+        <td>nextSibling</td>
+        <td> </td>
+         <td>previousSibling</td>
+        <td> </td>
+      </tr>
+   <!-- row 19 -->
+      <tr>
+        <th>19</th>
+        <td>nextSibling</td>
+        <td> </td>
+         <td>previousSibling</td>
+        <td> </td>
+      </tr>
+   <!-- row 20 -->
+      <tr>
+        <th>18</th>
         <td></td>
         <td> </td>
          <td></td>
