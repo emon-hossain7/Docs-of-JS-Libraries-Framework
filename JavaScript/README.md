@@ -60,7 +60,6 @@ document.getElementById('title')
         <th></th>
         <th>Name</th>
         <th>Description</th>
-        <th>Example</th>
       </tr>
     </thead>
     <tbody>
@@ -69,13 +68,48 @@ document.getElementById('title')
         <th>1</th>
         <td>getElementsByTagName()</td>
         <td>the method returns a live HTMLCollection of elements with the given tag name.</td>
-        <td>document.getElementById('title') </td>
       </tr>
       <!-- row 2 -->
       <tr>
         <th>2</th>
-        <td>float</td>
-        <td> ভগ্নাংশ সংখ্যা decimal: 2.3, 43.23, 54.4 [parsefloat()]</td>
+        <td>getElementById()</td>
+        <td>Get the element with the specified id</td>
+      </tr>
+      <!-- row 3 -->
+      <tr>
+        <th>2</th>
+        <td>getElementByClass() </td>
+        <td>getElementsByClassName() method returns a collection of elements with a specified class name(s). </td>
+      </tr>
+      <!-- row 4 -->
+      <tr>
+        <th>2</th>
+        <td>getElementById</td>
+        <td> </td>
+      </tr>
+      <!-- row 5 -->
+      <tr>
+        <th>2</th>
+        <td>getElementById</td>
+        <td> </td>
+      </tr>
+      <!-- row 6 -->
+      <tr>
+        <th>6</th>
+        <td>getElementById</td>
+        <td> </td>
+      </tr>
+      <!-- row 7 -->
+      <tr>
+        <th>7</th>
+        <td>getElementById</td>
+        <td> </td>
+      </tr>
+      <!-- row 2 -->
+      <tr>
+        <th>2</th>
+        <td>getElementById</td>
+        <td> </td>
       </tr>
     </tbody>
   </table>
