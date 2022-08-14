@@ -171,21 +171,23 @@ for(const section of sections){
         <th>2</th>
         <td>createElement</td>
         <td> </td>
-      </tr> <!-- row 16 -->
-      <tr>
-        <th>16</th>
         <td></td>
         <td> </td>
-      </tr> <!-- row 17 -->
+      </tr>
+   <!-- row 17 -->
       <tr>
         <th>17</th>
-        <td></td>
+        <td>classList.add()</td>
+        <td> html tag এর ভিতর class add করা</td>
+         <td></td>
         <td> </td>
       </tr>
        <!-- row 18 -->
       <tr>
         <th>18</th>
         <td></td>
+        <td> </td>
+         <td></td>
         <td> </td>
       </tr>
     </tbody>
