@@ -131,16 +131,40 @@ for(const li of someLi){
       <!-- row 6 -->
       <tr>
         <th>6</th>
-        <td>getElementById</td>
+        <td>getAttribute</td>
         <td> </td>
       </tr>
       <!-- row 7 -->
       <tr>
         <th>7</th>
+        <td>getAttribute</td>
+        <td> </td>
+      </tr>
+      <!-- row 8 -->
+      <tr>
+        <th>2</th>
+        <td>innerText</td>
+        <td> </td>
+      </tr>
+      <!-- row 9 -->
+      <tr>
+        <th>10</th>
+        <td>innerHTML</td>
+        <td> </td>
+      </tr>
+      <!-- row 8 -->
+      <tr>
+        <th>2</th>
         <td>getElementById</td>
         <td> </td>
       </tr>
-      <!-- row 2 -->
+      <!-- row 8 -->
+      <tr>
+        <th>2</th>
+        <td>getElementById</td>
+        <td> </td>
+      </tr>
+      <!-- row 8 -->
       <tr>
         <th>2</th>
         <td>getElementById</td>
