@@ -125,9 +125,9 @@ for(const li of someLi){
       <!-- row 6 -->
       <tr>
         <th>6</th>
-        <td>getAttribute</td>
+        <td>getAttribute()</td>
         <td> </td>
-        <td>getAttribute</td>
+        <td>setAttribute()</td>
         <td> </td>
       </tr>
       </tr>
