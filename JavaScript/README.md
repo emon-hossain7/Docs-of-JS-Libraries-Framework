@@ -93,6 +93,15 @@ for(const section of sections){
     section.style;
 
 }
+5.
+//whare to add
+const placesList = document.getElementById('places-list');
+// 2. what to be added
+const li = document.createElement('li');
+li.innerText = 'pahartoli bon'
+// 3. add the child
+placesList.appendChild(li)
+console.log(placesList)
 
 
 ```
