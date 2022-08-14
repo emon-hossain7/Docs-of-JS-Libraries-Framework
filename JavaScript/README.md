@@ -119,10 +119,6 @@ for(const li of someLi){
         <th>৪</th>
         <td>getElementByQuerySelector()</td>
         <td> যত গুলা থাকবে সব গুলার প্রথম টা পাবো </td>
-      </tr>
-      <!-- row 5 -->
-      <tr>
-        <th>2</th>
         <td>querySelectorAll()</td>
         <td> যত গুলা থাকবে সব className গুলা পাবো</td>
       </tr>
@@ -131,22 +127,15 @@ for(const li of someLi){
         <th>6</th>
         <td>getAttribute</td>
         <td> </td>
-      </tr>
-      <!-- row 7 -->
-      <tr>
-        <th>7</th>
         <td>getAttribute</td>
         <td> </td>
+      </tr>
       </tr>
       <!-- row 8 -->
       <tr>
         <th>2</th>
         <td>innerText</td>
         <td> </td>
-      </tr>
-      <!-- row 10 -->
-      <tr>
-        <th>10</th>
         <td>innerHTML</td>
         <td> </td>
       </tr>
@@ -155,10 +144,6 @@ for(const li of someLi){
         <th>11</th>
         <td>NodeList</td>
         <td> </td>
-      </tr>
-      <!-- row 12 -->
-      <tr>
-        <th>12</th>
         <td>htmlcollection</td>
         <td> </td>
       </tr>
@@ -167,10 +152,6 @@ for(const li of someLi){
         <th>13</th>
         <td>parentNode</td>
         <td> </td>
-      </tr>
-       <!-- row 14 -->
-      <tr>
-        <th>14</th>
         <td>childnodes</td>
         <td> </td>
       </tr>
