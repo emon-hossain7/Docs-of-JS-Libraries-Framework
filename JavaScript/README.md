@@ -171,7 +171,7 @@ for(const section of sections){
         <th>2</th>
         <td>createElement</td>
         <td> </td>
-        <td></td>
+        <td>appendChild</td>
         <td> </td>
       </tr>
    <!-- row 17 -->
