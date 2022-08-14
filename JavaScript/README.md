@@ -95,8 +95,6 @@ for(const section of sections){
 }
 
 
-
-
 ```
 <div class="overflow-x-auto">
   <table class="table w-full">
@@ -116,6 +114,8 @@ for(const section of sections){
         <th>1</th>
         <td>getElementsByTagName()</td>
         <td>Array like object. HTMLCollection দিবে।</td>
+        <td></td>
+        <td></td>
       </tr>
       <!-- row 2 -->
       <tr>
