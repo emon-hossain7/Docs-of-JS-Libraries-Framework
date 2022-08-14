@@ -42,8 +42,15 @@ DOM
 </details>
 
 ```js
+1. getElementsByTagName()
+<h1 id="title">Fruits i like</h1>
+//using
+document.getElementById('title')
 
-
+2. getElementById()
+<h1 id="title">Fruits i like</h1>
+//using
+document.getElementById('title')
 ```
 <div class="overflow-x-auto">
   <table class="table w-full">
