@@ -69,7 +69,13 @@ for(const place of places){
 }
 
 
-4. 
+4. querySelectorAll()
+const someLi = document.querySelectorAll('.fruits-container li');
+console.log(someLi)
+for(const li of someLi){
+    console.log(li)
+    console.log(li.innerText)
+}
 
 
 
