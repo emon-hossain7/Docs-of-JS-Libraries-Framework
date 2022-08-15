@@ -9,6 +9,7 @@
 List of JavaScript:
 
 - [DOM](#DOM)
+- [events](#events)
 - [sliceSplice](#sliceSplice)
 - [function](#function)
 - [Recursion ](#Recursion )
@@ -31,6 +32,34 @@ List of JavaScript:
 - [jsProblemSolved](#jsProblemSolved)
 - [Table](#Table)
 - [Output](#Output)
+
+### DOM
+<details>
+<summary>
+  <h3>What is events?</h3>
+</summary>
+<br >
+events 
+</details>
+
+```js
+1.
+<button onclick="console.log(65)">Another button</button>
+
+2.
+//html file
+<button id="make-blue">make blue</button>
+//script file
+const makeBlueButton = document.getElementById('make-blue');
+makeBlueButton.onclick = makeBlue;
+function makeBlue(){
+    document.body.style.backgroundColor = 'blue'
+}
+
+3.
+<button onclick="console.log(65)">Another button</button>
+
+```
 
 ### DOM
 <details>
