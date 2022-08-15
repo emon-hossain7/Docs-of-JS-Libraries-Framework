@@ -76,10 +76,41 @@ const purpleButton = document.getElementById('make-purple');
     document.body.style.backgroundColor = 'green'
   })
   7. final uses
-      <button id="make-orange">Make orange</button>
-       document.getElementById('make-orange').addEventListener('click', function () {
-            document.body.style.backgroundColor = 'orange'
+  <button id="make-orange">Make orange</button>
+   document.getElementById('make-orange').addEventListener('click', function () {
+        document.body.style.backgroundColor = 'orange'
+    })
+    
+    // finale uses 
+     <div id="comment-content">
+     </div>
+     //
+     <div>
+        <textarea name="" id="new-comment" cols="100%" rows="5"></textarea>
+        <br>
+        <button id="btn-post">Post</button>
+    </div>
+    //
+    <script>
+        // step- 1 add event listener to the post button
+        document.getElementById('btn-post').addEventListener('click', function () {
+            console.log('post click')
+            //step 2 get the comment
+            const commentBox = document.getElementById('new-comment');
+            const newComment = commentBox.value;
+            // step 3 set the comment inside the comment container
+            // get the comment container
+            const commentContent = document.getElementById('comment-content');
+            // step 4 create p tag
+            const p = document.createElement('p');
+            // step 4.1 set the text of the commment as innerText
+            p.innerText = newComment;
+            //step 5 append child
+            commentContent.appendChild(p)
+            // clear the textArea
+            commentBox.value = '';
         })
+    </script>
 ```
 
 ### DOM
