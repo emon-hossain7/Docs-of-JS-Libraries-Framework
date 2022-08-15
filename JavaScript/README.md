@@ -62,6 +62,13 @@ const purpleButton = document.getElementById('make-purple');
   purpleButton.onclick = function makePurple() {
       document.body.style.backgroundColor = 'purple'
   }
+  4. 
+     <button id="make-pink">Make Pink</button>
+     const pinkButton = document.getElementById('make-pink');
+        pinkButton.addEventListener('click', makePink)
+        function makePink() {
+            document.body.style.backgroundColor = 'pink'
+        }
 ```
 
 ### DOM
@@ -134,7 +141,17 @@ li.innerText = 'pahartoli bon'
 // 3. add the child
 placesList.appendChild(li)
 console.log(placesList)
-
+6.
+  <button id="make-green">Make green</button>
+  const greenButton = document.getElementById('make-green');
+    greenButton.addEventListener('click', function makeGreen() {
+        document.body.style.backgroundColor = 'green'
+    })
+7. final uses
+ <button id="make-orange">Make orange</button>
+document.getElementById('make-orange', function(){
+      document.body.style.backgroundColor= 'orange'
+  })
 
 ```
 <div class="overflow-x-auto">
@@ -234,7 +251,7 @@ console.log(placesList)
    <!-- row 19 -->
       <tr>
         <th>19</th>
-        <td></td>
+        <td>addEventListener('click', functionName())</td>
         <td> </td>
          <td></td>
         <td> </td>
