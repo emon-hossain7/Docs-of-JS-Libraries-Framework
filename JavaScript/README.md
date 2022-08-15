@@ -43,10 +43,10 @@ events
 </details>
 
 ```js
-1.
+1 option.
 <button onclick="console.log(65)">Another button</button>
 
-2.
+2 option.
 //html file
 <button id="make-blue">make blue</button>
 //script file
@@ -56,9 +56,12 @@ function makeBlue(){
     document.body.style.backgroundColor = 'blue'
 }
 
-3.
-<button onclick="console.log(65)">Another button</button>
-
+3 option.
+<button id="make-purple">make purple</button>
+const purpleButton = document.getElementById('make-purple');
+  purpleButton.onclick = function makePurple() {
+      document.body.style.backgroundColor = 'purple'
+  }
 ```
 
 ### DOM
