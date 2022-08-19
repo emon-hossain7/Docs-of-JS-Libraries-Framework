@@ -8,6 +8,7 @@
 
 List of JavaScript:
 
+- [JSONStringify](#JSONStringify)
 - [DOM](#DOM)
 - [events](#events)
 - [sliceSplice](#sliceSplice)
@@ -32,6 +33,39 @@ List of JavaScript:
 - [jsProblemSolved](#jsProblemSolved)
 - [Table](#Table)
 - [Output](#Output)
+
+### demo
+<details>
+<summary>
+  <h3>What is ?</h3>
+</summary>
+<br >
+ demo
+</details>
+
+```js
+
+```
+### JSONStringify
+<details>
+<summary>
+  <h3>What is JSONStringify ?</h3>
+</summary>
+<br >
+ JSONStringify
+</details>
+
+```js
+
+let a = { x: 5, y: 6 }
+console.log(a, typeof a)
+//ans:  Object { x: 5, y: 6 } "object"
+
+let b = JSON.stringify(a)
+console.log(b, typeof b);
+//'{"x":5,"y":6}' "string"
+
+```
 
 ### DOM
 <details>
@@ -334,8 +368,6 @@ const friendsSplice = friends.splice(2, 7);
 //const friendsSplice = friends.splice(2, 7, 99,789,888);
 console.log(friendsSplice)
 console.log(friends)
-
-
 
 ```
 
