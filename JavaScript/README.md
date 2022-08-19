@@ -1903,6 +1903,12 @@ console log করে দে খাতে সে টা কি তুমি প�
         <td> Array Name Check (ase ki na) </td>
         <td> const friends = [13, 14, 11, 17, 21, 16, 15, 20]; | console.log(friends.includes(19))</td>
       </tr>
+        <!-- row 18 -->
+      <tr>
+        <th>18</th>
+        <td> preventDefault</td>
+        <td> e.preventDefault();</td>
+      </tr>
 
     </tbody>
   </table>
