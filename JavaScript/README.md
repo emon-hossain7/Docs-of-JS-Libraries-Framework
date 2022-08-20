@@ -1911,12 +1911,7 @@ console log করে দে খাতে সে টা কি তুমি প�
         <td> String</td>
         <td>  Apply Search includes, indexOf, startswith, endswith </td>
       </tr>
-       <!-- row 17 -->
-      <tr>
-        <th>17</th>
-        <td> Math </td>
-        <td> Math, abs, pow, round, ceil, floor, and random number </td>
-      </tr>
+      
        <!-- row 17 -->
       <tr>
         <th>17</th>
@@ -1940,6 +1935,36 @@ console log করে দে খাতে সে টা কি তুমি প�
         <th>18</th>
         <td> preventDefault</td>
         <td> e.preventDefault();</td>
+      </tr>
+       <!-- row 17 -->
+      <tr>
+        <th>17</th>
+        <td> Math </td>
+        <td> Math, abs, pow, round, ceil, floor, and random number </td>
+      </tr>
+         <!-- row 19 -->
+      <tr>
+        <th>19</th>
+        <td>Math.random() </td>
+        <td>Math.random((Math.random()*1000)) // output 0.7895253939768327</td>
+      </tr>
+        <!-- row 20 -->
+      <tr>
+        <th>20</th>
+        <td>((Math.round() </td>
+        <td> Math.round((Math.random()*10000)) // output 4492</td>
+      </tr>
+        <!-- row 21 -->
+      <tr>
+        <th>19</th>
+        <td> </td>
+        <td> </td>
+      </tr>
+        <!-- row 22 -->
+      <tr>
+        <th>22</th>
+        <td> </td>
+        <td> </td>
       </tr>
 
     </tbody>
