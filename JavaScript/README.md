@@ -1951,7 +1951,7 @@ console log করে দে খাতে সে টা কি তুমি প�
         <!-- row 20 -->
       <tr>
         <th>20</th>
-        <td>((Math.round() </td>
+        <td>Math.round() </td>
         <td> Math.round((Math.random()*10000)) // output 4492</td>
       </tr>
         <!-- row 21 -->
