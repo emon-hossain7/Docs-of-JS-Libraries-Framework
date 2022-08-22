@@ -109,11 +109,16 @@ const purpleButton = document.getElementById('make-purple');
   greenButton.addEventListener('click', function makeGreen() {
     document.body.style.backgroundColor = 'green'
   })
+  
   7. final uses
   <button id="make-orange">Make orange</button>
    document.getElementById('make-orange').addEventListener('click', function () {
         document.body.style.backgroundColor = 'orange'
     })
+    
+    8.
+    <a href="#" onclick="selectedItem(this)" class="btn btn-primary">SELECT
+                                                4</a>
     
     // finale uses 
      <div id="comment-content">
@@ -1957,8 +1962,8 @@ console log করে দে খাতে সে টা কি তুমি প�
         <!-- row 21 -->
       <tr>
         <th>19</th>
-        <td> </td>
-        <td> </td>
+        <td><a href="#" onclick="selectedItem(this)" class="btn btn-primary">SELECT</a> </td>
+        <td> function er vitor this diya mane oi tai select kora </td>
       </tr>
         <!-- row 22 -->
       <tr>
