@@ -754,6 +754,12 @@ const doMath = (num1, num2) => {
 
 ```js
 //spread operator
+//Ex 1: (Largest number)
+const numbers = [2, 65, 889, 34];
+const largest = Math.max(...numbers);
+console.log(largest)
+
+//Ex 2: (r)
 const numbers = [87, 342, 54, 23, 56, 234];
 const newNumbers = [...numbers];
 numbers.push(99)
