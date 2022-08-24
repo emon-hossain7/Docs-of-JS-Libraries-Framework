@@ -423,18 +423,20 @@ function add4(first, second){
 // arrow function  Ex: 1
 // Example: 7
 const add4 = (first, second) => first + second;
-
-const result = add2(10, 20);
-console.log(result)
-
-
-
-
-
-
-
-
-
+// Example: 8
+const add4 = (first, second) => first + ' ' + second;
+// Example: 9 (no parameter arrow function)
+const getPie = () => 3.14;
+// Example: 10 (one parameter) 
+const doubleIt = num => num * 2;
+// Example: 11 (multi line arrow function)
+const doMath = () => {
+    const firstSum = x + y;
+    const secondSum = y + z;
+    const multiplyResult = firstSum + secondSum;
+    const result = multiplyResult / 2;
+    return result;
+};
 
 
   //simple declaration
