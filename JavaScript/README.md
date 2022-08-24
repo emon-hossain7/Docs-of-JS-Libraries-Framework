@@ -59,7 +59,7 @@ List of JavaScript:
 
 ```js
 
-// Object and Array Destructuring
+// Object Destructuring
 const fish = {
     name: 'james Bond',
     address: 'Noyakhali',
@@ -68,8 +68,26 @@ const fish = {
     price: 400
 };
 //destructuring
+// use same name in the object
 const {name, phone, price} = fish;
 console.log(name, phone, age)
+
+//Array Destructuring
+// use any name (meter is places)
+// use any name (meter is places)
+//Ex:  1
+const [first, another] = [22, 44, 56, 67, 60, 90];
+console.log(first, another)
+//Ex: 2
+const nayoks = ['sakib', 'bappi', 'riyaj'];
+const [king, lost, New] = nayoks;
+console.log(New)
+//Ex: 3
+const getNames = () => {
+    return ['alim', 'halim']
+};
+const [mama, mama2] = getNames();
+console.log(mama2, mama)
 
 ```
 
