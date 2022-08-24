@@ -383,7 +383,10 @@ console.log(friends)
 </summary>
 <br >
 function 
+</details>
+
 ```js
+
 // function declaration
 // Example: 1
 function add(first, second){
@@ -425,11 +428,15 @@ const result = add2(10, 20);
 console.log(result)
 
 
-```
 
-</details>
 
-```js
+
+
+
+
+
+
+
   //simple declaration
     //function declaration
     function startFan(){
