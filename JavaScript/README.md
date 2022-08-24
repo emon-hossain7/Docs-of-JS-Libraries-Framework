@@ -383,6 +383,50 @@ console.log(friends)
 </summary>
 <br >
 function 
+```js
+// function declaration
+// Example: 1
+function add(first, second){
+    const total = first + second;
+    return total;
+}
+
+
+// Example: 2
+document.getElementById('btn-add').onclick = function addBG(){
+
+}
+
+
+// Example: 3
+const add1 = function add1(parameter1, parameter2){
+    const total = first + second;
+    return total;
+};
+// Example: 4
+function add2(first, second){
+    const total = first + second;
+    return total;
+}
+// Example: 5
+function add3(first, second){
+    return first + second
+}
+
+// Example: 6
+function add4(first, second){
+    return first + second
+}
+// arrow function  Ex: 1
+// Example: 7
+const add4 = (first, second) => first + second;
+
+const result = add2(10, 20);
+console.log(result)
+
+
+```
+
 </details>
 
 ```js
