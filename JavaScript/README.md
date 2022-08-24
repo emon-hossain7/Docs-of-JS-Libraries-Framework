@@ -749,7 +749,7 @@ const doMath = (num1, num2) => {
   <h3>What is SpreadOperator?</h3>
 </summary>
 <br >
-- Spread Operatorn is
+- The javascript spread operator (...) allows us to quickly copy all or part of an existing way array or object into another array or object
 </details>
 
 ```js
@@ -758,6 +758,17 @@ const doMath = (num1, num2) => {
 const numbers = [2, 65, 889, 34];
 const largest = Math.max(...numbers);
 console.log(largest)
+
+//Ex 2: ()
+const numbers = [2, 5, 9, 4];
+const numbers2 = [...numbers];
+numbers.push(77)
+console.log(numbers)
+numbers2.push(99)
+console.log(numbers2)
+
+const numbers4 = [44, 78, ...numbers, 11, 33];
+console.log(numbers4)
 
 //Ex 2: (r)
 const numbers = [87, 342, 54, 23, 56, 234];
