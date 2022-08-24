@@ -8,6 +8,7 @@
 
 List of JavaScript:
 
+- [Destructuring](#Destructuring)
 - [JSONStringify](#JSONStringify)
 - [DOM](#DOM)
 - [events](#events)
@@ -46,6 +47,32 @@ List of JavaScript:
 ```js
 
 ```
+
+### Destructuring
+<details>
+<summary>
+  <h3>What is Destructuring?</h3>
+</summary>
+<br >
+ Destructuring
+</details>
+
+```js
+
+// Object and Array Destructuring
+const fish = {
+    name: 'james Bond',
+    address: 'Noyakhali',
+    color: 'silver',
+    phone: '0191111111',
+    price: 400
+};
+//destructuring
+const {name, phone, price} = fish;
+console.log(name, phone, age)
+
+```
+
 ### JSONStringify
 <details>
 <summary>
