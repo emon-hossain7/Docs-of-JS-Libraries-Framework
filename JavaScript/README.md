@@ -36,7 +36,7 @@ List of JavaScript:
 - [jsProblemSolved](#jsProblemSolved)
 - [Table](#Table)
 - [Output](#Output)
-- [WjavascriptInterviewQuestions](#WjavascriptInterviewQuestions)
+- [javascriptInterviewQuestions](#WjavascriptInterviewQuestions)
 
 ### demo
 <details>
