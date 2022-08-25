@@ -2235,6 +2235,12 @@ console log করে দে খাতে সে টা কি তুমি প�
         <td>Date</td>
         <td>const today = new Date()  </td>
       </tr>
+       <!-- row 23 -->
+      <tr>
+        <th>23</th>
+        <td>multiline</td>
+        <td>const multiline = 'line 1 \n' + ' line 2 \n'</td>
+      </tr>
     </tbody>
   </table>
 </div>
