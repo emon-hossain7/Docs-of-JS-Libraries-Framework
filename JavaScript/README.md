@@ -912,6 +912,7 @@ console.log(allFriends)
 <br >
 - If you want to return an array by working for the element, you need to use a map. 
 - Map return array
+- প্রত্যেকটা Array এর উপাদান কে কিছু একটা করবো তাঁর পর সেইগুলা (Array আকারে/Array ভিতর) পাবো
 </details>
 
 ```js
@@ -927,6 +928,21 @@ console.log(makeDoubleDirect)
 // option 3
 const directMap = [1, 32, 4, 5 ,6].map(x => x * 5);
 console.log(directMap)
+//Ex: 1.1
+// vag 3 
+const numbers = [12, 423, 545, 654, 76, 17];
+const half = numbers.map(number => number / 2);
+const thirds = numbers.map(number => number / 3);
+console.log(half)
+console.log(thirds)
+//Ex: 1.2
+//fird the first letters in array useing map
+const friends = ['Tom Hanks', 'Tom Cruise', 'Tom Brady', 'Tom Solaiman', 'tom devid'];
+const firstLetters = friends.map(friend => friend[0]);
+console.log(firstLetters)
+// //Ex: 1.3
+const nameLengths = friends.map(friend => friend.length);
+console.log(nameLengths)
 //Ex: 2
 const products = [
     { name: 'laptop', price: '3200', brand: 'Lenovo', color: 'Silver' },
