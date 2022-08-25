@@ -36,6 +36,7 @@ List of JavaScript:
 - [jsProblemSolved](#jsProblemSolved)
 - [Table](#Table)
 - [Output](#Output)
+- [WjavascriptInterviewQuestions](#WjavascriptInterviewQuestions)
 
 ### demo
 <details>
@@ -2338,7 +2339,16 @@ console log করে দে খাতে সে টা কি তুমি প�
   <h3>javascriptInterviewQuestions</h3>
 </summary>
 <br >
- WjavascriptInterviewQuestions
+  
+ ```css
+  //module:  31
+  1. what's the diffrence between map,foreach, filter?
+  2. what's the diffrence between filter & find?
+  3. what's the diffrence for of and for in?
+  4. how do you empty an array?
+  5. Difference between class and object?
+  
+ ```
 </details>
 
 
