@@ -8,6 +8,7 @@
 
 List of JavaScript:
 
+- [es6](#es6)
 - [Destructuring](#Destructuring)
 - [JSONStringify](#JSONStringify)
 - [DOM](#DOM)
@@ -45,6 +46,58 @@ List of JavaScript:
 </details>
 
 ```js
+
+```
+
+### es6
+<details>
+<summary>
+  <h3>What is es6?</h3>
+</summary>
+<br >
+ demo
+</details>
+
+```js
+
+// 1. let and const
+let salary = 345;
+salary = 4000;
+const numbers = [12, 45, 654, 67, 53];
+
+// 2. default parameters
+function calculateSalary(salary, tax = 0.25, bonus = 0){
+    const remaining = salary - salary * tax;
+    const total = remaining + bonus;
+    return total;
+}
+
+// 3. template String
+const elementHtml = `
+    <div>
+        <h3>Name: ${name}</h3>
+        <p>Address: ${numbers[2]}</p>
+        <p>Salary: $(calculateSalary(1000, 0, 0))</p>
+    </div>
+`;
+
+// 4. arrow function
+const doubleIt = x => x * 2;
+const calculateSalary2 = (salary, tax, bonus) => salary * tax + bonus;
+
+//5. Spread Operator
+const ages = [11, 13, 15 ,14, 10, 16];
+//wrong way (catch reference)
+const newAges = ages;
+//right way to new array
+const newAges2 = [...ages, 22 , 34, 43];
+
+
+//6. destructuring
+// object in important name
+const {x, y, ...z} = {x: 45, y:12, z: 33, name: 'sakib', salary: 4000};
+// array in important position
+const [a, b, c] = [12, 45, 32 ,56 ,7, 5];
 
 ```
 
@@ -1917,7 +1970,13 @@ console log করে দে খাতে সে টা কি তুমি প�
       </tr>
     </thead>
     <tbody>
-      <!-- row 1 -->
+      <!-- row 1.19 -->
+      <tr>
+        <th>1</th>
+        <td>es6 update</td>
+        <td>1. let and const, 2. default parameters, 3. template String, 4. arrow function, 5. Spread Operator, 6. destructuring</td>
+      </tr>
+      <!-- row 1.20 -->
       <tr>
         <th>1</th>
         <td>integer</td>
