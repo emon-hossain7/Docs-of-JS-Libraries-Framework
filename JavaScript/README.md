@@ -1004,6 +1004,28 @@ products.forEach(product => {
 </details>
 
 ```js
+//Ex : 1
+const  numbers = [12, 34, 54, 64, 78, 87, 43, 23, 1, 20, 8, 90, 6];
+const bigNumbers = numbers.filter(number => number > 20);
+const under10 = numbers.filter(number => number < 10);
+const evenNumber = numbers.filter(number => number % 2 === 0);
+
+console.log(bigNumbers)
+console.log(under10)
+console.log(evenNumber)
+//Ex : 2
+const products = [
+    {id: 1, name: 'laptop', price: 234500},
+    {id: 2, name: 'mobile', price: 4500},
+    {id: 3, name: 'table', price: 2300},
+    {id: 4, name: 'watch', price: 340},
+    {id: 5, name: 'computer', price: 2450}
+];
+const expensive = products.filter(product => product.price > 2000);
+console.log(expensive)
+//Ex : 3
+
+//Ex : 5
 const products = [
     { name: 'laptop', price: '3200', brand: 'Lenovo', color: 'Silver' },
     { name: 'phone', price: '3499', brand: 'iphone', color: 'golden' },
