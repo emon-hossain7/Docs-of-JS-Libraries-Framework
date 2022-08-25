@@ -2332,7 +2332,14 @@ console log করে দে খাতে সে টা কি তুমি প�
 ৩। ইভেন্ট বাবল/ডেলিগেট করে একটি ইভেন্ট হ্যান্ডেলার অ্যাড করা এবং previousElementSibling /nextElementSibling.innerText এইভাবে খুজে খুজে তথ্য বের করে ডিসপ্লে করা।
 
 ```
-
+### javascriptInterviewQuestions
+<details>
+<summary>
+  <h3>javascriptInterviewQuestions</h3>
+</summary>
+<br >
+ WjavascriptInterviewQuestions
+</details>
 
 
 ## 🌐 Socials: Connect with Emon Hossain!
