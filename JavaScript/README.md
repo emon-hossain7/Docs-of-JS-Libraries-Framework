@@ -2197,7 +2197,7 @@ console log করে দে খাতে সে টা কি তুমি প�
              <!-- row 18 -->
       <tr>
         <th>18</th>
-<td> Array Name Check (ase ki na) </td>
+        <td> Array Name Check (ase ki na) </td>
         <td> const friends = [13, 14, 11, 17, 21, 16, 15, 20]; | console.log(friends.includes(19))</td>
       </tr>
              <!-- row 18 -->
@@ -2235,7 +2235,6 @@ console log করে দে খাতে সে টা কি তুমি প�
         <td>Date</td>
         <td>const today = new Date()  </td>
       </tr>
-
     </tbody>
   </table>
 </div>
