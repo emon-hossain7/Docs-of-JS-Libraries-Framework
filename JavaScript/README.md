@@ -36,7 +36,7 @@ List of JavaScript:
 - [jsProblemSolved](#jsProblemSolved)
 - [Table](#Table)
 - [Output](#Output)
-- [javascriptInterviewQuestions](#WjavascriptInterviewQuestions)
+- [javascriptInterviewQuestions](#javascriptInterviewQuestions)
 
 ### demo
 <details>
@@ -2336,7 +2336,7 @@ console log করে দে খাতে সে টা কি তুমি প�
 ### javascriptInterviewQuestions
 <details>
 <summary>
-  <h3>javascriptInterviewQuestions</h3>
+  <h3>javascript Interview Questions</h3>
 </summary>
 <br >
   
