@@ -2182,32 +2182,30 @@ console log করে দে খাতে সে টা কি তুমি প�
         <td>  Apply Search includes, indexOf, startswith, endswith </td>
       </tr>
        <!-- row 19 -->
-           <!-- row 18 -->
+        <!-- row 18 -->
       <tr>
         <th>18</th>
         <td> destructing two way (valriable value swap)</td>
         <td> Array to Array /* [first, second] = [second, first] */, Object to Object </td>
       </tr>
-
-       <!-- row 17 -->
+             <!-- row 18 -->
       <tr>
-        <th>17</th>
-        <td> Array Check</td>
+        <th>18</th>
+               <td> Array Check</td>
         <td> //check array using Array.isArray | console.log(Array.isArray(friends)) </td>
       </tr>
-       <!-- row 17 -->
+             <!-- row 18 -->
       <tr>
-        <th>17</th>
-        <td> Array Name Check (ase ki na) </td>
+        <th>18</th>
+<td> Array Name Check (ase ki na) </td>
         <td> const friends = [13, 14, 11, 17, 21, 16, 15, 20]; | console.log(friends.includes(19))</td>
       </tr>
-        <!-- row 18 -->
+             <!-- row 18 -->
       <tr>
         <th>18</th>
         <td> preventDefault</td>
         <td> e.preventDefault();</td>
       </tr>
-       <!-- row 17 -->
       <tr>
         <th>17</th>
         <td> Math </td>
