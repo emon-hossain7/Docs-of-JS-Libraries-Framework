@@ -924,6 +924,9 @@ console.log(makeDouble)
 // option 2
 const makeDoubleDirect = numbers.map(number => number * 2);
 console.log(makeDoubleDirect)
+// option 3
+const directMap = [1, 32, 4, 5 ,6].map(x => x * 5);
+console.log(directMap)
 //Ex: 2
 const products = [
     { name: 'laptop', price: '3200', brand: 'Lenovo', color: 'Silver' },
