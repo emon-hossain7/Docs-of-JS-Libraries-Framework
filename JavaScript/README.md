@@ -2237,38 +2237,6 @@ console log করে দে খাতে সে টা কি তুমি প�
         <td>Date</td>
         <td>const today = new Date()  </td>
       </tr>
-       <!-- row 23 -->
-      <tr>
-        <th>23</th>
-        <td> </td>
-        <td> </td>
-      </tr>
-       <!-- row 24 -->
-      <tr>
-        <th>24</th>
-        <td> </td>
-        <td> </td>
-      </tr> <!-- row 25 -->
-      <tr>
-        <th>22</th>
-        <td> </td>
-        <td> </td>
-      </tr> <!-- row 25 -->
-      <tr>
-        <th>22</th>
-        <td> </td>
-        <td> </td>
-      </tr> <!-- row 22 -->
-      <tr>
-        <th>22</th>
-        <td> </td>
-        <td> </td>
-      </tr> <!-- row 22 -->
-      <tr>
-        <th>22</th>
-        <td> </td>
-        <td> </td>
-      </tr>
 
     </tbody>
   </table>
