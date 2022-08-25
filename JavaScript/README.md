@@ -928,6 +928,7 @@ console.log(makeDoubleDirect)
 // option 3
 const directMap = [1, 32, 4, 5 ,6].map(x => x * 5);
 console.log(directMap)
+//array of (numbers/ string)
 //Ex: 1.1
 // vag 3 
 const numbers = [12, 423, 545, 654, 76, 17];
