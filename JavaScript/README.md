@@ -944,6 +944,17 @@ console.log(firstLetters)
 // //Ex: 1.3
 const nameLengths = friends.map(friend => friend.length);
 console.log(nameLengths)
+//Ex: 1.4
+//array of object
+const products = [
+    {id: 1, name: 'laptop', price: 234500},
+    {id: 2, name: 'mobile', price: 4500},
+    {id: 3, name: 'table', price: 2300},
+    {id: 4, name: 'watch', price: 340},
+    {id: 5, name: 'computer', price: 2450}
+];
+const items = products.map(product => product.name);
+console.log(items)
 //Ex: 2
 const products = [
     { name: 'laptop', price: '3200', brand: 'Lenovo', color: 'Silver' },
