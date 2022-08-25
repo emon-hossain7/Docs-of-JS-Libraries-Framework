@@ -2175,19 +2175,20 @@ console log করে দে খাতে সে টা কি তুমি প�
         <td> String</td>
         <td>String হচ্ছে imutable. এর মান বা value change করা যাই না.  </td>
       </tr>
-       <!-- row 17 -->
+       <!-- row 18 -->
       <tr>
-        <th>17</th>
+        <th>18</th>
         <td> String</td>
         <td>  Apply Search includes, indexOf, startswith, endswith </td>
       </tr>
-      
-       <!-- row 17 -->
+       <!-- row 19 -->
+           <!-- row 18 -->
       <tr>
-        <th>17</th>
+        <th>18</th>
         <td> destructing two way (valriable value swap)</td>
         <td> Array to Array /* [first, second] = [second, first] */, Object to Object </td>
       </tr>
+
        <!-- row 17 -->
       <tr>
         <th>17</th>
