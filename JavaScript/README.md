@@ -26,7 +26,8 @@ List of JavaScript:
 - [Map](#Map)
 - [forEach](#forEach)
 - [filter](#filter)
-- [find](#find)
+- [Map](#Map)
+- [reduce](#reduce)
 - [JSON](#JSON)
 - [fetch_Keys_Values](#fetch_Keys_Values)
 - [Array](#Array)
@@ -42,7 +43,7 @@ List of JavaScript:
   <h3>What is ?</h3>
 </summary>
 <br >
- demo
+ reduce
 </details>
 
 ```js
@@ -1062,6 +1063,32 @@ const products = [
 const special = products.find(product => product.name.includes('n'));
 console.log(special)
 ```
+
+### demo
+<details>
+<summary>
+  <h3>What is reduce?</h3>
+</summary>
+<br >
+ reduce
+</details>
+
+```js
+//reduce
+const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 5];
+// .reduce (accumulator Function, initial value)
+// accumulator function use to parameters
+const total = numbers.reduce((previous, current) => previous + current, 0);
+const total2 = numbers.reduce((previous, current) => {
+    console.log(previous, current)
+    return previous + current
+}, 0);
+
+console.log(total)
+console.log(total2)
+
+```
+
 ### JSON  
 <details>
 <summary>
