@@ -915,6 +915,16 @@ console.log(allFriends)
 </details>
 
 ```js
+//Ex: 1
+const numbers = [2, 4, 6 ,7 ,8 ,9, 5];
+// option 1
+const doubleIt = number => number * 2;
+const makeDouble = numbers.map(doubleIt);
+console.log(makeDouble)
+// option 2
+const makeDoubleDirect = numbers.map(number => number * 2);
+console.log(makeDoubleDirect)
+//Ex: 2
 const products = [
     { name: 'laptop', price: '3200', brand: 'Lenovo', color: 'Silver' },
     { name: 'phone', price: '3499', brand: 'iphone', color: 'golden' },
