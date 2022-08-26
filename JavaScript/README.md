@@ -156,6 +156,12 @@ console.log(mama2, mama)
 </summary>
 <br >
  JSONStringify
+//javaScript এর কোন একটি object/array/value কে Object a convert করার জন্য JSON.stringify() দিতে হবে
+JSON.parse() 
+return Object;
+//javaScript এর কোন একটি  object/array/value কে string a convert করার জন্য JSON.stringify() দিতে হবে
+JSON.stringify() 
+return String;
 </details>
 
 ```js
@@ -2184,15 +2190,27 @@ console log করে দে খাতে সে টা কি তুমি প�
       </tr>
     </thead>
     <tbody>
+      <!-- row 1.17 -->
+      <tr>
+        <th>1.17</th>
+        <td>JSON.parse() </td>
+        <td>javaScript এর কোন একটি object/array/value কে Object a convert করার জন্য JSON.stringify() দিতে হবে (return Object;)</td>
+      </tr>
+      <!-- row 1.18 -->
+      <tr>
+        <th>1.18</th>
+        <td>JSON.stringify()</td>
+        <td>javaScript এর কোন একটি  object/array/value কে string a convert করার জন্য JSON.stringify() দিতে হবে (return String);</td>
+      </tr>
       <!-- row 1.19 -->
       <tr>
-        <th>1</th>
+        <th>1.19</th>
         <td>es6 update</td>
         <td>1. let and const, 2. default parameters, 3. template String, 4. arrow function, 5. Spread Operator, 6. destructuring</td>
       </tr>
       <!-- row 1.20 -->
       <tr>
-        <th>1</th>
+        <th>1.20</th>
         <td>integer</td>
         <td>পূর্ণ সংখ্যা 1, 2, 40, 43 [parseint()]</td>
       </tr>
