@@ -1473,6 +1473,12 @@ switch (color) {
 
 ### jsProblemSolved
 
+<details>
+<summary>
+  <h3>js Problem Solved</h3>
+</summary>
+<br >
+
 ```js
 
 ### Number 1 
@@ -1784,7 +1790,10 @@ console.log(result)
 
 
 
+
+
 ```
+</details>
   
 <details>
 <summary>
