@@ -156,7 +156,7 @@ console.log(mama2, mama)
 </summary>
 <br >
  JSONStringify
-//javaScript এর কোন একটি object/array/value কে Object a convert করার জন্য JSON.stringify() দিতে হবে
+//javaScript এর কোন একটি object/array/value কে Object a convert করার জন্য JSON.parse() দিতে হবে
 JSON.parse() 
 return Object;
 //javaScript এর কোন একটি  object/array/value কে string a convert করার জন্য JSON.stringify() দিতে হবে
