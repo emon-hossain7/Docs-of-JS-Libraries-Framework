@@ -2139,7 +2139,7 @@ console log করে দে খাতে সে টা কি তুমি প�
  ```css
   //Basic knowledge
   1. how does internet work?
-  
+  2. what is api (application programming interface) ?
   
   //module:  30
   1. what is DOM?
