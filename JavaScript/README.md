@@ -187,6 +187,11 @@ const stringified = JSON.stringify(user);
 console.log(stringified)
 //ans: {"id":1,"name":"Amir Khan","Job":"actor"}
 
+//javaScript এর কোন একটি object/array/value কে Object a convert করার জন্য JSON.stringify() দিতে হবে (return Object;)
+JSON.parse() 
+
+//javaScript এর কোন একটি  object/array/value কে string a convert করার জন্য JSON.stringify() দিতে হবে (return String);
+JSON.stringify() 
 ```
 
 ### DOM
