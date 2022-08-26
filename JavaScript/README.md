@@ -2137,6 +2137,14 @@ console log করে দে খাতে সে টা কি তুমি প�
 <br >
   
  ```css
+  //module:  30
+  1. what is DOM?
+  2. What are the different ways to get an element from DOM ?
+  3. What's the different between an Event Handler and an Event Listener ?
+  4. what does "event bubbling" mean in JavaScript?
+  5. Can you explain the different types of events available in javaScript?
+  6. what's the difference bettween event.preventDefault() and event.stopPropagation()?
+  
   //module:  31
   1. what's the diffrence between map,foreach, filter?
   2. what's the diffrence between filter & find?
