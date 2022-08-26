@@ -159,14 +159,27 @@ console.log(mama2, mama)
 </details>
 
 ```js
-
+// without stringify
+//Ex: 1
 let a = { x: 5, y: 6 }
 console.log(a, typeof a)
 //ans:  Object { x: 5, y: 6 } "object"
 
+//Ex: 2
+// with stringify
 let b = JSON.stringify(a)
 console.log(b, typeof b);
 //'{"x":5,"y":6}' "string"
+
+//Ex: 1.2
+const user = {id: 1, name: 'Amir Khan', Job: 'actor'};
+console.log(user)
+//ans: {id: 1, name: 'Amir Khan', Job: 'actor'}
+//Ex: 2.1
+const user = {id: 1, name: 'Amir Khan', Job: 'actor'};
+const stringified = JSON.stringify(user);
+console.log(stringified)
+//ans: {"id":1,"name":"Amir Khan","Job":"actor"}
 
 ```
 
