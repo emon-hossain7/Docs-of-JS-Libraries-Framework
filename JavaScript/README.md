@@ -2186,6 +2186,12 @@ console log করে দে খাতে সে টা কি তুমি প�
   ii. An API acts like a link that allows two applications to talk to each other.
   iii. API is the part of the server that receives requests and sends responses
   2. GET Vs POST ?
+  3. what are the HTTP methods supported by RESt?
+  4. Can you use GET request instead of PUT to create a resource?
+  5. what is JSON?
+  6. What are CRUD operations?
+  
+   //module:  33
   
  ```
 </details>
