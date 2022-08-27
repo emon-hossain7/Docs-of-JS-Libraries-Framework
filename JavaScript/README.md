@@ -2180,6 +2180,13 @@ console log করে দে খাতে সে টা কি তুমি প�
   4. how do you empty an array?
   5. Difference between class and object?
   
+  //module:  32
+  1. what is an api?
+  Ans: i. Api  stands for Application Programming Interface.
+  ii. An API acts like a link that allows two applications to talk to each other.
+  iii. API is the part of the server that receives requests and sends responses
+  2.
+  
  ```
 </details>
 
