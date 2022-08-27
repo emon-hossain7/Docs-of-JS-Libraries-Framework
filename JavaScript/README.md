@@ -2398,25 +2398,25 @@ console log করে দে খাতে সে টা কি তুমি প�
       <tr>
         <th>24</th>
         <td>Api GET</td>
-        <td> Receive Information about an API resource </td>
+        <td> Receive Information about an API resource ()</td>
       </tr>
            <!-- row 24-->
       <tr>
         <th>24</th>
         <td>Api POST</td>
-        <td> Create an API resource </td>
+        <td> Create an API resource (নতুন একটা কিছু add করা) </td>
       </tr>
            <!-- row 24-->
       <tr>
         <th>24</th>
         <td>Api PUT/PATCH</td>
-        <td> Update an Api resource</td>
+        <td> Update an Api resource (put almost patch but put => যদি কোন কিছু আগে থেকেই থাকে সেইটা পরিবর্তন করে নিজে বসে পরে।  আর না থাকলে নিজে create করে ) (patch => কোন কিছু আগে থেকেই আছে সেই টা update করে) patch করতে হলে কিছু থাকতে হবে।</td>
       </tr>
           <!-- row 24-->
       <tr>
         <th>24</th>
         <td>Api DELETE </td>
-        <td> Delete an API resource</td>
+        <td> Delete an API resource (Api থেকে কিছু delete করতে DELETE method করতে হবে)</td>
       </tr> <!-- row 24-->
       <tr>
         <th>24</th>
@@ -2426,8 +2426,8 @@ console log করে দে খাতে সে টা কি তুমি প�
           <!-- row 24-->
       <tr>
         <th>24</th>
-        <td></td>
-        <td>'</td>
+        <td>HTTP STATUS CODE</td>
+        <td>(200 - ok), (301 - Moved Permanently), (302- Moved Temporarily), (404 - Not Found), (500 - Intenal Server Error), (503 - Service Unabailable)</td>
       </tr> 
           <!-- row 24-->
       <tr>
