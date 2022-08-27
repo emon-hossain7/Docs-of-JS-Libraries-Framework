@@ -2185,7 +2185,7 @@ console log করে দে খাতে সে টা কি তুমি প�
   Ans: i. Api  stands for Application Programming Interface.
   ii. An API acts like a link that allows two applications to talk to each other.
   iii. API is the part of the server that receives requests and sends responses
-  2.
+  2. GET Vs POST ?
   
  ```
 </details>
@@ -2393,6 +2393,53 @@ console log করে দে খাতে সে টা কি তুমি প�
         <th>23</th>
         <td>multiline</td>
         <td>const multiline = 'line 1 \n' + ' line 2 \n'</td>
+      </tr>
+           <!-- row 24-->
+      <tr>
+        <th>24</th>
+        <td>Api GET</td>
+        <td> Receive Information about an API resource </td>
+      </tr>
+           <!-- row 24-->
+      <tr>
+        <th>24</th>
+        <td>Api POST</td>
+        <td> Create an API resource </td>
+      </tr>
+           <!-- row 24-->
+      <tr>
+        <th>24</th>
+        <td>Api PUT/PATCH</td>
+        <td> Update an Api resource</td>
+      </tr>
+          <!-- row 24-->
+      <tr>
+        <th>24</th>
+        <td>Api DELETE </td>
+        <td> Delete an API resource</td>
+      </tr> <!-- row 24-->
+      <tr>
+        <th>24</th>
+        <td>Api CRUD</td>
+        <td>'</td>
+      </tr>
+          <!-- row 24-->
+      <tr>
+        <th>24</th>
+        <td></td>
+        <td>'</td>
+      </tr> 
+          <!-- row 24-->
+      <tr>
+        <th>24</th>
+        <td></td>
+        <td>'</td>
+      </tr>
+           <!-- row 24-->
+      <tr>
+        <th>24</th>
+        <td></td>
+        <td>'</td>
       </tr>
     </tbody>
   </table>
