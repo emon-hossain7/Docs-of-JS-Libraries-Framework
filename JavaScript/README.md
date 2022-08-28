@@ -800,6 +800,57 @@ const heights = [167, 190, 120, 165, 139, 534];
 const tallest = maxInArray(heights);
 console.log('tallest person is', tallest)
 
+//fetch and for loop, forEach, map
+const loadCountries = () => {
+    fetch('https://restcountries.com/v2/all')
+        .then(res => res.json())
+        .then(data => displayCountries(data))
+};
+
+const displayCountries = (countries) => {
+    const countriesContainer = document.getElementById('countries-container');
+    // using for loop
+    for(const country of countries){
+        const { name, capital, flags, demonym } = country;
+        const countryDiv = document.createElement('div');
+        countryDiv.classList.add('country')
+        countryDiv.innerHTML = `
+            <h3>Name: ${name}</h3>
+            <h4>Capital: ${capital}</h4>
+            <img src=${flags.png}>
+            <p>${demonym}</p>
+        `
+        countriesContainer.appendChild(countryDiv)
+    }
+    // using forEach
+    countries.forEach(country => {
+        const { name, capital, flags, demonym } = country;
+        const countryDiv = document.createElement('div');
+        countryDiv.classList.add('country')
+        countryDiv.innerHTML = `
+            <h3>Name: ${name}</h3>
+            <h4>Capital: ${capital}</h4>
+            <img src=${flags.png}>
+            <p>${demonym}</p>
+        `
+        countriesContainer.appendChild(countryDiv)
+    })
+    // using map
+    countries.map(country => {
+        const { name, capital, flags, demonym } = country;
+        console.log(country)
+        const countryDiv = document.createElement('div');
+        countryDiv.classList.add('country')
+        countryDiv.innerHTML = `
+            <h3>Name: ${name}</h3>
+            <h4>Capital: ${capital}</h4>
+            <img src=${flags.png}>
+            <p>${demonym}</p>
+        `
+        countriesContainer.appendChild(countryDiv)
+    })
+};
+loadCountries()
 
 ```
 
@@ -1171,6 +1222,60 @@ console.log(keys )
 const values = Object.values(student);
 console.log(values )
 // values ['sakib Khan', 32, Array(3)]
+
+//Example: all
+
+const loadCountries = () => {
+    fetch('https://restcountries.com/v2/all')
+        .then(res => res.json())
+        .then(data => displayCountries(data))
+};
+
+const displayCountries = (countries) => {
+    const countriesContainer = document.getElementById('countries-container');
+    // using for loop
+    for(const country of countries){
+        const { name, capital, flags, demonym } = country;
+        const countryDiv = document.createElement('div');
+        countryDiv.classList.add('country')
+        countryDiv.innerHTML = `
+            <h3>Name: ${name}</h3>
+            <h4>Capital: ${capital}</h4>
+            <img src=${flags.png}>
+            <p>${demonym}</p>
+        `
+        countriesContainer.appendChild(countryDiv)
+    }
+    // using forEach
+    countries.forEach(country => {
+        const { name, capital, flags, demonym } = country;
+        const countryDiv = document.createElement('div');
+        countryDiv.classList.add('country')
+        countryDiv.innerHTML = `
+            <h3>Name: ${name}</h3>
+            <h4>Capital: ${capital}</h4>
+            <img src=${flags.png}>
+            <p>${demonym}</p>
+        `
+        countriesContainer.appendChild(countryDiv)
+    })
+    // using map
+    countries.map(country => {
+        const { name, capital, flags, demonym } = country;
+        console.log(country)
+        const countryDiv = document.createElement('div');
+        countryDiv.classList.add('country')
+        countryDiv.innerHTML = `
+            <h3>Name: ${name}</h3>
+            <h4>Capital: ${capital}</h4>
+            <img src=${flags.png}>
+            <p>${demonym}</p>
+        `
+        countriesContainer.appendChild(countryDiv)
+    })
+};
+loadCountries()
+
 ```
 ### Array  
 <details>
