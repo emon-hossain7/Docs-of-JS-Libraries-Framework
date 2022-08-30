@@ -1379,6 +1379,48 @@ console.log('tallest person is', tallest)
 </details>
 
 ```js
+//1. object write => create object using object literals
+//importan 1
+const player = {};
+const student = {
+    name: 'pandy',
+    job: 'undey',
+    ball: function(){
+        console.log('thro the ball')
+    },
+    salary: 1000
+};
+
+
+//2. object write => object constructor
+const person = new Object();
+console.log(person)
+
+//3. object write => object create method
+const item = Object.create(student);
+console.log(item.name)
+
+
+//4. object write => Es6 class
+//importan 2
+class Person{
+    name = 'Abul';
+    address = 'Sodor Ghat';
+    constructor(age){
+        this.age = age;
+    }
+}
+const person1 = new Person(56);
+console.log(person1)
+
+//5. object write => function
+function car(model, price){
+    this.model = model;
+    this.price = price;
+}
+
+
+
 let shoppingCart = {
     books: 3,
     sunglass: 2,
