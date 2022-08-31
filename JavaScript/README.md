@@ -1143,7 +1143,7 @@ const special = products.find(product => product.name.includes('n'));
 console.log(special)
 ```
 
-### demo
+### reduce
 <details>
 <summary>
   <h3>What is reduce?</h3>
@@ -1449,6 +1449,31 @@ console.log(remaining)
 const dolaRemaining = student.treatDay(500, 50);
 console.log(dolaRemaining)
 
+// 1. return keys
+const bottle = { color: 'yellow', price: 50, isCleaned: true, capacity: 1 };
+const keys = Object.keys(bottle);
+console.log(keys)
+// Output : ['color', 'price', 'isCleaned', 'capacity']
+//2.  return values
+const values = Object.values(bottle);
+console.log(values)
+// output: ['yellow', 50, true, 1]
+// 3.  two dimontion array
+const pair = Object.entries(bottle);
+console.log(pair)
+// output:  
+// ['color', 'yellow'],
+//     ['price', 50],
+//     ['isCleaned', true],
+//     ['capacity', 1]
+// 4 .delete object property
+delete bottle.isCleaned;
+console.log(bottle)
+//5. seal not exist delete (seal object property কে delete হতে দেই না but value set করতে পারে ) 
+Object.seal(bottle)
+console.log(bottle)
+// 6. freeze (not changing using freeze)
+Object.freeze(bottle)
 
 
 // Example : 1
@@ -1466,7 +1491,6 @@ let penCount2 = shoppingCart['pen']
 let propertiesKeys = Object.keys(shoppingCart)
 // when you want all propeties values name
 let propertiesValues = Object.values(shoppingCart)
-
 
 //set property values
 shoppingCart.mouse = 15;
