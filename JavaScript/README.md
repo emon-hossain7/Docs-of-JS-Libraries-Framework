@@ -1475,6 +1475,19 @@ console.log(bottle)
 // 6. freeze (not changing using freeze)
 Object.freeze(bottle)
 
+// for in loop in object
+const bottle = { color: 'yellow', price: 50, isCleaned: true, capacity: 1 };
+for(const key in bottle){
+    const value = bottle[key];
+    console.log(key, value)
+}
+
+//advanced
+const pair = Object.entries(bottle);
+console.log(pair)
+for(const [key, value] of Object.entries(bottle)){
+    console.log(key, value)
+}
 
 // Example : 1
 let shoppingCart = {
