@@ -1419,8 +1419,39 @@ function car(model, price){
     this.price = price;
 }
 
+//object oriented object
+const student = {
+    name: 'kondom Ali',
+    money: 5000,
+    study: 'Math',
+    subjects: [
+        'calculus', 'algebra', 'geometry'
+    ],
+    exam: function(){
+        return this.name + ' ' + this.money
+    },
+    improveExam: function(subject){
+        this.exam();
+        return `${this.name} is takeing improvement exam on ${subject}`
+    },
+    treatDay: function(amount, tips){
+        this.money = this.money - amount - tips;
+        return this.money;
+    }
+};
+
+const output = student.exam();
+console.log(output)
+const reExam = student.improveExam('Algebra');
+console.log(reExam)
+const remaining = student.treatDay(900, 100);
+console.log(remaining)
+const dolaRemaining = student.treatDay(500, 50);
+console.log(dolaRemaining)
 
 
+
+// Example : 1
 let shoppingCart = {
     books: 3,
     sunglass: 2,
