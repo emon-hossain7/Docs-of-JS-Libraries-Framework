@@ -61,10 +61,11 @@ List of JavaScript:
 </summary>
 <br >
  demo
-
+</details>
 
 ```js
-</details>
+
+```
 
 // 1. let and const
 let salary = 345;
