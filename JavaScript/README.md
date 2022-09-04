@@ -2376,7 +2376,7 @@ console log করে দে খাতে সে টা কি তুমি প�
 
 //ES6 Interview Questions?
 
-
+// Milestone 6: Intermediate JavaScript, Api
 //module:  30
 1. what is DOM?
 2. What are the different ways to get an element from DOM ?
