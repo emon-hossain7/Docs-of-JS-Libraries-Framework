@@ -2431,6 +2431,8 @@ iii. and sometimes talk directly to users at other computers.
 Ans: An IP address is a unique address that identifies a device on the internet or a local network.
 3. What is HTTP?
 Ans: https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview
+4. What is an SSL certificate?
+5. What is diffrence HTTP and HTTPS and HTTP version 4 ?
 
 	
   
