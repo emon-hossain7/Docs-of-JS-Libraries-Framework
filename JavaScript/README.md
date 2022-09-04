@@ -2674,6 +2674,78 @@ console log করে দে খাতে সে টা কি তুমি প�
     </tbody>
   </table>
 </div>
+  
+  ### snippetsForJavascript
+<details>
+<summary>
+  <h3>your snippets for javascript here</h3>
+</summary>
+<br >
+  
+ ```js
+
+{
+	// Example:
+	"Print to console": {
+		"prefix": "cl",
+		"body": [
+			"console.log($1)"
+		],
+		"description": "Log output to console"
+	},
+	"Print to console.error": {
+		"prefix": "ce",
+		"body": [
+			"console.error($1)"
+		],
+		"description": "Log output to console"
+	},
+	"Print to const": {
+		"prefix": "cn",
+		"body": [
+			"const $1 = $2;",
+			"$3"
+		],
+		"description": "Log output to const"
+	},
+	"Print to const function": {
+		"prefix": "cf",
+		"body": [
+			"const $1 = ($2) => {$3}",
+			"$4"
+		],
+		"description": "Log output to const function"
+	},
+	"Print to if": {
+		"prefix": "i",
+		"body": [
+			"if($1){$2}",
+			"$3"
+		],
+		"description": "Log output to if"
+	},
+	"Print to fetch": {
+		"prefix": "fet",
+		"body": [
+			"fetch('$1')",
+			".then(res => res.json())",
+			".then(data => $2)",
+			"$3"
+		],
+		"description": "Log output to fetch"
+	},
+	"Print to let": {
+		"prefix": "le",
+		"body": [
+			"let $1 = $2;",
+			"$3"
+		],
+		"description": "Log output to let"
+	},
+}
+  
+ ```
+</details>
 
 ## 🌐 Socials: Connect with Emon Hossain!
 
