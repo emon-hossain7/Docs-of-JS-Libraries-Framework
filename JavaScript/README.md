@@ -2373,6 +2373,9 @@ console log করে দে খাতে সে টা কি তুমি প�
  ```css
   //Basic knowledge
   1. how does internet work?
+	
+  //ES6 Interview Questions?
+ 
   
   //module:  30
   1. what is DOM?
