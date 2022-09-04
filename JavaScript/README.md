@@ -2371,55 +2371,67 @@ console log করে দে খাতে সে টা কি তুমি প�
 <br >
   
  ```css
-  //Basic knowledge
-  1. how does internet work?
+//Basic knowledge
+1. how does internet work?
+
+//ES6 Interview Questions?
+
+
+//module:  30
+1. what is DOM?
+2. What are the different ways to get an element from DOM ?
+3. What's the different between an Event Handler and an Event Listener ?
+4. what does "event bubbling" mean in JavaScript?
+5. Can you explain the different types of events available in javaScript?
+6. what's the difference bettween event.preventDefault() and event.stopPropagation()?
+
+//module:  31
+1. what's the diffrence between map,foreach, filter?
+2. what's the diffrence between filter & find?
+3. what's the diffrence for of and for in?
+4. how do you empty an array?
+5. Difference between class and object?
+
+//module:  32
+1. what is an api?
+Ans: i. Api  stands for Application Programming Interface.
+ii. An API acts like a link that allows two applications to talk to each other.
+iii. API is the part of the server that receives requests and sends responses
+2. GET Vs POST ?
+3. what are the HTTP methods supported by RESt?
+4. Can you use GET request instead of PUT to create a resource?
+5. what is JSON?
+6. What are CRUD operations?
+
+//module:  33
+মাইলস্টোন ৬ টেকএওয়ে
+এই মাইলস্টোন থেকে তুমি যদি আটটা জিনিস শিখতে চাও তাহলে নিচের এই আটটি জিনিস আরেকবার ভালো করে দেখে নাও-
+১. fetch বা async await ইউজ করে API থেকে কিভাবে ডাটা লোড করতে হয়। ডাটা অনেক সময় অনেকভাবে থাকে। সেই ডাটা কোনটা কখন array কখন অবজেক্ট এর ভিতরে আছে। সেটা বুঝে সেই অনুসারে ডাটা দেখানোর সিস্টেম
+২. arrow ফাংশন কিভাবে ইউজ করা হয়
+৩. template string এ ডাইনামিকভাবে কিভাবে ডাটা যোগ করতে হয়
+৪. map, forEach, filter, find এইগুলা কখন কোনটা ব্যবহার করতে হয়, এদের মধ্যে পার্থক্য কি
+৫. let, const, var এদের মধ্যে ডিফারেন্স কি, কোন কোনটা ইউজ করতে হয়।
+৬. কোনটা দিয়ে array এর মধ্যে লুপ করতে হয়, কোনটা দিয়ে অবজেক্ট এর মধ্যে লুপ করতে হয়
+৭. spread কিভাবে ইউজ করা হয়, স্প্রেড অপারেটর দিয়ে কিভাবে array কপি করে ফেলে।
+৮. ES6 এর মধ্যে কিভাবে অবজেক্ট বা array এর  destructure করে সেটা থেকে ভেরিয়েবল ডিক্লেয়ার করতে হয়।
+.
+Milestone : 6 এই মাইলস্টোন থেকে তুমি যদি আরো চারটা জিনিস এ খেয়াল রাখতে চাও তাহলে সেগুলো হবে- 
+১. GET আর POST এর মধ্যে পার্থক্য কি ?
+২. class আর অবজেক্ট কি জিনিস
+৩. bind, call, apply এর পার্থক্য কি ?
+৪. জাভাস্ক্রিপ্ট এর this সম্পর্কে ধারণা
+
+// Milestone 7: Explore Browser & Debug
+//module:  37
+1. what is internet?
+ans:i. The internet, sometimes called simply the net is a wold wide system of computer networkd
+ii. a net work of networks in which user at any one computer can, if they have permission, get information from any other computer
+iii. and sometimes talk directly to users at other computers.
+2. What is IP address?
+Ans: An IP address is a unique address that identifies a device on the internet or a local network.
+  
+
 	
-  //ES6 Interview Questions?
- 
-  
-  //module:  30
-  1. what is DOM?
-  2. What are the different ways to get an element from DOM ?
-  3. What's the different between an Event Handler and an Event Listener ?
-  4. what does "event bubbling" mean in JavaScript?
-  5. Can you explain the different types of events available in javaScript?
-  6. what's the difference bettween event.preventDefault() and event.stopPropagation()?
-  
-  //module:  31
-  1. what's the diffrence between map,foreach, filter?
-  2. what's the diffrence between filter & find?
-  3. what's the diffrence for of and for in?
-  4. how do you empty an array?
-  5. Difference between class and object?
-  
-  //module:  32
-  1. what is an api?
-  Ans: i. Api  stands for Application Programming Interface.
-  ii. An API acts like a link that allows two applications to talk to each other.
-  iii. API is the part of the server that receives requests and sends responses
-  2. GET Vs POST ?
-  3. what are the HTTP methods supported by RESt?
-  4. Can you use GET request instead of PUT to create a resource?
-  5. what is JSON?
-  6. What are CRUD operations?
-  
-   //module:  33
-    মাইলস্টোন ৬ টেকএওয়ে
-    এই মাইলস্টোন থেকে তুমি যদি আটটা জিনিস শিখতে চাও তাহলে নিচের এই আটটি জিনিস আরেকবার ভালো করে দেখে নাও-
-    ১. fetch বা async await ইউজ করে API থেকে কিভাবে ডাটা লোড করতে হয়। ডাটা অনেক সময় অনেকভাবে থাকে। সেই ডাটা কোনটা কখন array কখন অবজেক্ট এর ভিতরে আছে। সেটা বুঝে সেই অনুসারে ডাটা দেখানোর সিস্টেম
-    ২. arrow ফাংশন কিভাবে ইউজ করা হয়
-    ৩. template string এ ডাইনামিকভাবে কিভাবে ডাটা যোগ করতে হয়
-    ৪. map, forEach, filter, find এইগুলা কখন কোনটা ব্যবহার করতে হয়, এদের মধ্যে পার্থক্য কি
-    ৫. let, const, var এদের মধ্যে ডিফারেন্স কি, কোন কোনটা ইউজ করতে হয়।
-    ৬. কোনটা দিয়ে array এর মধ্যে লুপ করতে হয়, কোনটা দিয়ে অবজেক্ট এর মধ্যে লুপ করতে হয়
-    ৭. spread কিভাবে ইউজ করা হয়, স্প্রেড অপারেটর দিয়ে কিভাবে array কপি করে ফেলে।
-    ৮. ES6 এর মধ্যে কিভাবে অবজেক্ট বা array এর  destructure করে সেটা থেকে ভেরিয়েবল ডিক্লেয়ার করতে হয়।
-    .
-    এই মাইলস্টোন থেকে তুমি যদি আরো চারটা জিনিস এ খেয়াল রাখতে চাও তাহলে সেগুলো হবে-
-    ১. GET আর POST এর মধ্যে পার্থক্য কি ?
-    ২. class আর অবজেক্ট কি জিনিস
-    ৩. bind, call, apply এর পার্থক্য কি ?
-    ৪. জাভাস্ক্রিপ্ট এর this সম্পর্কে ধারণা
   
  ```
 </details>
