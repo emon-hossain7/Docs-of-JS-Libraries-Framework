@@ -2726,8 +2726,8 @@ Ans: JavaScript is a single- threaded and synchronus language.
       </tr>	     <!-- row 24-->
       <tr>
         <th>24</th>
-        <td> </td>
-        <td> </td>
+        <td>Edit any ui page</td>
+        <td> document.body.contentEditable = true</td>
       </tr>
 			     <!-- row 24-->
       <tr>
