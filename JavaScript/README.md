@@ -2456,6 +2456,8 @@ Ans: JavaScript is a single- threaded and synchronus language.
 51. What is SSL?
 52. What is Regular Expression?
 
+//module:  38
+53. BOM vs DOM?
 	
   
  ```
