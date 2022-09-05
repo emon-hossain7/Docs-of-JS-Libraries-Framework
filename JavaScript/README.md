@@ -2715,14 +2715,14 @@ Ans: JavaScript is a single- threaded and synchronus language.
 		     <!-- row 24-->
       <tr>
         <th>24</th>
-        <td> </td>
-        <td> </td>
+        <td>event loop</td>
+        <td> JavaScript এর asynchronous items গুলা থাকে Queue-তে এবং synchronous items গুলা থাকে Stack-এ। Stack এর কাজগুলা সম্পাদন হয়ে গেলে তখন Queue-তে থাকা কাজগুলো Stack-এ এসে সম্পাদন হতে থাকে। আর এই পুরো কাজটা Event Loop-এর মাধ্যমে হয়ে থাকে। এটাই event loop এর কন্সেপ্ট</td>
       </tr>
 			     <!-- row 24-->
       <tr>
         <th>24</th>
-        <td> </td>
-        <td> </td>
+        <td>Call Stack </td>
+        <td> Call Stack হচ্ছে Stack এর মধ্যে synchronous ভাবে যেই function এর কাজগুলো একটার পর একটা থাকে এবং সেই অনুসারে execute হয়, সেটাকেই call stack বলে</td>
       </tr>	     <!-- row 24-->
       <tr>
         <th>24</th>
