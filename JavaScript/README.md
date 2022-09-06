@@ -2731,7 +2731,37 @@ Ans: JavaScript is a single- threaded and synchronus language.
         <td>Edit any ui page</td>
         <td> document.body.contentEditable = true</td>
       </tr>
-			     <!-- row 24-->
+	 <!-- row 24-->
+      <tr>
+        <th>24</th>
+        <td> get cookie value from browser</td>
+        <td>document.cookie </td>
+      </tr>
+	  <!-- row 24-->
+      <tr>
+        <th>24</th>
+        <td>get cookie value as array </td>
+        <td> document.cookie.split('; ')</td>
+      </tr>
+	<!-- row 24-->
+      <tr>
+        <th>24</th>
+        <td>get cookie value in key-value pair </td>
+        <td>  document.cookie.split('; ').map(c => console.log(c))</td>
+      </tr>
+	 <!-- row 24-->
+      <tr>
+        <th>24</th>
+        <td> </td>
+        <td> </td>
+      </tr>
+	<!-- row 24-->
+      <tr>
+        <th>24</th>
+        <td> </td>
+        <td> </td>
+      </tr>
+<!-- row 24-->
       <tr>
         <th>24</th>
         <td> </td>
