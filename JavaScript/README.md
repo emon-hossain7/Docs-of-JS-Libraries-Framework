@@ -2457,7 +2457,12 @@ Ans: JavaScript is a single- threaded and synchronus language.
 52. What is Regular Expression?
 
 //module:  38
-53. BOM vs DOM?
+53. What is the defference between an alert box and a confirmation box?
+54. What are javaScript Cookies?
+55. Difference between local storage and sesseion storage?
+56. what should you use? cookie or local storage or sesseion storage?
+57. Tell me 2 differences between DOM vs BOM?
+58. Can you discuss the types of broweserAPI?
 	
   
  ```
