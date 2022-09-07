@@ -2441,7 +2441,7 @@ i. Callback functions (setTImeout, etc)
 ii. Promises (fetch)
 iii. Async/ await
 39. What is single-threaded?
-Ans: JavaScript is a single- threaded and synchronus language.
+Ans: JavaScript is a single- threaded and synchronus language. (কিন্তু code Browser চলে আসে তখন সে asynchronous)
 40. What do you mean by Synchronous?
 41. What do you mean by asynchronous?
 42. What is Promise?
@@ -2463,7 +2463,10 @@ Ans: JavaScript is a single- threaded and synchronus language.
 56. what should you use? cookie or local storage or sesseion storage?
 57. Tell me 2 differences between DOM vs BOM?
 58. Can you discuss the types of broweserAPI?
-	
+59. what is javaScript Heap? (javaScript memory location কোথাই করে?)
+Ans: কোন object/ array এর refarence টাকে কিছু সময়ের জন্য stored করে রাখে। সেটাই হল Heeap| javaScript এ memory location Heap এ করে।
+60. what is javaScript stack?
+Ans: 
   
  ```
 </details>
