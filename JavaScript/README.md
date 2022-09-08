@@ -58,7 +58,7 @@ List of JavaScript:
 ### es6
 <details>
 <summary>
-  <h3>What is es6?</h3>
+  <h3>What is es6? (Click Me)</h3>
 </summary>
 <br >
  demo
@@ -110,7 +110,7 @@ const [a, b, c] = [12, 45, 32 ,56 ,7, 5];
 ### Destructuring
 <details>
 <summary>
-  <h3>What is Destructuring?</h3>
+  <h3>What is Destructuring? (Click Me)</h3>
 </summary>
 <br >
  Destructuring
@@ -153,7 +153,7 @@ console.log(mama2, mama)
 ### JSONStringify
 <details>
 <summary>
-  <h3>What is JSONStringify ?</h3>
+  <h3>What is JSONStringify ? (Click Me)</h3>
 </summary>
 <br >
  JSONStringify
@@ -198,7 +198,7 @@ JSON.stringify()
 ### DOM
 <details>
 <summary>
-  <h3>What is events?</h3>
+  <h3>What is events? (Click Me)</h3>
 </summary>
 <br >
 events 
@@ -283,7 +283,7 @@ const purpleButton = document.getElementById('make-purple');
 ### DOM
 <details>
 <summary>
-  <h3>What is DOM?</h3>
+  <h3>What is DOM? (Click Me)</h3>
 </summary>
 <br >
 DOM 
@@ -482,7 +482,7 @@ document.getElementById('make-orange', function(){
 ### sliceSplice
 <details>
 <summary>
-  <h3>What is sliceSplice?</h3>
+  <h3>What is sliceSplice? (Click Me)</h3>
 </summary>
 <br >
 function 
@@ -509,7 +509,7 @@ console.log(friends)
 ### function
 <details>
 <summary>
-  <h3>What is function?</h3>
+  <h3>What is function? (Click Me)</h3>
 </summary>
 <br >
 function 
@@ -624,7 +624,7 @@ const doMath = () => {
 ### String
 <details>
 <summary>
-  <h3>What is String?</h3>
+  <h3>What is String? (Click Me)</h3>
 </summary>
 <br >
 
@@ -651,7 +651,7 @@ console.log(parts)
 ### whileLoop
 <details>
 <summary>
-  <h3>What is whileLoop?</h3>
+  <h3>What is whileLoop? (Click Me)</h3>
 </summary>
 <br >
 
@@ -682,7 +682,7 @@ console.log(parts)
 ### forLoop
 <details>
 <summary>
-  <h3>What is forLoop?</h3>
+  <h3>What is forLoop? (Click Me)</h3>
 </summary>
 <br >
 
@@ -855,7 +855,7 @@ loadCountries()
 ### Recursion
 <details>
 <summary>
-  <h3>What is Recursion?</h3>
+  <h3>What is Recursion? (Click Me)</h3>
 </summary>
 <br >
 - Recursion is
@@ -883,7 +883,7 @@ console.log(result)
 ### TemplateString
 <details>
 <summary>
-  <h3>What is Template String?</h3>
+  <h3>What is Template String? (Click Me)</h3>
 </summary>
 <br >
 - Template String is
@@ -903,7 +903,7 @@ console.log(about)
 ### ArrowFunction
 <details>
 <summary>
-  <h3>What is Arrow Function?</h3>
+  <h3>What is Arrow Function? (Click Me)</h3>
 </summary>
 <br >
 - Arrow Function is
@@ -923,7 +923,7 @@ const doMath = (num1, num2) => {
 ### SpreadOperator
 <details>
 <summary>
-  <h3>What is SpreadOperator?(click here)</h3>
+  <h3>What is SpreadOperator?(click here) (Click Me)</h3>
 </summary>
 <br >
 - The javascript spread operator (...) allows us to quickly copy all or part of an existing way array or object into another array or object
@@ -966,7 +966,9 @@ newNumbers [ 87, 342, 54, 23, 56, 234 ]
 currentNumbers [ 87, 342, 54, 23, 56, 234, 99, 91, 93, 55 ]
 ```
 </details>
+
 ### concat
+	
 <details>
 <summary>
   <h3>What is concat? (click here)</h3>
@@ -986,7 +988,7 @@ console.log(allFriends)
 ### Map
 <details>
 <summary>
-  <h3>What is Map?</h3>
+  <h3>What is Map? (Click Me)</h3>
 </summary>
 <br >
 - If you want to return an array by working for the element, you need to use a map. 
@@ -1053,7 +1055,7 @@ console.log(prices)
 ### forEach
 <details>
 <summary>
-  <h3>What is forEach?</h3>
+  <h3>What is forEach? (Click Me)</h3>
 </summary>
 <br >
 - If you want to return an array by working for the element, you need to use a map. 
@@ -1078,7 +1080,7 @@ products.forEach(product => {
 ### filter 
 <details>
 <summary>
-  <h3>What is filter?</h3>
+  <h3>What is filter? (Click Me)</h3>
 </summary>
 <br >
 - If a filter is used to conditionally select one or more elements of an array, the filter works condition wise.
@@ -1125,7 +1127,7 @@ console.log(specificName)
 ### find  
 <details>
 <summary>
-  <h3>What is find?</h3>
+  <h3>What is find? (Click Me)</h3>
 </summary>
 <br >
 - Find is used to conditionally find the first element in an array. If more than one element meets the condition, find returns the first element.
@@ -1148,7 +1150,7 @@ console.log(special)
 ### reduce
 <details>
 <summary>
-  <h3>What is reduce?</h3>
+  <h3>What is reduce? (Click Me)</h3>
 </summary>
 <br >
  reduce
@@ -1173,7 +1175,7 @@ console.log(total2)
 ### JSON  
 <details>
 <summary>
-  <h3>What is JSON?</h3>
+  <h3>What is JSON? (Click Me)</h3>
 </summary>
 <br >
 - Find is used to conditionally find the first element in an array. If more than one element meets the condition, find returns the first element.
@@ -1198,7 +1200,7 @@ console.log(studentObject)
 ### fetch
 <details>
 <summary>
-  <h3>What is fetch?</h3>
+  <h3>What is fetch? (Click Me)</h3>
 </summary>
 <br >
 - Find is used to conditionally find the first element in an array. If more than one element meets the condition, find returns the first element.
@@ -1276,7 +1278,7 @@ loadCountries()
 ### Array  
 <details>
 <summary>
-  <h3>What is Array?</h3>
+  <h3>What is Array? (Click Me)</h3>
 </summary>
 <br >
 - Find is used to conditionally find the first element in an array. If more than one element meets the condition, find returns the first element.
@@ -1374,7 +1376,7 @@ console.log('tallest person is', tallest)
 ### Object
 <details>
 <summary>
-  <h3>What is Object?</h3>
+  <h3>What is Object? (Click Me)</h3>
 </summary>
 <br >
 - If you want to return an array by working for the element, you need to use a map. 
@@ -1518,7 +1520,7 @@ shoppingCart[propertyName] = 89;
 ### numberStringConversion
 <details>
 <summary>
-  <h3>What is forEach?</h3>
+  <h3>What is forEach? (Click Me)</h3>
 </summary>
 <br >
 - If you want to return an array by working for the element, you need to use a map. 
@@ -1542,7 +1544,7 @@ console.log(typeof numStr)
 ### switch
 <details>
 <summary>
-  <h3>What is forEach?</h3>
+  <h3>What is forEach? (Click Me)</h3>
 </summary>
 <br >
 ```js
