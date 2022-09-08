@@ -1577,7 +1577,7 @@ switch (color) {
 -  setItem
 - getItem
 - removeItem
-</details>
+
 
 ```js
    //Data add local storage
@@ -1635,11 +1635,9 @@ switch (color) {
     
     
     
-    <details>
-<summary>
-  <h3>Local Storage Fake Db</h3>
-</summary>
-<br >
+
+ // <h3>Local Storage Fake Db</h3>
+
 // use local storage to manage cart data
 const addToDb = id =>{
 // set localStorage
