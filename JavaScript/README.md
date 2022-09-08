@@ -2566,6 +2566,9 @@ Ans:
 61. double equal (==) vs triple equal (===) diffrence?
 Ans:i. == check the value, and === check the value and type.  এটাকে type coercion বলে বা type conversion বলে।
 ii.  === check the value and type . == দুইটা যদি same type এর হই তাহলে সরাসরি value টাকে check করবে. আর diffrent type এর হলে type টাকে convert করে check করে। এটাকে type coercion বলে বা type conversion বলে।
+62. What is Hoisting?
+Ans: variable declear var দিয়ে করলে উপরে নিয়া যায়। function এর expresion লিখলে শুধু ওইটা নেই body টাকে নেই না। সেই জন্য var use না করে let, const use করতে হবে।
+৬৩.
 	
 	
 	
