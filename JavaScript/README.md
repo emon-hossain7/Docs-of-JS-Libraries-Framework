@@ -2561,6 +2561,24 @@ Ans: JavaScript is a single- threaded and synchronus language. (কিন্ত�
 Ans: কোন object/ array এর refarence টাকে কিছু সময়ের জন্য stored করে রাখে। সেটাই হল Heeap| javaScript এ memory location Heap এ করে।
 60. what is javaScript stack?
 Ans: 
+	
+//module:  39	
+61. double equal (==) vs triple equal (===) diffrence?
+Ans:i. == check the value, and === check the value and type.  এটাকে type coercion বলে বা type conversion বলে।
+ii.  === check the value and type . == দুইটা যদি same type এর হই তাহলে সরাসরি value টাকে check করবে. আর diffrent type এর হলে type টাকে convert করে check করে। এটাকে type coercion বলে বা type conversion বলে।
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
   
  ```
 </details>
