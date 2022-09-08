@@ -2368,6 +2368,94 @@ console log করে দে খাতে সে টা কি তুমি প�
 
 ```
 </details>
+	
+### Notes
+<details>
+<summary>
+  <h3>Notes (Click Me)</h3>
+</summary>
+<br >
+ Notes
+
+```js
+	
+***8 ways to get undefine***
+// 1. variable that is not initialized will give undefined
+
+// 2. function with no return
+function second(a, b) {
+    const total = a + b;
+}
+const result = second(2, 4);
+console.log(result)
+
+//3. parameter that is not passed will be undefined
+function third(a, b, c, d) {
+    const total = a + b + c + d;
+    // console.log(a, b, c, d)
+}
+const result2 = third(2, 4);
+console.log(result2)
+
+//4. if return has nothing on the right side will return undefined
+function noNegative(a, b){
+    if(a < 0 || b < 0){
+        return;
+    }
+    return a + b;
+}
+const result3 = noNegative(2, -4);
+console.log(result3)
+
+// 5. property that doesn't exists on an object will give you undefined
+const fifth = {id: 2, name: 'ponchom', age: 40};
+console.log(fifth.age, fifth.salary)
+
+//6. accessing array elements outside of the index range will give you undefined
+const sixth = [4, 56, 43, 78, 23];
+console.log(sixth[1], sixth[6], sixth[200])
+
+//7. deleting an element inside an array
+const sixth1 = [4, 56, 43, 78, 23];
+delete sixth1[1]
+console.log(sixth1[1], sixth1[6], sixth1[200])
+console.log(sixth1)
+
+// 8 . set a value directly
+const eighth = undefined;
+const night = null;
+const data = {results: [], updated: null};
+console.log(typeof undefined) ans: undefined
+console.log(typeof null) ans: object
+	
+***39-3 Different Truthy and Falsy values in JavaScript***
+// truthy
+1. true
+2. any number (+positive, -negative) will be  truthy other than 0
+3. any string other than empty string
+4. '0'
+5. {} (empty object) truthy
+6. [] (empty array) truthy
+7. check truthy
+const value = ' ' 
+if(!!value){
+    console.log('truthy value')
+}
+
+// Falsy
+1. false 
+2. 0 
+3. '' (empty string)
+4. undefined
+5. null
+6. chek falsey
+const value = null 
+if(!value){
+  console.log('falsy value')
+}
+
+```
+</details>
   
 ### javascriptInterviewQuestions
 <details>
@@ -2477,68 +2565,7 @@ Ans:
  ```
 </details>
 
-### Notes
-<details>
-<summary>
-  <h3>Notes (Click Me)</h3>
-</summary>
-<br >
- Notes
 
-```js
-	
-***8 ways to get undefine***
-// 1. variable that is not initialized will give undefined
-
-// 2. function with no return
-function second(a, b) {
-    const total = a + b;
-}
-const result = second(2, 4);
-console.log(result)
-
-//3. parameter that is not passed will be undefined
-function third(a, b, c, d) {
-    const total = a + b + c + d;
-    // console.log(a, b, c, d)
-}
-const result2 = third(2, 4);
-console.log(result2)
-
-//4. if return has nothing on the right side will return undefined
-function noNegative(a, b){
-    if(a < 0 || b < 0){
-        return;
-    }
-    return a + b;
-}
-const result3 = noNegative(2, -4);
-console.log(result3)
-
-// 5. property that doesn't exists on an object will give you undefined
-const fifth = {id: 2, name: 'ponchom', age: 40};
-console.log(fifth.age, fifth.salary)
-
-//6. accessing array elements outside of the index range will give you undefined
-const sixth = [4, 56, 43, 78, 23];
-console.log(sixth[1], sixth[6], sixth[200])
-
-//7. deleting an element inside an array
-const sixth1 = [4, 56, 43, 78, 23];
-delete sixth1[1]
-console.log(sixth1[1], sixth1[6], sixth1[200])
-console.log(sixth1)
-
-// 8 . set a value directly
-const eighth = undefined;
-const night = null;
-const data = {results: [], updated: null};
-console.log(typeof undefined) ans: undefined
-console.log(typeof null) ans: object
-	
-
-```
-</details>
 
   ### Table
 <div class="overflow-x-auto">
