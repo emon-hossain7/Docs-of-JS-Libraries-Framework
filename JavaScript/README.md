@@ -1704,10 +1704,9 @@ export {
     removeFromDb,
     deleteShoppingCart
 };- Find is used to conditionally find the first element in an array. If more than one element meets the condition, find returns the first element.
-</details>
-    
-```
 
+```
+</details>
 
 ### jsProblemSolved
 
