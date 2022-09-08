@@ -1520,7 +1520,7 @@ shoppingCart[propertyName] = 89;
 ### numberStringConversion
 <details>
 <summary>
-  <h3>What is forEach? (Click Me)</h3>
+  <h3>Number to String Conversion? (Click Me)</h3>
 </summary>
 <br >
 - If you want to return an array by working for the element, you need to use a map. 
@@ -1544,7 +1544,7 @@ console.log(typeof numStr)
 ### switch
 <details>
 <summary>
-  <h3>What is forEach? (Click Me)</h3>
+  <h3>What is switch? (Click Me)</h3>
 </summary>
 <br >
 ```js
@@ -2030,8 +2030,8 @@ console.log(result)
 
 //Number 3 => Example 5
 
-
-
+	
+	
 
 ```
 </details>
