@@ -38,6 +38,7 @@ List of JavaScript:
 - [jsProblemQuestions](#jsProblemQuestions)
 - [jsProblemSolved](#jsProblemSolved)
 - [javascriptInterviewQuestions](#javascriptInterviewQuestions)
+- [Notes](#Notes)
 - [Table](#Table)
 
 
@@ -45,15 +46,16 @@ List of JavaScript:
 ### demo
 <details>
 <summary>
-  <h3>What is ?</h3>
+  <h3>What is ? (Click Me)</h3>
 </summary>
 <br >
  reduce
-</details>
+
 
 ```js
 
 ```
+</details>
 
 ### es6
 <details>
@@ -2473,6 +2475,21 @@ Ans: কোন object/ array এর refarence টাকে কিছু সম�
 Ans: 
   
  ```
+</details>
+
+### Notes
+<details>
+<summary>
+  <h3>Notes (Click Me)</h3>
+</summary>
+<br >
+ Notes
+
+```js
+*8 ways to get undefine*
+1.
+
+```
 </details>
 
   ### Table
