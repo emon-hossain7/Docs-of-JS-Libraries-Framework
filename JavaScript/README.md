@@ -197,7 +197,7 @@ JSON.stringify()
 ```
 </details>
 
-### DOM
+### events
 <details>
 <summary>
   <h3>What is events? (Click Me)</h3>
@@ -521,35 +521,33 @@ function
 // function declaration
 // Example: 1
 function add(first, second){
-    const total = first + second;
-    return total;
+const total = first + second;
+return total;
 }
-
 
 // Example: 2
 document.getElementById('btn-add').onclick = function addBG(){
 
 }
 
-
 // Example: 3
 const add1 = function add1(parameter1, parameter2){
-    const total = first + second;
-    return total;
+const total = first + second;
+return total;
 };
 // Example: 4
 function add2(first, second){
-    const total = first + second;
-    return total;
+const total = first + second;
+return total;
 }
 // Example: 5
 function add3(first, second){
-    return first + second
+return first + second
 }
 
 // Example: 6
 function add4(first, second){
-    return first + second
+return first + second
 }
 // arrow function  Ex: 1
 // Example: 7
@@ -562,62 +560,82 @@ const getPie = () => 3.14;
 const doubleIt = num => num * 2;
 // Example: 11 (multi line arrow function)
 const doMath = () => {
-    const firstSum = x + y;
-    const secondSum = y + z;
-    const multiplyResult = firstSum + secondSum;
-    const result = multiplyResult / 2;
-    return result;
+const firstSum = x + y;
+const secondSum = y + z;
+const multiplyResult = firstSum + secondSum;
+const result = multiplyResult / 2;
+return result;
 };
 
+//simple declaration
+//function declaration
+function startFan(){
+console.log('stand up')
+console.log('walk towards the switch')
+console.log('press the switch')
 
-  //simple declaration
-    //function declaration
-    function startFan(){
-        console.log('stand up')
-        console.log('walk towards the switch')
-        console.log('press the switch')
+}
+// call the function
+startFan()
 
-    }
-    // call the function
-    startFan()
-    
-  //  function with paramiter (Example 2)
-    function functionName(parameters){
-      /*   function body
-        return */
-    }
-    // call the function
-    let returedValue =  startFan(parameters);
-    console.log(returedValue)
-    
-    // even & odd number
-      function isEven(number){
-          const remainder = number % 2;
-          if(remainder == 0){
-              // console.log('number is even')
-              return true;
-          }
-          else{
-              // console.log('number is odd')
-              return false;
-          }
-      }
-      let myNumberIsEven = isEven(588)
-      console.log(myNumberIsEven)
+//  function with paramiter (Example 2)
+function functionName(parameters){
+/*   function body
+return */
+}
+// call the function
+let returedValue =  startFan(parameters);
+console.log(returedValue)
 
-      let herNumberIsEven = isEven(1231)
-      console.log(herNumberIsEven)
-      
-      // year is a Leap Year or not (simplified way)?
-      function isLeapYear(year){
-          const remainder = year % 4;
-          if(remainder === 0){
-              console.log('year is leap year', year)
-          }else{
-              console.log('year is not a leap year', year)
-          }
-      }
-      isLeapYear(2024)
+// even & odd number
+function isEven(number){
+  const remainder = number % 2;
+  if(remainder == 0){
+      // console.log('number is even')
+      return true;
+  }
+  else{
+      // console.log('number is odd')
+      return false;
+  }
+}
+let myNumberIsEven = isEven(588)
+console.log(myNumberIsEven)
+
+let herNumberIsEven = isEven(1231)
+console.log(herNumberIsEven)
+
+// year is a Leap Year or not (simplified way)?
+function isLeapYear(year){
+  const remainder = year % 4;
+  if(remainder === 0){
+      console.log('year is leap year', year)
+  }else{
+      console.log('year is not a leap year', year)
+  }
+}
+isLeapYear(2024)
+
+
+// callback function
+function numberOne(){
+    console.log('numberOne is called')
+}
+function numberTwo(callback){
+    console.log('numberTwo is called')
+    callback()
+}
+numberTwo(numberOne)
+
+//Arrow Function
+const getFiftyFive = () => 55
+const addSixtyFive = num => num + 65;
+const isEven = x => x % 2 == 0;
+const addThree = (x, y, z) => x + y + z;
+const doMath = (num1, num2) => {
+const sum = num1 + num2
+return sum
+}
 
 
 ```
@@ -902,25 +920,6 @@ console.log(about)
 ```
 </details>
 
-### ArrowFunction
-<details>
-<summary>
-  <h3>What is Arrow Function? (Click Me)</h3>
-</summary>
-<br >
-- Arrow Function is
-
-```js
-const getFiftyFive = () => 55
-const addSixtyFive = num => num + 65;
-const isEven = x => x % 2 == 0;
-const addThree = (x, y, z) => x + y + z;
-const doMath = (num1, num2) => {
-    const sum = num1 + num2
-    return sum
-}
-```
-</details>
 	
 ### SpreadOperator
 <details>
@@ -2567,8 +2566,9 @@ Ans:
 Ans:i. == check the value, and === check the value and type.  এটাকে type coercion বলে বা type conversion বলে।
 ii.  === check the value and type . == দুইটা যদি same type এর হই তাহলে সরাসরি value টাকে check করবে. আর diffrent type এর হলে type টাকে convert করে check করে। এটাকে type coercion বলে বা type conversion বলে।
 62. What is Hoisting?
-Ans: variable declear var দিয়ে করলে উপরে নিয়া যায়। function এর expresion লিখলে শুধু ওইটা নেই body টাকে নেই না। সেই জন্য var use না করে let, const use করতে হবে।
-৬৩.
+Ans:i. variable declear var দিয়ে করলে উপরে নিয়া যায়। function এর expresion লিখলে শুধু ওইটা নেই body টাকে নেই না। সেই জন্য var use না করে let, const use করতে হবে।
+ii. Hoisting is javaScript default behavior of moving all declarations to the top of the current scope. only function delclarations are hoisted in javascript, function expressions are not hoisted. javascript only hoist declarations, not initializations.
+63.
 	
 	
 	
