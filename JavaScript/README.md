@@ -362,7 +362,6 @@ document.getElementById('make-orange', function(){
   })
 
 ```
-</details>
 
 <div class="overflow-x-auto">
   <table class="table w-full">
@@ -477,6 +476,8 @@ document.getElementById('make-orange', function(){
     </tbody>
   </table>
 </div>
+
+</details>
 
 ### sliceSplice
 <details>
@@ -906,7 +907,6 @@ console.log(about)
 </summary>
 <br >
 - Arrow Function is
-</details>
 
 ```js
 const getFiftyFive = () => 55
@@ -918,14 +918,16 @@ const doMath = (num1, num2) => {
     return sum
 }
 ```
+</details>
+	
 ### SpreadOperator
 <details>
 <summary>
-  <h3>What is SpreadOperator?</h3>
+  <h3>What is SpreadOperator?(click here)</h3>
 </summary>
 <br >
 - The javascript spread operator (...) allows us to quickly copy all or part of an existing way array or object into another array or object
-</details>
+
 
 ```js
 //spread operator
@@ -963,15 +965,14 @@ numbers [ 87, 342, 54, 23, 56, 234, 99, 91, 93 ]
 newNumbers [ 87, 342, 54, 23, 56, 234 ]
 currentNumbers [ 87, 342, 54, 23, 56, 234, 99, 91, 93, 55 ]
 ```
-
+</details>
 ### concat
 <details>
 <summary>
-  <h3>What is concat?</h3>
+  <h3>What is concat? (click here)</h3>
 </summary>
 <br >
 - concat
-</details>
 
 ```js
 const friends = [13, 14, 11, 17, 21, 16, 15, 20];
@@ -980,6 +981,7 @@ const newFriendsAge = [12, 14, 13, 16];
 const allFriends = newFriendsAge.concat(friends);
 console.log(allFriends)
 ```
+</details>
 
 ### Map
 <details>
@@ -990,7 +992,6 @@ console.log(allFriends)
 - If you want to return an array by working for the element, you need to use a map. 
 - Map return array
 - প্রত্যেকটা Array এর উপাদান কে কিছু একটা করবো তাঁর পর সেইগুলা (Array আকারে/Array ভিতর) পাবো
-</details>
 
 ```js
 //Ex: 1
@@ -1047,6 +1048,8 @@ console.log(brands)
 const prices = products.map(product => product.price);
 console.log(prices)
 ```
+</details>
+	
 ### forEach
 <details>
 <summary>
@@ -1055,7 +1058,6 @@ console.log(prices)
 <br >
 - If you want to return an array by working for the element, you need to use a map. 
 - Map return array
-</details>
 
 ```js
 const products = [
@@ -1071,6 +1073,8 @@ products.forEach(product => console.log(product.color))
 products.forEach(product => {
 })
 ```
+</details>
+	
 ### filter 
 <details>
 <summary>
@@ -1078,7 +1082,6 @@ products.forEach(product => {
 </summary>
 <br >
 - If a filter is used to conditionally select one or more elements of an array, the filter works condition wise.
-</details>
 
 ```js
 //Ex : 1
@@ -1117,6 +1120,8 @@ console.log(cheap)
 const specificName = products.filter(product => product.name.includes('n'));
 console.log(specificName)
 ```
+</details>
+	
 ### find  
 <details>
 <summary>
@@ -1124,7 +1129,6 @@ console.log(specificName)
 </summary>
 <br >
 - Find is used to conditionally find the first element in an array. If more than one element meets the condition, find returns the first element.
-</details>
 
 ```js
 const products = [
@@ -1139,7 +1143,8 @@ const products = [
 const special = products.find(product => product.name.includes('n'));
 console.log(special)
 ```
-
+</details>
+	
 ### reduce
 <details>
 <summary>
@@ -1147,7 +1152,6 @@ console.log(special)
 </summary>
 <br >
  reduce
-</details>
 
 ```js
 //reduce
@@ -1164,6 +1168,7 @@ console.log(total)
 console.log(total2)
 
 ```
+</details>
 
 ### JSON  
 <details>
@@ -1172,7 +1177,6 @@ console.log(total2)
 </summary>
 <br >
 - Find is used to conditionally find the first element in an array. If more than one element meets the condition, find returns the first element.
-</details>
 
 ```js
 const student = {
@@ -1189,14 +1193,15 @@ console.log(studentJson)
 const studentObject = JSON.parse(studentJson);
 console.log(studentObject)
 ```
-### fetch_Keys_Values  
+</details>
+	
+### fetch
 <details>
 <summary>
   <h3>What is fetch?</h3>
 </summary>
 <br >
 - Find is used to conditionally find the first element in an array. If more than one element meets the condition, find returns the first element.
-</details>
 
 ```js
 // fetch
@@ -1265,16 +1270,16 @@ const displayCountryDetail = country => {
 
 };
 loadCountries()
-
 ```
+</details>
+	
 ### Array  
 <details>
 <summary>
-  <h3>What is fetch?</h3>
+  <h3>What is Array?</h3>
 </summary>
 <br >
 - Find is used to conditionally find the first element in an array. If more than one element meets the condition, find returns the first element.
-</details>
 
 ```js
 //simple array you know?
@@ -1364,6 +1369,7 @@ console.log('tallest person is', tallest)
 
 
 ```
+</details>
 
 ### Object
 <details>
@@ -1373,7 +1379,6 @@ console.log('tallest person is', tallest)
 <br >
 - If you want to return an array by working for the element, you need to use a map. 
 - Map return array
-</details>
 
 ```js
 //1. object write => create object using object literals
@@ -1507,8 +1512,8 @@ shoppingCart.mouse = 15;
 shoppingCart['mouse'] = 29;
 shoppingCart[propertyName] = 89;
 
-
 ```
+</details>
 
 ### numberStringConversion
 <details>
@@ -1518,7 +1523,6 @@ shoppingCart[propertyName] = 89;
 <br >
 - If you want to return an array by working for the element, you need to use a map. 
 - Map return array
-</details>
 
 ```js
 //number To String Conversion
@@ -1533,10 +1537,14 @@ const input2 = 53;
 const numStr = input2 + '';
 console.log(typeof numStr)
 ```
-
+</details>
 
 ### switch
-
+<details>
+<summary>
+  <h3>What is forEach?</h3>
+</summary>
+<br >
 ```js
 //switch
 let color = 'green';
@@ -1562,6 +1570,7 @@ switch (color) {
 }
 
 ```
+</details>
 
 ### localStorage
 <details>
