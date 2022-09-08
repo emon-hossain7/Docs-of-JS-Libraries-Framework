@@ -33,6 +33,7 @@ List of JavaScript:
 - [Array](#Array)
 - [Object](#Object)
 - [switch](#switch)
+- [localStorage](#localStorage)
 - [Output](#Output)
 - [jsProblemQuestions](#jsProblemQuestions)
 - [jsProblemSolved](#jsProblemSolved)
@@ -64,8 +65,6 @@ List of JavaScript:
 </details>
 
 ```js
-
-```
 
 // 1. let and const
 let salary = 345;
@@ -1539,7 +1538,36 @@ const numStr = input2 + '';
 console.log(typeof numStr)
 ```
 
-### LocalStorageAndSessionStorage
+
+### switch
+
+```js
+//switch
+let color = 'green';
+
+switch (color) {
+    case 'green':
+        console.log('You are a green friend')
+        break;
+    case 'Blue':
+        console.log('You are a Blue friend')
+        break;
+    case 'red':
+        console.log('You are a red friend')
+        break;
+    case 'white':
+        console.log('You are a white friend')
+        break;
+    case 'Black':
+        console.log('You are a Black friend')
+        break;
+    default:
+        console.log('You are a pink friend')
+}
+
+```
+
+### localStorage
 <details>
 <summary>
   <h3>What is LocalStorage And Session Storage?</h3>
@@ -1678,34 +1706,6 @@ export {
 };- Find is used to conditionally find the first element in an array. If more than one element meets the condition, find returns the first element.
 </details>
     
-```
-
-### switch
-
-```js
-//switch
-let color = 'green';
-
-switch (color) {
-    case 'green':
-        console.log('You are a green friend')
-        break;
-    case 'Blue':
-        console.log('You are a Blue friend')
-        break;
-    case 'red':
-        console.log('You are a red friend')
-        break;
-    case 'white':
-        console.log('You are a white friend')
-        break;
-    case 'Black':
-        console.log('You are a Black friend')
-        break;
-    default:
-        console.log('You are a pink friend')
-}
-
 ```
 
 
