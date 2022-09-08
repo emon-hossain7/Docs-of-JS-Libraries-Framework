@@ -2856,14 +2856,14 @@ Ans:
 	 <!-- row 24-->
       <tr>
         <th>24</th>
-        <td> </td>
-        <td> </td>
+        <td> ==</td>
+        <td> just check value </td>
       </tr>
 	<!-- row 24-->
       <tr>
         <th>24</th>
-        <td> </td>
-        <td> </td>
+        <td>=== </td>
+        <td> check value and type</td>
       </tr>
 <!-- row 24-->
       <tr>
