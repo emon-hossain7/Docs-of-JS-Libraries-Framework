@@ -62,7 +62,6 @@ List of JavaScript:
 </summary>
 <br >
  demo
-</details>
 
 ```js
 
@@ -106,6 +105,7 @@ const {x, y, ...z} = {x: 45, y:12, z: 33, name: 'sakib', salary: 4000};
 const [a, b, c] = [12, 45, 32 ,56 ,7, 5];
 
 ```
+</details>
 
 ### Destructuring
 <details>
@@ -114,7 +114,6 @@ const [a, b, c] = [12, 45, 32 ,56 ,7, 5];
 </summary>
 <br >
  Destructuring
-</details>
 
 ```js
 
@@ -149,6 +148,7 @@ const [mama, mama2] = getNames();
 console.log(mama2, mama)
 
 ```
+</details>
 
 ### JSONStringify
 <details>
@@ -163,7 +163,6 @@ return Object;
 //javaScript এর কোন একটি  object/array/value কে string a convert করার জন্য JSON.stringify() দিতে হবে
 JSON.stringify() 
 return String;
-</details>
 
 ```js
 // without stringify
@@ -194,6 +193,7 @@ JSON.parse()
 //javaScript এর কোন একটি  object/array/value কে string a convert করার জন্য JSON.stringify() দিতে হবে (return String);
 JSON.stringify() 
 ```
+</details>
 
 ### DOM
 <details>
@@ -202,7 +202,6 @@ JSON.stringify()
 </summary>
 <br >
 events 
-</details>
 
 ```js
 1 option.
@@ -279,6 +278,7 @@ const purpleButton = document.getElementById('make-purple');
         })
     </script>
 ```
+</details>
 
 ### DOM
 <details>
@@ -287,7 +287,6 @@ const purpleButton = document.getElementById('make-purple');
 </summary>
 <br >
 DOM 
-</details>
 
 ```js
 1. getElementsByTagName()
@@ -363,6 +362,8 @@ document.getElementById('make-orange', function(){
   })
 
 ```
+</details>
+
 <div class="overflow-x-auto">
   <table class="table w-full">
     <!-- head -->
@@ -484,7 +485,6 @@ document.getElementById('make-orange', function(){
 </summary>
 <br >
 function 
-</details>
 
 ```js
 //slice
@@ -503,6 +503,7 @@ console.log(friendsSplice)
 console.log(friends)
 
 ```
+</details>
 
 ### function
 <details>
@@ -511,7 +512,6 @@ console.log(friends)
 </summary>
 <br >
 function 
-</details>
 
 ```js
 
@@ -618,6 +618,7 @@ const doMath = () => {
 
 
 ```
+</details>
 
 ### String
 <details>
@@ -626,7 +627,6 @@ const doMath = () => {
 </summary>
 <br >
 
-</details>
 
 ```js
 //find the value in string (search string)
@@ -642,11 +642,10 @@ const parts = lyrics.split('');
 const partial = lyrics.slice(5, 15);
 //
 const joinInString = lyrics.join(', ');
-
 console.log(parts)
-
-
+	
 ```
+</details>
 
 ### whileLoop
 <details>
@@ -654,8 +653,6 @@ console.log(parts)
   <h3>What is whileLoop?</h3>
 </summary>
 <br >
-
-</details>
 
 ```js
 
@@ -678,8 +675,8 @@ console.log(parts)
         num--;
     }
 
-
 ```
+</details>
 
 ### forLoop
 <details>
@@ -687,8 +684,6 @@ console.log(parts)
   <h3>What is forLoop?</h3>
 </summary>
 <br >
-
-</details>
 
 ```js
 
@@ -854,6 +849,7 @@ const displayCountries = (countries) => {
 loadCountries()
 
 ```
+</details>
 
 ### Recursion
 <details>
@@ -862,8 +858,7 @@ loadCountries()
 </summary>
 <br >
 - Recursion is
-</details>
-
+	
 ```js
 //factorial er man ber
 let factorial = 1;
@@ -882,6 +877,7 @@ function factorial(i){
 const result = factorial(5);
 console.log(result)
 ```
+</details>
 
 ### TemplateString
 <details>
@@ -890,7 +886,6 @@ console.log(result)
 </summary>
 <br >
 - Template String is
-</details>
 
 ```js
 const numbers = [87, 342, 54, 23, 56, 234];
@@ -902,6 +897,7 @@ const student = {
 const about = `My name is ${student.name} age of ${student.age} has number ${numbers[2]} also liked mvies ${student.movies[2]}`;
 console.log(about)
 ```
+</details>
 
 ### ArrowFunction
 <details>
