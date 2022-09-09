@@ -2378,7 +2378,7 @@ console log করে দে খাতে সে টা কি তুমি প�
 
 ```js
 	
-***8 ways to get undefine***
+************8 ways to get undefine************
 // 1. variable that is not initialized will give undefined
 
 // 2. function with no return
@@ -2427,7 +2427,7 @@ const data = {results: [], updated: null};
 console.log(typeof undefined) ans: undefined
 console.log(typeof null) ans: object
 	
-***39-3 Different Truthy and Falsy values in JavaScript***
+************39-3 Different Truthy and Falsy values in JavaScript************
 // truthy
 1. true
 2. any number (+positive, -negative) will be  truthy other than 0
@@ -2452,6 +2452,31 @@ const value = null
 if(!value){
   console.log('falsy value')
 }
+
+************Common types of errors************
+1. Syntax Error ?
+Ans : Syntax Error is triggered when you write code that is not syntactically correct
+i. missing inverted commas
+ii. Missing closing parentheses
+iii. improper alignment of curly braces or other characters
+
+2. Type Error ?
+Ans: Type Error is created when some value doesn't turn out tot be of a particular expected type.
+i. Invoking objects that are not methods.
+ii. Attempting to access properties of null or undefined objects
+iii. Treating a string as a number or vice versa.
+
+3. Reference Error?
+Ans: Reference Errors occur we might have forgotten to define a value for the variable before using it, or we might be trying to use an inaccessible variable in our code. 
+i. Making a type in a variable name.
+ii. Trying to access block-scoped variables outside of their scopes.
+
+
+
+
+
+
+
 
 ```
 </details>
