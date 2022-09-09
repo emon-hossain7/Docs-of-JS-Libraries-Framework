@@ -1578,7 +1578,7 @@ switch (color) {
 ### localStorage
 <details>
 <summary>
-  <h3>What is LocalStorage And Session Storage?</h3>
+  <h3>What is LocalStorage And Session Storage? (Click Me)</h3>
 </summary>
 <br >
 - Three working in Local storage and Session Storage 
@@ -1718,7 +1718,7 @@ export {
 
 <details>
 <summary>
-  <h3>js Problem Solved</h3>
+  <h3>js Problem Solved (Click Me)</h3>
 </summary>
 <br >
 
@@ -2305,7 +2305,7 @@ console log করে দে খাতে সে টা কি তুমি প�
   
 <details>
 <summary>
-  <h3>Check Output</h3>
+  <h3>Check Output (Click Me)</h3>
 </summary>
 <br >
   
@@ -2484,7 +2484,7 @@ ii. Trying to access block-scoped variables outside of their scopes.
 ### javascriptInterviewQuestions
 <details>
 <summary>
-  <h3>javascript Interview Questions</h3>
+  <h3>javascript Interview Questions (Click Me)</h3>
 </summary>
 <br >
   
